@@ -1,0 +1,251 @@
+{
+  "repository": "n8n-master-workflows",
+  "analysis_date": "2025-11-08",
+  "total_workflows": 5024,
+  "total_categories": 47,
+  "analysis_method": "Parallel multi-agent analysis with statistical sampling",
+
+  "top_categories": [
+    {"category": "AI", "count": 509, "percentage": 10.1},
+    {"category": "Marketing", "count": 451, "percentage": 9.0},
+    {"category": "Building_Blocks", "count": 406, "percentage": 8.1},
+    {"category": "Sales", "count": 364, "percentage": 7.2},
+    {"category": "Other", "count": 356, "percentage": 7.1},
+    {"category": "Engineering", "count": 352, "percentage": 7.0},
+    {"category": "IT_Ops", "count": 297, "percentage": 5.9},
+    {"category": "AI_Summarization", "count": 235, "percentage": 4.7},
+    {"category": "Multimodal_AI", "count": 219, "percentage": 4.4},
+    {"category": "Support", "count": 166, "percentage": 3.3}
+  ],
+
+  "category_groups": {
+    "ai_ml": {
+      "total_workflows": 1191,
+      "percentage": 23.7,
+      "categories": ["AI", "AI_Summarization", "Multimodal_AI", "AI_Chatbot", "AI_RAG"]
+    },
+    "business_sales": {
+      "total_workflows": 964,
+      "percentage": 19.2,
+      "categories": ["Marketing", "Sales", "Lead_Generation", "Lead_Nurturing", "CRM"]
+    },
+    "engineering_devops": {
+      "total_workflows": 1247,
+      "percentage": 24.8,
+      "categories": ["Building_Blocks", "Engineering", "IT_Ops", "DevOps", "SecOps"]
+    },
+    "support_service": {
+      "total_workflows": 392,
+      "percentage": 7.8,
+      "categories": ["Support", "Support_Chatbot", "Product", "Ticket_Management"]
+    },
+    "content_creative": {
+      "total_workflows": 413,
+      "percentage": 8.2,
+      "categories": ["Content_Creation", "Social_Media", "Design", "Market_Research"]
+    },
+    "operations_finance": {
+      "total_workflows": 381,
+      "percentage": 7.6,
+      "categories": ["Finance", "HR", "Document_Extraction", "Personal_Productivity", "Invoice_Processing", "HR_and_Recruitment"]
+    },
+    "misc_other": {
+      "total_workflows": 515,
+      "percentage": 10.2,
+      "categories": ["Other", "Miscellaneous", "Crypto_Trading", "Project_Management", "Internal_Wiki"]
+    }
+  },
+
+  "top_integrations": [
+    {"name": "LangChain/AI Agents", "count": 4401, "use": "AI orchestration"},
+    {"name": "Google Sheets", "count": 1070, "use": "Data storage"},
+    {"name": "OpenAI", "count": 1043, "use": "AI processing"},
+    {"name": "Google Services", "count": 538, "use": "Productivity"},
+    {"name": "Telegram", "count": 419, "use": "Communication"},
+    {"name": "Google Drive", "count": 340, "use": "File storage"},
+    {"name": "MCP Servers", "count": 321, "use": "AI tool integration"},
+    {"name": "Slack", "count": 132, "use": "Team communication"},
+    {"name": "WhatsApp", "count": 106, "use": "Customer communication"},
+    {"name": "Airtable", "count": 90, "use": "Database"},
+    {"name": "PostgreSQL", "count": 86, "use": "Database"},
+    {"name": "Pinecone", "count": 69, "use": "Vector storage"}
+  ],
+
+  "ai_models": {
+    "openai": {
+      "count": 1043,
+      "percentage": 87.6,
+      "models": ["GPT-4", "GPT-4o", "GPT-4o-mini", "GPT-3.5", "DALL-E"]
+    },
+    "google_gemini": {
+      "count": 299,
+      "percentage": 25.1,
+      "models": ["Gemini 2.0 Flash", "Gemini 2.5", "Gemini Pro"]
+    },
+    "anthropic_claude": {
+      "count": 54,
+      "percentage": 4.5,
+      "models": ["Claude 3.5", "Claude Sonnet 4"]
+    },
+    "local_llms": {
+      "models": ["Llama (Ollama)", "Mistral", "DeepSeek"]
+    },
+    "other": {
+      "models": ["OpenRouter", "Perplexity", "Groq"]
+    }
+  },
+
+  "trigger_types": [
+    {"type": "Schedule", "count": 297, "percentage": 23.5},
+    {"type": "MCP", "count": 231, "percentage": 18.3},
+    {"type": "Manual", "count": 231, "percentage": 18.3},
+    {"type": "Form", "count": 140, "percentage": 11.1},
+    {"type": "Chat", "count": 106, "percentage": 8.4},
+    {"type": "Telegram", "count": 95, "percentage": 7.5},
+    {"type": "Gmail", "count": 48, "percentage": 3.8},
+    {"type": "Google Drive", "count": 43, "percentage": 3.4},
+    {"type": "WhatsApp", "count": 26, "percentage": 2.1},
+    {"type": "Others", "count": 47, "percentage": 3.7}
+  ],
+
+  "common_patterns": [
+    {
+      "name": "RAG (Retrieval Augmented Generation)",
+      "frequency": 150,
+      "use_cases": ["Knowledge bases", "Documentation chatbots", "Email search", "Customer support"]
+    },
+    {
+      "name": "AI Agent with Tools",
+      "frequency": 200,
+      "use_cases": ["Personal assistants", "Sales agents", "Project management", "Research"]
+    },
+    {
+      "name": "Multi-Platform Content Distribution",
+      "frequency": 100,
+      "use_cases": ["Social media management", "Marketing automation", "Influencer workflows"]
+    },
+    {
+      "name": "Email Automation & Classification",
+      "frequency": 80,
+      "use_cases": ["Inbox management", "Customer support", "Lead qualification", "Spam filtering"]
+    },
+    {
+      "name": "Document Processing Pipeline",
+      "frequency": 70,
+      "use_cases": ["Invoice processing", "Receipt tracking", "CV screening", "Medical documents"]
+    },
+    {
+      "name": "Web Scraping + AI Analysis",
+      "frequency": 60,
+      "use_cases": ["Competitor monitoring", "Lead generation", "Market research", "News aggregation"]
+    }
+  ],
+
+  "complexity_distribution": {
+    "beginner": {"percentage": 30, "node_range": "< 10 nodes"},
+    "intermediate": {"percentage": 50, "node_range": "10-30 nodes"},
+    "advanced": {"percentage": 18, "node_range": "30-100 nodes"},
+    "expert": {"percentage": 2, "node_range": "100+ nodes"}
+  },
+
+  "unique_workflows": [
+    {
+      "name": "Siri AI Agent",
+      "category": "Building_Blocks",
+      "description": "Apple Shortcuts integration for voice-activated n8n"
+    },
+    {
+      "name": "WhatsApp Financial Agent",
+      "category": "AI",
+      "description": "Multi-modal expense tracking (text/image/audio)"
+    },
+    {
+      "name": "VEO3 VSL Generator",
+      "category": "Multimodal_AI",
+      "description": "AI video sales letter creation"
+    },
+    {
+      "name": "Malicious File Detection Response",
+      "category": "SecOps",
+      "description": "6-stage security pipeline with VirusTotal and ServiceNow"
+    },
+    {
+      "name": "Automated n8n Workflow Backup",
+      "category": "DevOps",
+      "description": "Self-referential workflow that backs up all workflows to GitHub"
+    },
+    {
+      "name": "Multi-Agent Email Support System",
+      "category": "Ticket_Management",
+      "description": "Specialized AI agents for Technical, Billing, Urgent, General support"
+    },
+    {
+      "name": "AI Faceless YouTube Video Generator",
+      "category": "Content_Creation",
+      "description": "Complete automation from script to published video"
+    },
+    {
+      "name": "LinkedIn Talent Pipeline",
+      "category": "HR",
+      "description": "AI-powered candidate search and ranking"
+    }
+  ],
+
+  "mcp_servers": {
+    "total": 321,
+    "categories": {
+      "project_management": ["Monday.com", "Asana", "Linear", "Jira", "Kitemaker"],
+      "customer_support": ["Freshdesk", "UptimeRobot", "Zendesk", "Intercom"],
+      "ecommerce": ["eBay (multiple APIs)", "Marketstack"],
+      "marketing_crm": ["Customerio", "Lemlist", "ActiveCampaign", "Affinity"],
+      "data_research": ["New York Times", "Internet Archive", "NPR", "NSIDC"],
+      "specialized": ["AWS Transcribe", "Airtop", "Contentful", "Carbon Footprint"]
+    }
+  },
+
+  "use_case_distribution": {
+    "customer_facing": 25,
+    "marketing_sales": 30,
+    "operations_finance": 15,
+    "engineering_it": 20,
+    "content_creative": 10
+  },
+
+  "vector_databases": [
+    {"name": "Pinecone", "count": 69, "note": "Most common"},
+    {"name": "Qdrant", "note": "Multiple workflows"},
+    {"name": "Supabase (pgvector)", "note": "Growing adoption"},
+    {"name": "OpenAI Vector Store", "note": "OpenAI-specific"},
+    {"name": "Weaviate", "note": "Niche use cases"},
+    {"name": "Chroma", "note": "Niche use cases"}
+  ],
+
+  "cost_tiers": {
+    "high_monthly": {
+      "range": "$100-1000+",
+      "services": ["Heavy OpenAI GPT-4", "Image generation (Leonardo AI, DALL-E)", "ElevenLabs", "Web scraping (Apify, Bright Data)"]
+    },
+    "medium_monthly": {
+      "range": "$10-100",
+      "services": ["Google Gemini", "Vector databases", "Claude API"]
+    },
+    "low_free": {
+      "services": ["Google Workspace APIs", "Telegram Bot API", "Ollama (self-hosted)", "Many CRM APIs"]
+    }
+  },
+
+  "recommendations": {
+    "beginners": ["Building_Blocks", "Forms_and_Surveys", "Personal_Productivity"],
+    "intermediate": ["Marketing", "Sales", "Support"],
+    "advanced": ["AI", "AI_RAG", "Engineering", "SecOps"],
+    "enterprise": ["CRM", "IT_Ops", "DevOps", "Finance"]
+  },
+
+  "analysis_metadata": {
+    "agents_used": 7,
+    "workflows_analyzed_in_detail": 200,
+    "analysis_duration_minutes": 15,
+    "sampling_method": "Statistical sampling (15-20 per directory)",
+    "version": "1.0"
+  }
+}
