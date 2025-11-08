@@ -1,0 +1,667 @@
+================================================================================
+N8N WORKFLOW INVENTORY ANALYSIS REPORT
+================================================================================
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Total Marketing Workflows:      451 (analyzed: 19)
+Total Sales Workflows:          364 (analyzed: 20)
+Total Lead_Generation:          66  (analyzed: 66)
+Total Lead_Nurturing:           43  (analyzed: 43)
+Total CRM Workflows:            40  (analyzed: 40)
+GRAND TOTAL:                    964
+
+
+================================================================================
+1. MARKETING WORKFLOWS (451 total)
+================================================================================
+Analyzed Sample: 19 workflows
+Average Node Count: 18.0
+
+Top 15 Integrations:
+   1. OpenAI                                   (10 workflows)
+   2. LangChain/lmChatOpenAi                   ( 8 workflows)
+   3. manualTrigger                            ( 7 workflows)
+   4. LangChain/agent                          ( 6 workflows)
+   5. googleDrive                              ( 6 workflows)
+   6. scheduleTrigger                          ( 5 workflows)
+   7. executeWorkflowTrigger                   ( 5 workflows)
+   8. googleSheets                             ( 5 workflows)
+   9. LangChain/openAi                         ( 4 workflows)
+  10. telegram                                 ( 4 workflows)
+  11. LangChain/chainLlm                       ( 4 workflows)
+  12. LangChain/outputParserStructured         ( 4 workflows)
+  13. formTrigger                              ( 4 workflows)
+  14. LangChain/toolWorkflow                   ( 3 workflows)
+  15. gmail                                    ( 3 workflows)
+
+Trigger Distribution:
+  - Schedule                      :  4
+  - When clicking ‘Test workflow’ :  3
+  - Chat                          :  2
+  - On form submission            :  2
+  - WhatsApp Trigger              :  1
+  - Get Basic Information         :  1
+  - New Leads Arrived             :  1
+  - Manual Trigger                :  1
+  - YoutubeVideoURL               :  1
+  - Start: External Trigger       :  1
+  - Start                         :  1
+  - Shopify Trigger               :  1
+
+SAMPLE WORKFLOWS:
+
+1. AI Icebreaker Builder: Scrape Sites with Dumpling AI and Save to Airtable
+   Trigger: Schedule
+   Key Integrations: LangChain/openAi, OpenAI, airtable, scheduleTrigger
+
+2. Ask_AI_about_your_Meta_Ads_-_ask_questions_about_your_Facebook_Ads_insights
+   Trigger: Chat
+   Key Integrations: LangChain/agent, LangChain/chatTrigger, LangChain/lmChatOpenAi, LangChain/memoryBufferWindow, LangChain/memoryManager
+   Plus 7 more...
+
+3. WA-Bot-Module-FAQ-v1-db-sell-full
+   Trigger: WhatsApp Trigger
+   Key Integrations: postgres, summarize, whatsApp, whatsAppTrigger
+
+4. Automate_RSS_Content_to_Blog_Posts_with_GPT-4o_WordPress_LinkedIn_Publishing
+   Trigger: Schedule
+   Key Integrations: LangChain/agent, LangChain/lmChatOpenAi, LangChain/openAi, OpenAI, gmail
+   Plus 10 more...
+
+5. Automated Content Generation & Publishing - Wordpress
+   Trigger: Schedule
+   Key Integrations: LangChain/openAi, OpenAI, googleSheets, manualTrigger, scheduleTrigger
+   Plus 1 more...
+
+6. ✨🩷Automated Social Media Content Publishing Factory + System Prompt Composition
+   Trigger: Chat
+   Key Integrations: LangChain/agent, LangChain/chatTrigger, LangChain/lmChatOpenAi, LangChain/memoryBufferWindow, LangChain/toolSerpApi
+   Plus 11 more...
+
+7. Dynamic Form with AI
+   Trigger: Get Basic Information
+   Key Integrations: LangChain/chainLlm, LangChain/lmChatOpenAi, LangChain/outputParserStructured, OpenAI, aggregate
+   Plus 3 more...
+
+8. monitoring competitor prices - for free
+   Trigger: Schedule
+   Key Integrations: googleSheets, html, scheduleTrigger, telegram
+
+9. Create Custom Presentations per Lead
+   Trigger: New Leads Arrived
+   Key Integrations: extractFromFile, googleDrive, googleDriveTrigger, googleSheets, googleSlides
+
+10. BuiltWith To Google Sheets
+   Trigger: Manual Trigger
+   Key Integrations: googleSheets, manualTrigger
+
+
+================================================================================
+2. SALES WORKFLOWS (364 total)
+================================================================================
+Analyzed Sample: 20 workflows
+Average Node Count: 11.0
+
+Top 15 Integrations:
+   1. googleSheets                             ( 7 workflows)
+   2. OpenAI                                   ( 4 workflows)
+   3. webhook                                  ( 4 workflows)
+   4. manualTrigger                            ( 4 workflows)
+   5. LangChain/agent                          ( 3 workflows)
+   6. LangChain/chatTrigger                    ( 3 workflows)
+   7. LangChain/lmChatOpenAi                   ( 3 workflows)
+   8. formTrigger                              ( 3 workflows)
+   9. gmail                                    ( 3 workflows)
+  10. LangChain/openAi                         ( 2 workflows)
+  11. LangChain/toolWorkflow                   ( 2 workflows)
+  12. hunter                                   ( 2 workflows)
+  13. executeWorkflowTrigger                   ( 2 workflows)
+  14. itemLists                                ( 2 workflows)
+  15. pipedrive                                ( 2 workflows)
+
+Trigger Distribution:
+  - Chat                          :  2
+  - On clicking 'execute'         :  2
+  - Schedule                      :  2
+  - Manual                        :  2
+  - Webhook                       :  1
+  - n8n Form Trigger              :  1
+  - Trigger VAPI Call             :  1
+  - Manual trigger                :  1
+  - When clicking ‘Test workflow’ :  1
+  - Pipedrive Trigger - New Company Created:  1
+  - On form submission            :  1
+  - Product Created               :  1
+  - product created               :  1
+  - Typeform Trigger              :  1
+  - WooCommerce Trigger           :  1
+  - On Contact Identified         :  1
+
+SAMPLE WORKFLOWS:
+
+1. Advanced Sales Ai agent
+   Trigger: Webhook
+   Key Integrations: LangChain/agent, LangChain/chatTrigger, LangChain/embeddingsOpenAi, LangChain/lmChatOpenAi, LangChain/memoryPostgresChat
+   Plus 11 more...
+
+2. Alert_via_Gmail_when_a_great_lead_submits_form_with_MadKudu_and_Hunter
+   Trigger: n8n Form Trigger
+   Key Integrations: formTrigger, gmail, hunter
+
+3. CallQualifiedLeadsAI
+   Trigger: Trigger VAPI Call
+   Key Integrations: googleSheets
+
+4. LinkedIn Agent v2
+   Trigger: Chat
+   Key Integrations: LangChain/chatTrigger, LangChain/openAi, OpenAI, gmail, googleSheets
+   Plus 1 more...
+
+5. Build_Your_First_AI_Data_Analyst_Chatbot
+   Trigger: Chat
+   Key Integrations: LangChain/agent, LangChain/chatTrigger, LangChain/lmChatOpenAi, LangChain/memoryBufferWindow, LangChain/toolCalculator
+   Plus 5 more...
+
+6. Convert Squarespace Profiles to Shopify Customers in Google Sheets
+   Trigger: Manual trigger
+   Key Integrations: extractFromFile, googleSheets, manualTrigger, webhook
+
+7. Create a coupon on Paddle
+   Trigger: On clicking 'execute'
+   Key Integrations: manualTrigger, paddle
+
+8. Domain -> Email Extraction using Apollo API copy
+   Trigger: When clicking ‘Test workflow’
+   Key Integrations: googleSheets, manualTrigger
+
+9. Enrich_new_accounts_in_Pipedrive_using_Datagma_API
+   Trigger: Pipedrive Trigger - New Company Created
+   Key Integrations: itemLists, pipedrive, pipedriveTrigger
+
+10. Get Company LinkedIn Page
+   Trigger: On form submission
+   Key Integrations: airtop, executeWorkflowTrigger, formTrigger
+
+
+================================================================================
+3. LEAD GENERATION WORKFLOWS (66 total)
+================================================================================
+Analyzed: 66 workflows
+Average Node Count: 11.6
+
+Top 15 Integrations:
+   1. googleSheets                             (37 workflows)
+   2. manualTrigger                            (24 workflows)
+   3. OpenAI                                   (21 workflows)
+   4. LangChain/agent                          (18 workflows)
+   5. scheduleTrigger                          (14 workflows)
+   6. LangChain/outputParserStructured         (14 workflows)
+   7. LangChain/lmChatOpenAi                   (13 workflows)
+   8. formTrigger                              (13 workflows)
+   9. webhook                                  (13 workflows)
+  10. splitOut                                 (12 workflows)
+  11. gmail                                    (11 workflows)
+  12. LangChain/openAi                         ( 9 workflows)
+  13. LangChain/chainLlm                       ( 9 workflows)
+  14. limit                                    ( 8 workflows)
+  15. airtable                                 ( 7 workflows)
+
+Trigger Distribution:
+  - Schedule                      : 10
+  - Manual                        : 10
+  - On form submission            :  9
+  - When clicking ‘Execute workflow’:  8
+  - When clicking ‘Test workflow’ :  6
+  - Manual Trigger                :  3
+  - Telegram                      :  2
+  - When Executed by Another Workflow:  2
+  - Starts scraper workflow       :  1
+  - Cal.com Trigger1              :  1
+  - Receive Email                 :  1
+  - New Lead Captured             :  1
+  - On Form Submit                :  1
+  - Form: Submit Search Keyword   :  1
+  - When clicking "Test workflow" :  1
+  - Start Lead Generation         :  1
+  - form_trigger                  :  1
+  - New Message Catcher           :  1
+  - ⚡ Trigger SocialGraph         :  1
+  - Start Scraping                :  1
+  - Manual Workflow Execution     :  1
+  - 🔘 Trigger: Manual Execution   :  1
+  - Schedule Scraper Trigger 1    :  1
+  - Google Drive Trigger          :  1
+
+ALL WORKFLOWS:
+
+1. AI-Powered_Google_Maps_Business_Scraper_with_Enrichment_Export_to_Sheets
+   Trigger: Starts scraper workflow
+   Key Integrations: LangChain/agent, LangChain/lmChatOpenRouter, aggregate, executeWorkflowTrigger, googleSheets
+   Plus 2 more...
+
+2. AI-Powered_Lead_Generation_System_with_Email_Personalization_and_LinkedIn
+   Trigger: Schedule
+   Key Integrations: LangChain/openAi, OpenAI, aggregate, googleSheets, limit
+   Plus 4 more...
+
+3. AI-Powered Lead Generation with Apollo, GPT-4, and Telegram to Database
+   Trigger: Telegram
+   Key Integrations: LangChain/agent, LangChain/lmChatOpenAi, LangChain/memoryBufferWindow, LangChain/openAi, LangChain/outputParserStructured
+   Plus 7 more...
+
+4. AI-Powered_Lead_Generation_with_Apollo_LinkedIn_Research_4-Step_Personalized_Emails
+   Trigger: Schedule
+   Key Integrations: LangChain/openAi, OpenAI, formTrigger, googleSheets, scheduleTrigger
+
+5. Google Map Scraper
+   Trigger: On form submission
+   Key Integrations: convertToFile, formTrigger, gmail
+
+6. Auto-Enrich New CRM Companies with ChatGPT Web Research via Tavily
+   Trigger: Manual
+   Key Integrations: LangChain/agent, LangChain/lmChatOpenAi, LangChain/toolThink, OpenAI, webhook
+
+7. Score Company ICP with Explorium
+   Trigger: On form submission
+   Key Integrations: LangChain/agent, LangChain/lmChatAnthropic, LangChain/mcpClientTool, formTrigger
+
+8. Automate Business Lead Scraping from Scrapeless to Google Sheets with Data Cleaning
+   Trigger: Manual Trigger
+   Key Integrations: googleSheets, manualTrigger
+
+9. My workflow
+   Trigger: When clicking ‘Test workflow’
+   Key Integrations: manualTrigger, splitOut
+
+10. A quote request? Tally sends it, Airtable logs it, Slack alerts, Gmail thanks.
+   Trigger: Manual
+   Key Integrations: airtable, gmail, slack, webhook
+
+11. Automate a Tally Form
+   Trigger: Manual
+   Key Integrations: airtable, gmail, webhook
+
+12. Automate a Tally Form slack
+   Trigger: Manual
+   Key Integrations: airtable, gmail, webhook
+
+13. Google Maps Scraper
+   Trigger: When clicking ‘Test workflow’
+   Key Integrations: LangChain/chainLlm, LangChain/lmChatOpenAi, LangChain/outputParserStructured, OpenAI, limit
+   Plus 3 more...
+
+14. Automated_Meeting_Attendee_Enrichment_with_Apolloio_and_Google_Sheets
+   Trigger: Cal.com Trigger1
+   Key Integrations: calTrigger, calendlyTrigger, googleSheets
+
+15. Reddid lead Finder
+   Trigger: Schedule
+   Key Integrations: LangChain/chainLlm, LangChain/lmChatGoogleGemini, LangChain/outputParserStructured, LangChain/textClassifier, googleSheets
+   Plus 2 more...
+
+16. Fluentform Export
+   Trigger: Manual
+   Key Integrations: googleSheets, respondToWebhook, webhook
+
+17. Automatically_Add_Gmail_Sender_Contacts_to_MySQL_Database
+   Trigger: Receive Email
+   Key Integrations: gmailTrigger, mySql
+
+18. Automate B2B Lead Qualification with Voice Calls (VAPI) and Google Sheets
+   Trigger: New Lead Captured
+   Key Integrations: googleSheets, googleSheetsTrigger, respondToWebhook, webhook
+
+19. Apify_lead_generation
+   Trigger: When clicking ‘Execute workflow’
+   Key Integrations: googleSheets, manualTrigger, splitOut
+
+20. Form Submission to Notion CRM Setup
+   Trigger: Manual
+   Key Integrations: notion, webhook
+
+
+================================================================================
+4. LEAD NURTURING WORKFLOWS (43 total)
+================================================================================
+Analyzed: 43 workflows
+Average Node Count: 14.6
+
+Top 15 Integrations:
+   1. OpenAI                                   (23 workflows)
+   2. googleSheets                             (19 workflows)
+   3. LangChain/agent                          (18 workflows)
+   4. LangChain/lmChatOpenAi                   (15 workflows)
+   5. webhook                                  (14 workflows)
+   6. gmail                                    (12 workflows)
+   7. scheduleTrigger                          (12 workflows)
+   8. LangChain/openAi                         (12 workflows)
+   9. LangChain/outputParserStructured         ( 8 workflows)
+  10. manualTrigger                            ( 8 workflows)
+  11. LangChain/chatTrigger                    ( 6 workflows)
+  12. LangChain/memoryBufferWindow             ( 6 workflows)
+  13. formTrigger                              ( 6 workflows)
+  14. respondToWebhook                         ( 6 workflows)
+  15. aggregate                                ( 5 workflows)
+
+Trigger Distribution:
+  - Schedule                      : 10
+  - Manual                        :  9
+  - When clicking ‘Execute workflow’:  4
+  - Google Drive Trigger          :  3
+  - On form submission            :  2
+  - When Executed by Another Workflow:  1
+  - Trigger on Meeting Cancellation:  1
+  - WhatsApp Trigger              :  1
+  - Enquiry Form                  :  1
+  - Execute Workflow Trigger      :  1
+  - 0. Form Trigger (Property Tour Request):  1
+  - New Lead Trigger (Excel)      :  1
+  - New Order Trigger (Form)      :  1
+  - Cart Created                  :  1
+  - Google Calendar Trigger       :  1
+  - Google Sheets Trigger         :  1
+  - LinkedIn Post Form            :  1
+  - Email                         :  1
+  - When clicking ‘Test workflow’ :  1
+  - Telegram                      :  1
+
+ALL WORKFLOWS:
+
+1. AI-Powered Automated Outreach Scheduling Using Gemini, Gmail & Spreadsheets
+   Trigger: Schedule
+   Key Integrations: LangChain/chainLlm, LangChain/chatTrigger, LangChain/lmChatGoogleGemini, gmail, googleSheets
+   Plus 1 more...
+
+2. AI-Powered_Lead_Research_Personalized_Email_Generation_with_Groq_Google_Sheets
+   Trigger: When clicking ‘Execute workflow’
+   Key Integrations: LangChain/agent, LangChain/lmChatGroq, LangChain/outputParserStructured, googleSheets, manualTrigger
+
+3. Auto-Bidder_for_Freelancercom_with_Telegram_Approval_and_AI_Proposals
+   Trigger: When Executed by Another Workflow
+   Key Integrations: LangChain/agent, LangChain/lmChatOpenAi, OpenAI, aggregate, executeWorkflowTrigger
+   Plus 4 more...
+
+4. 002_ Loom Follow Up After Missed Meetings
+   Trigger: Trigger on Meeting Cancellation
+   Key Integrations: LangChain/openAi, OpenAI, asana, calendlyTrigger, gmail
+
+5. Voice2Propal – Smart WhatsApp Proposal Generator (Voice & Text)
+   Trigger: WhatsApp Trigger
+   Key Integrations: LangChain/agent, LangChain/lmChatOpenAi, LangChain/memoryBufferWindow, LangChain/openAi, LangChain/toolCalculator
+   Plus 6 more...
+
+6. Auto-Send Welcome WhatsApp Message to new Vtiger Leads
+   Trigger: Schedule
+   Key Integrations: scheduleTrigger
+
+7. Reranks #1
+   Trigger: Google Drive Trigger
+   Key Integrations: LangChain/agent, LangChain/chatTrigger, LangChain/documentDefaultDataLoader, LangChain/embeddingsOpenAi, LangChain/lmChatOpenAi
+   Plus 11 more...
+
+8. Automate_Lead_Capture_with_AI_Personalized_WhatsApp_Messages_via_Unipile_Google_Sheets_CRM
+   Trigger: Enquiry Form
+   Key Integrations: LangChain/openAi, OpenAI, formTrigger, googleSheets, httpRequestTool
+
+9. Start outbound Vapi calls from new Go High Level opportunities
+   Trigger: Manual
+   Key Integrations: highLevel, webhook
+
+10. Automated Advanced Prospect Outreach & Nurturing Campaign System with AI
+   Trigger: When clicking ‘Execute workflow’
+   Key Integrations: LangChain/openAi, OpenAI, gmail, googleSheets, hunter
+   Plus 2 more...
+
+11. GPT-4 Powered Cold Mail Workflow with Fully Tailored 3-Email Follow-Ups
+   Trigger: Schedule
+   Key Integrations: LangChain/agent, LangChain/lmChatOpenAi, LangChain/memoryBufferWindow, LangChain/openAi, LangChain/outputParserStructured
+   Plus 10 more...
+
+12. My workflow
+   Trigger: Execute Workflow Trigger
+   Key Integrations: LangChain/agent, LangChain/chatTrigger, LangChain/lmChatOpenAi, LangChain/memoryBufferWindow, LangChain/openAi
+   Plus 5 more...
+
+13. Property Tour Scheduling Automation (Real Estate)
+   Trigger: 0. Form Trigger (Property Tour Request)
+   Key Integrations: formTrigger, gmail, googleCalendar, slack, webhook
+
+14. Automate Restaurant Marketing & Booking via Excel and VAPI Voice Agent
+   Trigger: New Lead Trigger (Excel)
+   Key Integrations: googleCalendar, googleSheets, googleSheetsTrigger, respondToWebhook, webhook
+
+15. Smart Restaurant Order & Suggestion System with Gemini AI and Telegram
+   Trigger: New Order Trigger (Form)
+   Key Integrations: LangChain/agent, LangChain/lmChatGoogleGemini, LangChain/toolThink, formTrigger, googleSheets
+   Plus 1 more...
+
+16. Reranks #1
+   Trigger: Google Drive Trigger
+   Key Integrations: LangChain/agent, LangChain/chatTrigger, LangChain/documentDefaultDataLoader, LangChain/embeddingsOpenAi, LangChain/lmChatOpenAi
+   Plus 11 more...
+
+17. Automated_AI_Cold_Calling_System_with_VAPIai_Airtable_and_Smart_Follow-ups
+   Trigger: Schedule
+   Key Integrations: airtable, respondToWebhook, scheduleTrigger, webhook
+
+18. ABANDONED CART RECOVERY EMAIL
+   Trigger: Cart Created
+   Key Integrations: emailSend, shopify, shopifyTrigger
+
+19. Automated_Bulk_Cold_Email_Sender_using_Gmail_SMTP_and_Google_Sheets
+   Trigger: Schedule
+   Key Integrations: emailSend, gmail, googleSheets, limit, scheduleTrigger
+
+20. Smart Client Relationship & Appointment Automation
+   Trigger: Google Calendar Trigger
+   Key Integrations: googleCalendarTrigger, googleSheets, scheduleTrigger, twilio
+
+
+================================================================================
+5. CRM WORKFLOWS (40 total)
+================================================================================
+Analyzed: 40 workflows
+Average Node Count: 11.3
+
+Top 15 Integrations:
+   1. webhook                                  (12 workflows)
+   2. scheduleTrigger                          (11 workflows)
+   3. googleSheets                             (10 workflows)
+   4. gmail                                    ( 8 workflows)
+   5. LangChain/agent                          ( 7 workflows)
+   6. manualTrigger                            ( 7 workflows)
+   7. OpenAI                                   ( 6 workflows)
+   8. splitOut                                 ( 6 workflows)
+   9. LangChain/lmChatOpenAi                   ( 5 workflows)
+  10. slack                                    ( 5 workflows)
+  11. LangChain/mcpTrigger                     ( 4 workflows)
+  12. LangChain/outputParserAutofixing         ( 4 workflows)
+  13. LangChain/outputParserStructured         ( 4 workflows)
+  14. respondToWebhook                         ( 4 workflows)
+  15. notion                                   ( 4 workflows)
+
+Trigger Distribution:
+  - Schedule                      : 11
+  - Manual                        :  8
+  - MCP Server Trigger            :  2
+  - Start Workflow                :  2
+  - When clicking ‘Execute workflow’:  2
+  - Chat                          :  2
+  - Detect New Lead               :  1
+  - SF: On Account Created        :  1
+  - Trigger on New Notion Contact :  1
+  - When clicking ‘Test workflow’ :  1
+  - Gmail Trigger                 :  1
+  - When Executed by Another Workflow:  1
+  - ⚡ Trigger: Start CRM Scraper  :  1
+  - Shopify Trigger               :  1
+  - Cal.com Trigger               :  1
+  - ⚡ Start Scraping (Manual Trigger):  1
+  - Google Calendar Trigger       :  1
+  - Fulfillment MCP Server        :  1
+  - Account MCP Server            :  1
+
+ALL WORKFLOWS:
+
+1. Airtable MCP
+   Trigger: MCP Server Trigger
+   Key Integrations: LangChain/mcpTrigger, airtableTool
+
+2. Manage contacts in KlickTipp via MCP server
+   Trigger: MCP Server Trigger
+   Key Integrations: LangChain/mcpTrigger, LangChain/toolCode
+
+3. 33 Analyze Territory Performance
+   Trigger: Schedule
+   Key Integrations: LangChain/agent, LangChain/lmChatOpenAi, LangChain/outputParserAutofixing, LangChain/outputParserStructured, OpenAI
+   Plus 3 more...
+
+4. Auto-Generate Social Media Briefs for Sales Meetings Using AI & Google Calendar
+   Trigger: Schedule
+   Key Integrations: clearbit, gmail, googleCalendar, html, openAi
+   Plus 3 more...
+
+5. E-commerce Operations Hub AI System
+   Trigger: Schedule
+   Key Integrations: gmail, googleSheets, scheduleTrigger, slack, webhook
+
+6. Automated Loan Agency CRM Workflow
+   Trigger: Manual
+   Key Integrations: googleDrive, googleSheets, twilio, webhook
+
+7. Sales Pipeline Automation Dashboard
+   Trigger: Schedule
+   Key Integrations: googleSheets, hubspot, scheduleTrigger, sendEmail, slack
+   Plus 1 more...
+
+8. bykhaisa
+   Trigger: Manual
+   Key Integrations: respondToWebhook, webhook
+
+9. Complete Travel Call Management System - Call Tracking, Book Trips & Marketing
+   Trigger: Detect New Lead
+   Key Integrations: googleSheets, googleSheetsTrigger, postgres, respondToWebhook, webhook
+
+10. Zoho Inventory to Supabase
+   Trigger: Schedule
+   Key Integrations: scheduleTrigger, splitOut, supabase
+
+11. My workflow 12
+   Trigger: SF: On Account Created
+   Key Integrations: LangChain/openAi, OpenAI, html, salesforce, salesforceTrigger
+
+12. Automatically_Import_Square_Sales_Summary_Reports_into_Google_Sheets
+   Trigger: Schedule
+   Key Integrations: googleSheets, scheduleTrigger, splitOut
+
+13. Automatically_Send_Daily_Sales_Reports_from_Square_via_Gmail
+   Trigger: Schedule
+   Key Integrations: convertToFile, gmail, scheduleTrigger, splitOut
+
+14. Sync Contacts from Notion to Google Contacts with Group Labels
+   Trigger: Trigger on New Notion Contact
+   Key Integrations: googleContacts, notion, notionTrigger
+
+15. Shopify Order Data
+   Trigger: Manual
+   Key Integrations: airtable, webhook
+
+16. Create Shopify Products from Google Sheet
+   Trigger: Start Workflow
+   Key Integrations: googleSheets, graphql, manualTrigger
+
+17. Call_Center_Analytics_with_Dual-AI_Verification_using_DeepSeek_Models
+   Trigger: When clicking ‘Test workflow’
+   Key Integrations: LangChain/chainLlm, LangChain/lmChatDeepSeek, manualTrigger, webhook
+
+18. Generate Lead from Webhook
+   Trigger: Manual
+   Key Integrations: odoo, respondToWebhook, webhook
+
+19. Client_Onboarding_Automation_Tally_Forms_to_Google_Drive_Notion_Slack
+   Trigger: Manual
+   Key Integrations: googleDrive, notion, slack, webhook
+
+20. Meeting Assets: Summary, Next Steps & Recording
+   Trigger: Gmail Trigger
+   Key Integrations: gmail, gmailTrigger
+
+
+================================================================================
+CROSS-CATEGORY ANALYSIS
+================================================================================
+
+Top 20 Integrations Across All Categories:
+   1. googleSheets                             ( 78 workflows)
+   2. OpenAI                                   ( 64 workflows)
+   3. LangChain/agent                          ( 52 workflows)
+   4. manualTrigger                            ( 50 workflows)
+   5. scheduleTrigger                          ( 44 workflows)
+   6. LangChain/lmChatOpenAi                   ( 44 workflows)
+   7. webhook                                  ( 44 workflows)
+   8. gmail                                    ( 37 workflows)
+   9. LangChain/openAi                         ( 30 workflows)
+  10. LangChain/outputParserStructured         ( 30 workflows)
+  11. formTrigger                              ( 26 workflows)
+  12. splitOut                                 ( 24 workflows)
+  13. LangChain/chainLlm                       ( 17 workflows)
+  14. LangChain/memoryBufferWindow             ( 16 workflows)
+  15. telegram                                 ( 15 workflows)
+  16. respondToWebhook                         ( 15 workflows)
+  17. airtable                                 ( 14 workflows)
+  18. LangChain/chatTrigger                    ( 14 workflows)
+  19. aggregate                                ( 14 workflows)
+  20. slack                                    ( 14 workflows)
+
+
+COMMON PATTERNS IDENTIFIED:
+  - AI/LLM Integration: Heavy use of OpenAI, LangChain, Google Gemini
+  - Data Storage: Google Sheets, Airtable, Supabase, PostgreSQL
+  - Communication: Gmail, Telegram, Slack, WhatsApp, Twilio
+  - CRM Systems: Salesforce, HubSpot, Pipedrive, Zoho CRM
+  - E-commerce: Shopify, WooCommerce integration
+  - Scheduling: Calendly, Google Calendar, Cal.com
+
+
+KEY USE CASES BY CATEGORY:
+
+Marketing:
+  - AI-powered content generation and publishing
+  - Social media automation
+  - SEO and blog automation
+  - Ad campaign optimization
+  - Video and multimedia content creation
+
+Sales:
+  - AI sales agents and chatbots
+  - Lead enrichment and qualification
+  - CRM integration and sync
+  - E-commerce order notifications
+  - Cold outreach automation
+
+Lead Generation:
+  - Web scraping (Google Maps, LinkedIn, Indeed)
+  - Lead enrichment with AI
+  - Form capture and processing
+  - Social media lead discovery
+  - Contact data extraction
+
+Lead Nurturing:
+  - Personalized email sequences
+  - AI-powered outreach
+  - Multi-channel follow-ups (Email, SMS, WhatsApp)
+  - Meeting scheduling and reminders
+  - Chatbot qualification
+
+CRM:
+  - Contact management and sync
+  - Sales pipeline analytics
+  - E-commerce integration (Shopify, Square)
+  - Customer onboarding automation
+  - Reporting and dashboards
+
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,2511 @@
+{
+  "summary": {
+    "total_workflows": 964,
+    "categories": {
+      "Marketing": {
+        "total": 451,
+        "analyzed": 19
+      },
+      "Sales": {
+        "total": 364,
+        "analyzed": 20
+      },
+      "Lead_Generation": {
+        "total": 66,
+        "analyzed": 66
+      },
+      "Lead_Nurturing": {
+        "total": 43,
+        "analyzed": 43
+      },
+      "CRM": {
+        "total": 40,
+        "analyzed": 40
+      }
+    }
+  },
+  "workflows_by_category": {
+    "Marketing": [
+      {
+        "name": "AI Icebreaker Builder: Scrape Sites with Dumpling AI and Save to Airtable",
+        "description": "This workflow runs on a schedule and pulls new cold leads from Airtable that have no \"Ice breaker\" yet. For each lead, it waits briefly to prevent API overuse, then sends the lead\u2019s website URL to Dumpling AI's scraping endpoint.",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "airtable",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 8
+      },
+      {
+        "name": "Ask_AI_about_your_Meta_Ads_-_ask_questions_about_your_Facebook_Ads_insights",
+        "description": "Workflow: Ask_AI_about_your_Meta_Ads_-_ask_questions_about_your_Facebook_Ads_insights",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/memoryManager",
+          "LangChain/toolCalculator",
+          "LangChain/toolHttpRequest",
+          "LangChain/toolWorkflow",
+          "OpenAI",
+          "executeWorkflowTrigger",
+          "telegram",
+          "telegramTrigger"
+        ],
+        "trigger_type": "Chat",
+        "node_count": 14
+      },
+      {
+        "name": "WA-Bot-Module-FAQ-v1-db-sell-full",
+        "description": "Workflow: WA-Bot-Module-FAQ-v1-db-sell-full",
+        "integrations": [
+          "postgres",
+          "summarize",
+          "whatsApp",
+          "whatsAppTrigger"
+        ],
+        "trigger_type": "WhatsApp Trigger",
+        "node_count": 22
+      },
+      {
+        "name": "Automate_RSS_Content_to_Blog_Posts_with_GPT-4o_WordPress_LinkedIn_Publishing",
+        "description": "Workflow: Automate_RSS_Content_to_Blog_Posts_with_GPT-4o_WordPress_LinkedIn_Publishing",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/openAi",
+          "OpenAI",
+          "gmail",
+          "googleSheets",
+          "googleSheetsTrigger",
+          "htmlExtract",
+          "limit",
+          "linkedIn",
+          "rssFeedRead",
+          "scheduleTrigger",
+          "telegram",
+          "webhook",
+          "wordpress"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 36
+      },
+      {
+        "name": "Automated Content Generation & Publishing - Wordpress",
+        "description": "(YOUR PROMPT)",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "googleSheets",
+          "manualTrigger",
+          "scheduleTrigger",
+          "wordpress"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 9
+      },
+      {
+        "name": "\u2728\ud83e\ude77Automated Social Media Content Publishing Factory + System Prompt Composition",
+        "description": "<system>",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/toolSerpApi",
+          "LangChain/toolWorkflow",
+          "OpenAI",
+          "executeWorkflowTrigger",
+          "extractFromFile",
+          "facebookGraphApi",
+          "gmail",
+          "googleDocs",
+          "googleDrive",
+          "linkedIn",
+          "telegram",
+          "twitter"
+        ],
+        "trigger_type": "Chat",
+        "node_count": 57
+      },
+      {
+        "name": "Dynamic Form with AI",
+        "description": "This workflow has been built for those who require a form to capture as much data as possible as well as the answers to predefined questions, whilst optimising the user experience by avoiding asking redundant questions.",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "aggregate",
+          "form",
+          "formTrigger",
+          "splitOut"
+        ],
+        "trigger_type": "Get Basic Information",
+        "node_count": 11
+      },
+      {
+        "name": "monitoring competitor prices - for free",
+        "description": "You can see the detailed step-by-step instructions here:",
+        "integrations": [
+          "googleSheets",
+          "html",
+          "scheduleTrigger",
+          "telegram"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 15
+      },
+      {
+        "name": "Create Custom Presentations per Lead",
+        "description": "# Create New Google Sheets and Insert Data from CSV file",
+        "integrations": [
+          "extractFromFile",
+          "googleDrive",
+          "googleDriveTrigger",
+          "googleSheets",
+          "googleSlides"
+        ],
+        "trigger_type": "New Leads Arrived",
+        "node_count": 12
+      },
+      {
+        "name": "BuiltWith To Google Sheets",
+        "description": "This automation does three main things:",
+        "integrations": [
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "Manual Trigger",
+        "node_count": 5
+      },
+      {
+        "name": "Youtube Video Transcript Extraction",
+        "description": "Workflow: Youtube Video Transcript Extraction",
+        "integrations": [
+          "formTrigger"
+        ],
+        "trigger_type": "YoutubeVideoURL",
+        "node_count": 4
+      },
+      {
+        "name": "Audio generator",
+        "description": "1. This workflow automates the conversion of text scripts into audio files using a Python voice synthesis script.",
+        "integrations": [
+          "aggregate",
+          "executeCommand",
+          "executeWorkflowTrigger",
+          "googleDrive",
+          "manualTrigger",
+          "readWriteFile"
+        ],
+        "trigger_type": "Start: External Trigger",
+        "node_count": 11
+      },
+      {
+        "name": "Generate Qualified Finance Leads from LinkedIn with Apify, GPT-4, and Airtable",
+        "description": "**Generate high-quality finance leads from LinkedIn**",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "airtable",
+          "manualTrigger",
+          "removeDuplicates",
+          "splitOut"
+        ],
+        "trigger_type": "Start",
+        "node_count": 16
+      },
+      {
+        "name": "Google SERP Tracker + Trends and Recommendations with Bright Data & Google Gemini",
+        "description": "Deals with the Google SERP Tracker by utilizing the Bright Data and Google Gemini LLM for transforming the profile into a structured JSON response.",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatGoogleGemini",
+          "LangChain/outputParserStructured",
+          "convertToFile",
+          "manualTrigger",
+          "readWriteFile"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 20
+      },
+      {
+        "name": "Amazon Ads AI Optimization",
+        "description": "To run this workflow, schedule the following Sponsored Products reports in the Amazon Ads Console:",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatOpenAi",
+          "OpenAI",
+          "extractFromFile",
+          "gmail",
+          "googleDrive",
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 15
+      },
+      {
+        "name": "Person ICP Scoring with Linkedin",
+        "description": "README",
+        "integrations": [
+          "airtop",
+          "executeWorkflowTrigger",
+          "formTrigger"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 5
+      },
+      {
+        "name": "Sync New Shopify Products to Odoo Product",
+        "description": "Workflow: Sync New Shopify Products to Odoo Product",
+        "integrations": [
+          "odoo",
+          "shopifyTrigger"
+        ],
+        "trigger_type": "Shopify Trigger",
+        "node_count": 5
+      },
+      {
+        "name": "Transform Product Photos into 360\u00b0 Videos with OpenAI & RunwayML",
+        "description": "Workflow: Transform Product Photos into 360\u00b0 Videos with OpenAI & RunwayML",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "OpenAI",
+          "convertToFile",
+          "emailSend",
+          "formTrigger",
+          "googleDrive"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 15
+      },
+      {
+        "name": "WordPress Blog Automation Pro (Deep Research) v1",
+        "description": "Workflow: WordPress Blog Automation Pro (Deep Research) v1",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chainLlm",
+          "LangChain/lmChatOpenAi",
+          "LangChain/openAi",
+          "LangChain/outputParserStructured",
+          "LangChain/toolWorkflow",
+          "OpenAI",
+          "aggregate",
+          "editImage",
+          "executeWorkflowTrigger",
+          "googleDocs",
+          "googleDrive",
+          "googleSheetsTrigger",
+          "limit",
+          "manualTrigger",
+          "markdown",
+          "scheduleTrigger",
+          "splitOut",
+          "wordpress",
+          "xml"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 62
+      }
+    ],
+    "Sales": [
+      {
+        "name": "Advanced Sales Ai agent",
+        "description": "Workflow: Advanced Sales Ai agent",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/embeddingsOpenAi",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryPostgresChat",
+          "LangChain/openAi",
+          "LangChain/toolVectorStore",
+          "LangChain/toolWorkflow",
+          "LangChain/vectorStoreSupabase",
+          "OpenAI",
+          "airtable",
+          "facebookGraphApi",
+          "respondToWebhook",
+          "webhook",
+          "whatsApp",
+          "whatsAppTrigger"
+        ],
+        "trigger_type": "Webhook",
+        "node_count": 50
+      },
+      {
+        "name": "Alert_via_Gmail_when_a_great_lead_submits_form_with_MadKudu_and_Hunter",
+        "description": "1. Add you **MadKudu**, **Hunter**, and **Email** credentials",
+        "integrations": [
+          "formTrigger",
+          "gmail",
+          "hunter"
+        ],
+        "trigger_type": "n8n Form Trigger",
+        "node_count": 8
+      },
+      {
+        "name": "CallQualifiedLeadsAI",
+        "description": "Workflow: CallQualifiedLeadsAI",
+        "integrations": [
+          "googleSheets"
+        ],
+        "trigger_type": "Trigger VAPI Call",
+        "node_count": 5
+      },
+      {
+        "name": "LinkedIn Agent v2",
+        "description": "Get this Cookie-Editor. https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm",
+        "integrations": [
+          "LangChain/chatTrigger",
+          "LangChain/openAi",
+          "OpenAI",
+          "gmail",
+          "googleSheets",
+          "hunter"
+        ],
+        "trigger_type": "Chat",
+        "node_count": 19
+      },
+      {
+        "name": "Build_Your_First_AI_Data_Analyst_Chatbot",
+        "description": "![Solomon](https://gravatar.com/avatar/79aa147f090807fe0f618fb47a1de932669e385bb0c84bf3a7f891ae7d174256?r=pg&d=retro&size=200)",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/toolCalculator",
+          "LangChain/toolWorkflow",
+          "OpenAI",
+          "aggregate",
+          "executeWorkflowTrigger",
+          "googleSheetsTool"
+        ],
+        "trigger_type": "Chat",
+        "node_count": 14
+      },
+      {
+        "name": "Convert Squarespace Profiles to Shopify Customers in Google Sheets",
+        "description": "Convert exported profile from Squarespace to compatible Shopify customers data in csv format",
+        "integrations": [
+          "extractFromFile",
+          "googleSheets",
+          "manualTrigger",
+          "webhook"
+        ],
+        "trigger_type": "Manual trigger",
+        "node_count": 7
+      },
+      {
+        "name": "Create a coupon on Paddle",
+        "description": "Workflow: Create a coupon on Paddle",
+        "integrations": [
+          "manualTrigger",
+          "paddle"
+        ],
+        "trigger_type": "On clicking 'execute'",
+        "node_count": 2
+      },
+      {
+        "name": "Domain -> Email Extraction using Apollo API copy",
+        "description": "Workflow: Domain -> Email Extraction using Apollo API copy",
+        "integrations": [
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 9
+      },
+      {
+        "name": "Enrich_new_accounts_in_Pipedrive_using_Datagma_API",
+        "description": "In \"Datagma - Enrich Company\" node - change \"employeeTitle\" value with the keywords of your ideal buyer (-> Head of Marketing)",
+        "integrations": [
+          "itemLists",
+          "pipedrive",
+          "pipedriveTrigger"
+        ],
+        "trigger_type": "Pipedrive Trigger - New Company Created",
+        "node_count": 9
+      },
+      {
+        "name": "Get Company LinkedIn Page",
+        "description": "README",
+        "integrations": [
+          "airtop",
+          "executeWorkflowTrigger",
+          "formTrigger"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 11
+      },
+      {
+        "name": "Get_all_leads_from_Zoho_CRM",
+        "description": "Workflow: Get_all_leads_from_Zoho_CRM",
+        "integrations": [
+          "manualTrigger",
+          "zohoCrm"
+        ],
+        "trigger_type": "On clicking 'execute'",
+        "node_count": 2
+      },
+      {
+        "name": "LinkedIn_Auto-Connect_Personalized_Messaging_for_Sales",
+        "description": "Workflow: LinkedIn_Auto-Connect_Personalized_Messaging_for_Sales",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "OpenAI",
+          "formTrigger",
+          "gmail",
+          "googleSheets",
+          "googleSheetsTrigger",
+          "scheduleTrigger",
+          "splitOut"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 29
+      },
+      {
+        "name": "New WooCommerce product to Slack",
+        "description": "Workflow: New WooCommerce product to Slack",
+        "integrations": [
+          "slack",
+          "wooCommerceTrigger"
+        ],
+        "trigger_type": "Product Created",
+        "node_count": 2
+      },
+      {
+        "name": "Promote_new_Shopify_products_on_Twitter_and_Telegram",
+        "description": "Workflow: Promote_new_Shopify_products_on_Twitter_and_Telegram",
+        "integrations": [
+          "shopifyTrigger",
+          "telegram",
+          "twitter"
+        ],
+        "trigger_type": "product created",
+        "node_count": 3
+      },
+      {
+        "name": "Register_users_to_an_event_on_Demio_via_Typeform",
+        "description": "Workflow: Register_users_to_an_event_on_Demio_via_Typeform",
+        "integrations": [
+          "demio",
+          "typeformTrigger"
+        ],
+        "trigger_type": "Typeform Trigger",
+        "node_count": 2
+      },
+      {
+        "name": "Send_Telegram_Notification_for_New_WooCommerce_Orders",
+        "description": "- **Replace** the `chatId` field in the Telegram node with your own Telegram **user ID** or **group ID**.",
+        "integrations": [
+          "telegram",
+          "wooCommerceTrigger"
+        ],
+        "trigger_type": "WooCommerce Trigger",
+        "node_count": 2
+      },
+      {
+        "name": "Smartlead_to_HubSpot_Performance_Analytics",
+        "description": "Overview",
+        "integrations": [
+          "googleSheets",
+          "hubspot",
+          "postgres",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 18
+      },
+      {
+        "name": "Clockify to Syncro",
+        "description": "Workflow: Clockify to Syncro",
+        "integrations": [
+          "googleSheets",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 13
+      },
+      {
+        "name": "Check for valid Mautic contact email",
+        "description": "Workflow: Check for valid Mautic contact email",
+        "integrations": [
+          "itemLists",
+          "mauticTrigger",
+          "oneSimpleApi",
+          "slack"
+        ],
+        "trigger_type": "On Contact Identified",
+        "node_count": 6
+      },
+      {
+        "name": "WordPress-to-Pipedrive Integration: Automating Contact & Lead Management",
+        "description": "* Install Contact Form 7: Begin by installing the Contact Form 7 plugin in your WordPress site. This plugin allows for easy creation and management of contact forms. You can download and install it from the WordPress plugin directory here: [Contact Form 7 Plugin](https://example.com/).",
+        "integrations": [
+          "pipedrive",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 9
+      }
+    ],
+    "Lead_Generation": [
+      {
+        "name": "AI-Powered_Google_Maps_Business_Scraper_with_Enrichment_Export_to_Sheets",
+        "description": "This workflow automates the discovery, extraction, enrichment, and storage of business information from **Google Maps** search queries using AI tools, scrapers, and Google Sheets.",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenRouter",
+          "aggregate",
+          "executeWorkflowTrigger",
+          "googleSheets",
+          "removeDuplicates",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Starts scraper workflow",
+        "node_count": 24
+      },
+      {
+        "name": "AI-Powered_Lead_Generation_System_with_Email_Personalization_and_LinkedIn",
+        "description": "Here, we retrieve the companies from the first automation, filtering them by their score (min. 7). Feel free to remove this filter or modify it. However, it is mandatory to keep the status filter.",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "aggregate",
+          "googleSheets",
+          "limit",
+          "manualTrigger",
+          "scheduleTrigger",
+          "splitOut",
+          "stopAndError"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 36
+      },
+      {
+        "name": "AI-Powered Lead Generation with Apollo, GPT-4, and Telegram to Database",
+        "description": "Growth hackers, SDR teams, and founders who collect lead requests via Telegram (voice or text) and want those leads scraped, verified, de-duplicated, and stored in a single Supabase table\u2014hands-free.",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/openAi",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "compareDatasets",
+          "limit",
+          "postgres",
+          "supabase",
+          "telegram",
+          "telegramTrigger"
+        ],
+        "trigger_type": "Telegram",
+        "node_count": 21
+      },
+      {
+        "name": "AI-Powered_Lead_Generation_with_Apollo_LinkedIn_Research_4-Step_Personalized_Emails",
+        "description": "Workflow: AI-Powered_Lead_Generation_with_Apollo_LinkedIn_Research_4-Step_Personalized_Emails",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "formTrigger",
+          "googleSheets",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 25
+      },
+      {
+        "name": "Google Map Scraper",
+        "description": "Google Maps Lead Scraper",
+        "integrations": [
+          "convertToFile",
+          "formTrigger",
+          "gmail"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 5
+      },
+      {
+        "name": "Auto-Enrich New CRM Companies with ChatGPT Web Research via Tavily",
+        "description": "![CSCRM Logo](https://s3.42he.com/cscrm-marketing-page-production/Logo_Central_Station_CRM_0dd02e23d2.jpeg)",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/toolThink",
+          "OpenAI",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 7
+      },
+      {
+        "name": "Score Company ICP with Explorium",
+        "description": "1. Input: Company name",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatAnthropic",
+          "LangChain/mcpClientTool",
+          "formTrigger"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 5
+      },
+      {
+        "name": "Automate Business Lead Scraping from Scrapeless to Google Sheets with Data Cleaning",
+        "description": "Workflow: Automate Business Lead Scraping from Scrapeless to Google Sheets with Data Cleaning",
+        "integrations": [
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "Manual Trigger",
+        "node_count": 4
+      },
+      {
+        "name": "My workflow",
+        "description": "Workflow: My workflow",
+        "integrations": [
+          "manualTrigger",
+          "splitOut"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 7
+      },
+      {
+        "name": "A quote request? Tally sends it, Airtable logs it, Slack alerts, Gmail thanks.",
+        "description": "**== STEP 2 \u2013 Edit Fields ==**",
+        "integrations": [
+          "airtable",
+          "gmail",
+          "slack",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 6
+      },
+      {
+        "name": "Automate a Tally Form",
+        "description": "Every time someone submits your Tally form, their info is automatically added to an Airtable base. No more copy-pasting \u2014 everything lands right where it should.",
+        "integrations": [
+          "airtable",
+          "gmail",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 5
+      },
+      {
+        "name": "Automate a Tally Form slack",
+        "description": "**After storing the data in Airtable, let\u2019s notify your team \u2014 instantly.**",
+        "integrations": [
+          "airtable",
+          "gmail",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 5
+      },
+      {
+        "name": "Google Maps Scraper",
+        "description": "# Step-1 \n## Generating targeted search queries covering every neighborhood in selected city.",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "limit",
+          "manualTrigger",
+          "removeDuplicates",
+          "splitOut"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 23
+      },
+      {
+        "name": "Automated_Meeting_Attendee_Enrichment_with_Apolloio_and_Google_Sheets",
+        "description": "- ### [Calendly](https://calendly.com/integrations/api_webhooks)",
+        "integrations": [
+          "calTrigger",
+          "calendlyTrigger",
+          "googleSheets"
+        ],
+        "trigger_type": "Cal.com Trigger1",
+        "node_count": 11
+      },
+      {
+        "name": "Reddid lead Finder",
+        "description": "Workflow: Reddid lead Finder",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatGoogleGemini",
+          "LangChain/outputParserStructured",
+          "LangChain/textClassifier",
+          "googleSheets",
+          "reddit",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 19
+      },
+      {
+        "name": "Fluentform Export",
+        "description": "Got ideas, feedback, or just wanna chat? Hit me up [here](https://khmuhtadin.com)",
+        "integrations": [
+          "googleSheets",
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 7
+      },
+      {
+        "name": "Automatically_Add_Gmail_Sender_Contacts_to_MySQL_Database",
+        "description": "- A sales or marketing agency can use this to automatically save client contact info to a database to build a list of leads",
+        "integrations": [
+          "gmailTrigger",
+          "mySql"
+        ],
+        "trigger_type": "Receive Email",
+        "node_count": 3
+      },
+      {
+        "name": "Automate B2B Lead Qualification with Voice Calls (VAPI) and Google Sheets",
+        "description": "Captures name, company, challenges via POST.",
+        "integrations": [
+          "googleSheets",
+          "googleSheetsTrigger",
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "New Lead Captured",
+        "node_count": 5
+      },
+      {
+        "name": "Apify_lead_generation",
+        "description": "- Use this tool for larger amount of leads (over 100)",
+        "integrations": [
+          "googleSheets",
+          "manualTrigger",
+          "splitOut"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 7
+      },
+      {
+        "name": "Form Submission to Notion CRM Setup",
+        "description": "**Author David Olusola**",
+        "integrations": [
+          "notion",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 3
+      },
+      {
+        "name": "Clean_Company_Names_for_Cold_Emails_with_GPT-4_Mini_and_Google_Sheets",
+        "description": "When a form is submitted with the url to a Google Sheet with the lead data, we create a new sheet in the document that we will use to store the results and fetch all the lead data from the first sheet.",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "formTrigger",
+          "googleSheets"
+        ],
+        "trigger_type": "On Form Submit",
+        "node_count": 9
+      },
+      {
+        "name": "My workflow",
+        "description": "Dual-AI approach for maximum personalization:",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "aggregate",
+          "googleSheets",
+          "html",
+          "limit",
+          "manualTrigger",
+          "markdown",
+          "removeDuplicates",
+          "splitOut"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 19
+      },
+      {
+        "name": "Cold Email Icebreakers from Local Business Search with GPT-4 and Dumpling AI",
+        "description": "This workflow:",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "formTrigger",
+          "googleSheets",
+          "splitOut"
+        ],
+        "trigger_type": "Form: Submit Search Keyword",
+        "node_count": 9
+      },
+      {
+        "name": "Social Presence Enrichment Flow",
+        "description": "- Sign-up link with 2,500 free credits: www.extruct.ai/",
+        "integrations": [
+          "formTrigger",
+          "googleSheets"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 9
+      },
+      {
+        "name": "contact enrichment",
+        "description": "Ensure it's clean and matches our CRM needs",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserAutofixing",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "aggregate",
+          "executeWorkflowTrigger",
+          "hubspot",
+          "limit",
+          "sort",
+          "splitOut"
+        ],
+        "trigger_type": "When Executed by Another Workflow",
+        "node_count": 19
+      },
+      {
+        "name": "Conversational_Lead_Capture_with_Gemini_20_Flash_AI_and_Google_Sheets",
+        "description": "a. Full Name",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatGoogleGemini",
+          "LangChain/memoryBufferWindow",
+          "googleSheetsTool",
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 6
+      },
+      {
+        "name": "Social Warming Flow",
+        "description": "## Being alerted to new engagers on that post from the Thought Leader from Trigify.io.",
+        "integrations": [
+          "googleSheets",
+          "slack",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 9
+      },
+      {
+        "name": "AI web researcher for sales",
+        "description": "This workflow allows you to do account research with the web using AI.",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatAnthropic",
+          "LangChain/mcpClientTool",
+          "LangChain/outputParserStructured",
+          "LangChain/toolWorkflow",
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \"Test workflow\"",
+        "node_count": 12
+      },
+      {
+        "name": "Sales & Business Development Dashboard",
+        "description": "- Sign-up link with 2,500 free credits: www.extruct.ai/",
+        "integrations": [
+          "formTrigger",
+          "googleSheets"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 9
+      },
+      {
+        "name": "LinkedIn Profile Enrichment With Error Handling",
+        "description": "**Input field:**",
+        "integrations": [
+          "manualTrigger",
+          "nocoDb",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Manual Trigger",
+        "node_count": 13
+      },
+      {
+        "name": "Extract_Business_Contact_Leads_from_Google_Maps_with_RapidAPI_and_Google_Sheets",
+        "description": "This workflow extracts business leads from Google Maps with contact information and stores them in Google Sheets with intelligent duplicate prevention.",
+        "integrations": [
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "Start Lead Generation",
+        "node_count": 10
+      },
+      {
+        "name": "Google Maps - Crawl Email By Keyword",
+        "description": "**This workflow demonstrates how to automate the extraction of business emails from Google Maps results using a specific keyword. It streamlines the process of finding, filtering, and saving contact emails into a Google Sheet, eliminating the need for tedious manual research.**",
+        "integrations": [
+          "aggregate",
+          "googleSheets",
+          "manualTrigger",
+          "removeDuplicates",
+          "splitOut"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 14
+      },
+      {
+        "name": "LinkedIn Lead Generation & CRM Automation Suite\"",
+        "description": "Workflow: LinkedIn Lead Generation & CRM Automation Suite\"",
+        "integrations": [
+          "googleSheets",
+          "manualTrigger",
+          "respondToWebhook",
+          "scheduleTrigger",
+          "webhook"
+        ],
+        "trigger_type": "Manual Trigger",
+        "node_count": 13
+      },
+      {
+        "name": "Extract_Local_Business_Contacts_with_Google_Sheets_SerpAPI_Apify_GPT-4o",
+        "description": "Follow the steps below to get this business contact finder workflow up and running in your own environment:",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "googleSheets",
+          "manualTrigger",
+          "summarize"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 15
+      },
+      {
+        "name": "The Recap AI - Email Scraper",
+        "description": "- Takes a website's home page url as input to the automation",
+        "integrations": [
+          "formTrigger",
+          "stopAndError"
+        ],
+        "trigger_type": "form_trigger",
+        "node_count": 9
+      },
+      {
+        "name": "Generate Lead Qualification Reports in Gmail from Tally Forms via Qwen-3",
+        "description": "- Create a [Tally](https://tally.cello.so/LEr7LHMwPcG) account",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatOpenRouter",
+          "gmail",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 6
+      },
+      {
+        "name": "AI-powered lead enrichment Telegram And Explorium MCP",
+        "description": "1. **Receives** company info via Telegram",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/mcpClientTool",
+          "LangChain/memoryPostgresChat",
+          "OpenAI",
+          "httpRequestTool",
+          "telegram",
+          "telegramTrigger"
+        ],
+        "trigger_type": "Telegram",
+        "node_count": 7
+      },
+      {
+        "name": "Personalized prospect research and connection strategy report generator",
+        "description": "- Single call to the [Multi-tool Research Agent](https://n8n.io/workflows/5588-multi-tool-research-agent-for-animal-advocacy-with-openrouter-serper-and-open-paws-db/).",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatOpenRouter",
+          "executeWorkflowTrigger"
+        ],
+        "trigger_type": "When Executed by Another Workflow",
+        "node_count": 5
+      },
+      {
+        "name": "Google Maps Business Scraper & Lead Enricher with Bright Data & Google Gemini",
+        "description": "Deals with the Google Maps data extraction by utilizing the Bright Data and Google Gemini LLM for transforming the profile into a structured JSON response.",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatGoogleGemini",
+          "LangChain/outputParserStructured",
+          "googleSheets",
+          "manualTrigger",
+          "readWriteFile"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 20
+      },
+      {
+        "name": "Light Web Scraper",
+        "description": "1. **Open n8n** (Cloud or Self-Hosted).",
+        "integrations": [
+          "airtable",
+          "formTrigger",
+          "limit",
+          "markdown"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 20
+      },
+      {
+        "name": "Google_Maps_Lead_Scraper_Enrichment_with_AI-Powered_Personalized_Outreach",
+        "description": "Use cases include:",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "OpenAI",
+          "googleSheets",
+          "googleSheetsTrigger",
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 21
+      },
+      {
+        "name": "AHIJSfA",
+        "description": "** When the actor runs, webhook gets activated, the dataset run gets queried to use as data to filter and update DB with non-existing, relevant jobs to hit up for AI Automaton.",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "googleSheets",
+          "removeDuplicates",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 18
+      },
+      {
+        "name": "B2B Lead Generation",
+        "description": "Workflow: B2B Lead Generation",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatAnthropic",
+          "manualTrigger",
+          "splitOut"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 10
+      },
+      {
+        "name": "Google Maps Email Scraper with HTTP Requests & JavaScript",
+        "description": "Final processing pipeline:",
+        "integrations": [
+          "googleSheets",
+          "limit",
+          "manualTrigger",
+          "removeDuplicates",
+          "splitOut"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 15
+      },
+      {
+        "name": "LinkedIn Profile Scraping & Structured Data Extraction with PhantomBuster & GPT-4",
+        "description": "Workflow: LinkedIn Profile Scraping & Structured Data Extraction with PhantomBuster & GPT-4",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chainLlm",
+          "LangChain/lmChatAzureOpenAi",
+          "LangChain/outputParserStructured",
+          "googleSheets",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 15
+      },
+      {
+        "name": "LinkedIn Profile Scraping & Structured Data Extraction with PhantomBuster & GPT-4",
+        "description": "Workflow: LinkedIn Profile Scraping & Structured Data Extraction with PhantomBuster & GPT-4",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chainLlm",
+          "LangChain/lmChatAzureOpenAi",
+          "LangChain/outputParserStructured",
+          "googleSheets",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 15
+      },
+      {
+        "name": "2. Monitor Marketing Job Boards for Growing Companies",
+        "description": "*Scrape Remote Marketing Jobs from Indeed & Auto-Email to Your Team*",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/outputParserAutofixing",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "gmail",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 11
+      },
+      {
+        "name": "Multi-Platform_UAE_Real_Estate_Lead_Generation_with_GPT-4_Analysis",
+        "description": "Workflow: Multi-Platform_UAE_Real_Estate_Lead_Generation_with_GPT-4_Analysis",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "OpenAI",
+          "googleSheets",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 14
+      },
+      {
+        "name": "B2B AI Leads Automation",
+        "description": "Workflow: B2B AI Leads Automation",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatGroq",
+          "LangChain/outputParserStructured",
+          "formTrigger",
+          "gmailTool",
+          "googleSheets",
+          "googleSheetsTrigger",
+          "webhook"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 12
+      },
+      {
+        "name": "AI Agent Leads Processor",
+        "description": "- **Problem**",
+        "integrations": [
+          "LangChain/informationExtractor",
+          "LangChain/lmChatOpenAi",
+          "OpenAI",
+          "airtable",
+          "formTrigger",
+          "gmail"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 7
+      },
+      {
+        "name": "Slack Lead Enricher",
+        "description": "Automatic lead enrichment in Slack: monitors your Slack channel for new lead emails posted there, extracts each company\u2019s name or domain, sends it to the Extruct API for data enrichment, then posts back a structured Slack card with company name, website, LinkedIn profile, number of employees, indust",
+        "integrations": [
+          "slack",
+          "slackTrigger"
+        ],
+        "trigger_type": "New Message Catcher",
+        "node_count": 11
+      },
+      {
+        "name": "Reddit_Freelance_Job_Monitor_with_Google_Sheets_Tracking_and_Telegram_Alerts",
+        "description": "Workflow: Reddit_Freelance_Job_Monitor_with_Google_Sheets_Tracking_and_Telegram_Alerts",
+        "integrations": [
+          "googleSheets",
+          "scheduleTrigger",
+          "splitOut",
+          "telegram"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 10
+      },
+      {
+        "name": "Reddit_to_Google_Sheets_Tracking_FreelanceJob_Leads",
+        "description": "Workflow: Reddit_to_Google_Sheets_Tracking_FreelanceJob_Leads",
+        "integrations": [
+          "googleSheets",
+          "reddit",
+          "scheduleTrigger",
+          "splitOut"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 32
+      },
+      {
+        "name": "\ud83d\udd34 RedOps Module 3 \u2013 Social_Graph_Builder",
+        "description": "Workflow: \ud83d\udd34 RedOps Module 3 \u2013 Social_Graph_Builder",
+        "integrations": [
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "\u26a1 Trigger SocialGraph",
+        "node_count": 6
+      },
+      {
+        "name": "Sales_Prospect_Research_Outreach_Preparation_with_Apollo_Linkup_AI_and_LinkedIn",
+        "description": "This workflow finds a person, analyzes their professional profile in the context of your business, and provides you with smart summaries to prepare for personalized outreach.",
+        "integrations": [
+          "formTrigger"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 5
+      },
+      {
+        "name": "Salesforce_Lead_Capture_with_GPT-4_Personalized_Email_SMS_Follow-Up",
+        "description": "This workflow captures leads via n8n's form trigger, creates Salesforce records, personalizes responses with OpenAI, and sends via email/SMS based on preference. Avoids rigid Salesforce Web-to-Lead by adding logic, AI, and extensibility. Add file upload fields for AI processing (e.g., document analy",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "emailSend",
+          "formTrigger",
+          "salesforce",
+          "twilio"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 6
+      },
+      {
+        "name": "1. Scrape Stack Overflow for Leads",
+        "description": "---",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/outputParserAutofixing",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "Start Scraping",
+        "node_count": 11
+      },
+      {
+        "name": "Extract Business Contacts from Google Maps with Apify, GPT, and Airtable",
+        "description": "What if you could **extract every email**, phone number, and website from a specific area in just a few clicks?",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "airtable",
+          "manualTrigger"
+        ],
+        "trigger_type": "Manual Workflow Execution",
+        "node_count": 8
+      },
+      {
+        "name": "28  Scrape Local Business Directories",
+        "description": "This workflow is designed to help you automatically scrape **business details** from a **Yelp business profile** (like Dr. William Kimbrough\u2019s profile), then send a **partnership proposal email** to the business. Let\u2019s break it down into **3 simple sections**!",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserAutofixing",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "gmail",
+          "manualTrigger"
+        ],
+        "trigger_type": "\ud83d\udd18 Trigger: Manual Execution",
+        "node_count": 9
+      },
+      {
+        "name": "Automate Local Lead Generation with Google Maps, GPT-4 & Airtable to Gmail",
+        "description": "What if you could **extract every email**, phone number, and website from a specific area in just a few clicks?",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "airtable",
+          "gmail",
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 9
+      },
+      {
+        "name": "Validate Email Addresses with APILayer API",
+        "description": "Notes:",
+        "integrations": [
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 3
+      },
+      {
+        "name": "Validate_Enrich_Phone_Numbers_in_Google_Sheets_with_RapidAPI",
+        "description": "Automatically validate phone numbers from a Google Sheet using RapidAPI and update the results back to the same sheet.",
+        "integrations": [
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 5
+      },
+      {
+        "name": "Bulk WhatsApp Number Verify via Unofficial API",
+        "description": "This **n8n workflow** verifies **unlimited WhatsApp numbers** from a **Google Sheet** using your **own WhatsApp number** through the [WasenderAPI.com](https://www.wasenderapi.com/) platform.",
+        "integrations": [
+          "googleSheets",
+          "limit",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 10
+      },
+      {
+        "name": "YouTube_Lead_Generation_Turn_Comments_into_Enriched_Prospects_with_Apify_and_Gemini_AI",
+        "description": "This document describes a comprehensive workflow designed to automatically extract YouTube video comments, enrich the profiles of comment authors with social media and contact information, and store all gathered data in Google Sheets for lead generation purposes. The workflow is divided into two mai",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/lmChatOpenRouter",
+          "LangChain/memoryBufferWindow",
+          "googleSheets",
+          "googleSheetsTool",
+          "httpRequestTool",
+          "manualTrigger",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 19
+      },
+      {
+        "name": "Scrape LinkedIn Profiles & Save to Google Sheets with Apify",
+        "description": "## Workflow Initialization\n\n### Starts the scraping and checks for required LinkedIn profile URLs or search parameters",
+        "integrations": [
+          "gmail",
+          "googleSheets"
+        ],
+        "trigger_type": "Schedule Scraper Trigger 1",
+        "node_count": 11
+      },
+      {
+        "name": "Enrich Marketing Leads From A Google Sheet",
+        "description": "Workflow: Enrich Marketing Leads From A Google Sheet",
+        "integrations": [
+          "gmail",
+          "googleDriveTrigger",
+          "googleSheets",
+          "hubspot"
+        ],
+        "trigger_type": "Google Drive Trigger",
+        "node_count": 12
+      }
+    ],
+    "Lead_Nurturing": [
+      {
+        "name": "AI-Powered Automated Outreach Scheduling Using Gemini, Gmail & Spreadsheets",
+        "description": "- Import the workflow into your n8n instance.",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/chatTrigger",
+          "LangChain/lmChatGoogleGemini",
+          "gmail",
+          "googleSheets",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 12
+      },
+      {
+        "name": "AI-Powered_Lead_Research_Personalized_Email_Generation_with_Groq_Google_Sheets",
+        "description": "**<< What Does This Flow Do? >>**",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatGroq",
+          "LangChain/outputParserStructured",
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 18
+      },
+      {
+        "name": "Auto-Bidder_for_Freelancercom_with_Telegram_Approval_and_AI_Proposals",
+        "description": "This **n8n template** automates your freelance bidding workflow on [Freelancer.com](https://freelancer.com), combining API calls, Telegram interactions, and AI-generated proposals. Ideal for freelancers who want to bid smarter, faster, and hands-free.",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "OpenAI",
+          "aggregate",
+          "executeWorkflowTrigger",
+          "manualTrigger",
+          "scheduleTrigger",
+          "splitOut",
+          "telegram"
+        ],
+        "trigger_type": "When Executed by Another Workflow",
+        "node_count": 25
+      },
+      {
+        "name": "002_ Loom Follow Up After Missed Meetings",
+        "description": "This workflow detects canceled meetings from Calendly, generates a personalized Loom follow-up email with GPT, and creates a task in Asana to ensure leads are never lost.",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "asana",
+          "calendlyTrigger",
+          "gmail"
+        ],
+        "trigger_type": "Trigger on Meeting Cancellation",
+        "node_count": 7
+      },
+      {
+        "name": "Voice2Propal \u2013 Smart WhatsApp Proposal Generator (Voice & Text)",
+        "description": "Module-by-Module Setup Guide",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/openAi",
+          "LangChain/toolCalculator",
+          "OpenAI",
+          "airtableTool",
+          "apiTemplateIo",
+          "splitOut",
+          "whatsApp",
+          "whatsAppTrigger"
+        ],
+        "trigger_type": "WhatsApp Trigger",
+        "node_count": 15
+      },
+      {
+        "name": "Auto-Send Welcome WhatsApp Message to new Vtiger Leads",
+        "description": "**(Vtiger CRM + Evolution API)**",
+        "integrations": [
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 6
+      },
+      {
+        "name": "Reranks #1",
+        "description": "# Potential Leads Knowledge Base\n",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/documentDefaultDataLoader",
+          "LangChain/embeddingsOpenAi",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryPostgresChat",
+          "LangChain/rerankerCohere",
+          "LangChain/textSplitterRecursiveCharacterTextSplitter",
+          "LangChain/vectorStoreSupabase",
+          "OpenAI",
+          "googleDrive",
+          "googleDriveTrigger",
+          "googleSheets",
+          "googleSheetsTrigger",
+          "manualTrigger",
+          "webhook"
+        ],
+        "trigger_type": "Google Drive Trigger",
+        "node_count": 43
+      },
+      {
+        "name": "Automate_Lead_Capture_with_AI_Personalized_WhatsApp_Messages_via_Unipile_Google_Sheets_CRM",
+        "description": "- ### [Unipile](https://www.unipile.com/)",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "formTrigger",
+          "googleSheets",
+          "httpRequestTool"
+        ],
+        "trigger_type": "Enquiry Form",
+        "node_count": 6
+      },
+      {
+        "name": "Start outbound Vapi calls from new Go High Level opportunities",
+        "description": "- [Go High Level](https://www.gohighlevel.com/78476a2?fp_ref=1node) account",
+        "integrations": [
+          "highLevel",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 5
+      },
+      {
+        "name": "Automated Advanced Prospect Outreach & Nurturing Campaign System with AI",
+        "description": "Workflow: Automated Advanced Prospect Outreach & Nurturing Campaign System with AI",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "gmail",
+          "googleSheets",
+          "hunter",
+          "manualTrigger",
+          "slack"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 25
+      },
+      {
+        "name": "GPT-4 Powered Cold Mail Workflow with Fully Tailored 3-Email Follow-Ups",
+        "description": "Workflow: GPT-4 Powered Cold Mail Workflow with Fully Tailored 3-Email Follow-Ups",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/openAi",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "compareDatasets",
+          "limit",
+          "mailgun",
+          "postgres",
+          "scheduleTrigger",
+          "sort",
+          "supabase",
+          "telegram",
+          "telegramTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 84
+      },
+      {
+        "name": "My workflow",
+        "description": "Main agent that coordinates all sub-workflows:",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/openAi",
+          "LangChain/toolWorkflow",
+          "OpenAI",
+          "executeWorkflowTrigger",
+          "googleDocs",
+          "googleDrive"
+        ],
+        "trigger_type": "Execute Workflow Trigger",
+        "node_count": 19
+      },
+      {
+        "name": "Property Tour Scheduling Automation (Real Estate)",
+        "description": "Managing property tours manually can be a major bottleneck for real estate agents and agencies, leading to:",
+        "integrations": [
+          "formTrigger",
+          "gmail",
+          "googleCalendar",
+          "slack",
+          "webhook"
+        ],
+        "trigger_type": "0. Form Trigger (Property Tour Request)",
+        "node_count": 9
+      },
+      {
+        "name": "Automate Restaurant Marketing & Booking via Excel and VAPI Voice Agent",
+        "description": "- Voice Response Capture: VAPI webhook triggers when customers respond to marketing calls or make direct booking requests",
+        "integrations": [
+          "googleCalendar",
+          "googleSheets",
+          "googleSheetsTrigger",
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "New Lead Trigger (Excel)",
+        "node_count": 9
+      },
+      {
+        "name": "Smart Restaurant Order & Suggestion System with Gemini AI and Telegram",
+        "description": "- Saving Time: Automatically records customer and dish data without manual entry.",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatGoogleGemini",
+          "LangChain/toolThink",
+          "formTrigger",
+          "googleSheets",
+          "telegram"
+        ],
+        "trigger_type": "New Order Trigger (Form)",
+        "node_count": 11
+      },
+      {
+        "name": "Reranks #1",
+        "description": "# Potential Leads Knowledge Base\n",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/documentDefaultDataLoader",
+          "LangChain/embeddingsOpenAi",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryPostgresChat",
+          "LangChain/rerankerCohere",
+          "LangChain/textSplitterRecursiveCharacterTextSplitter",
+          "LangChain/vectorStoreSupabase",
+          "OpenAI",
+          "googleDrive",
+          "googleDriveTrigger",
+          "googleSheets",
+          "googleSheetsTrigger",
+          "manualTrigger",
+          "webhook"
+        ],
+        "trigger_type": "Google Drive Trigger",
+        "node_count": 43
+      },
+      {
+        "name": "Automated_AI_Cold_Calling_System_with_VAPIai_Airtable_and_Smart_Follow-ups",
+        "description": "Workflow: Automated_AI_Cold_Calling_System_with_VAPIai_Airtable_and_Smart_Follow-ups",
+        "integrations": [
+          "airtable",
+          "respondToWebhook",
+          "scheduleTrigger",
+          "webhook"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 16
+      },
+      {
+        "name": "ABANDONED CART RECOVERY EMAIL",
+        "description": "Workflow: ABANDONED CART RECOVERY EMAIL",
+        "integrations": [
+          "emailSend",
+          "shopify",
+          "shopifyTrigger"
+        ],
+        "trigger_type": "Cart Created",
+        "node_count": 6
+      },
+      {
+        "name": "Automated_Bulk_Cold_Email_Sender_using_Gmail_SMTP_and_Google_Sheets",
+        "description": "*  ### Configure the timer node to your desired execution frequency.",
+        "integrations": [
+          "emailSend",
+          "gmail",
+          "googleSheets",
+          "limit",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 9
+      },
+      {
+        "name": "Smart Client Relationship & Appointment Automation",
+        "description": "Workflow: Smart Client Relationship & Appointment Automation",
+        "integrations": [
+          "googleCalendarTrigger",
+          "googleSheets",
+          "scheduleTrigger",
+          "twilio"
+        ],
+        "trigger_type": "Google Calendar Trigger",
+        "node_count": 10
+      },
+      {
+        "name": "My workflow 3",
+        "description": "Workflow: My workflow 3",
+        "integrations": [
+          "gmail",
+          "googleContacts",
+          "googleSheetsTrigger",
+          "slack"
+        ],
+        "trigger_type": "Google Sheets Trigger",
+        "node_count": 4
+      },
+      {
+        "name": "AI Chatbot for Lead Capture and Business Q&A",
+        "description": "This workflow enables a chatbot assistant for the goldsmith business Gold Digger, allowing it to answer customer inquiries and collect leads in an automated, intelligent way.",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/documentDefaultDataLoader",
+          "LangChain/embeddingsOpenAi",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/textSplitterRecursiveCharacterTextSplitter",
+          "LangChain/toolVectorStore",
+          "LangChain/vectorStorePinecone",
+          "OpenAI",
+          "googleDrive",
+          "googleDriveTrigger",
+          "googleSheetsTool"
+        ],
+        "trigger_type": "Google Drive Trigger",
+        "node_count": 15
+      },
+      {
+        "name": "Automated_Lead_Follow-Up_Email_Google_Sheet_Leads_with_Gmail_Update_Status",
+        "description": "Workflow: Automated_Lead_Follow-Up_Email_Google_Sheet_Leads_with_Gmail_Update_Status",
+        "integrations": [
+          "gmail",
+          "googleSheets",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 6
+      },
+      {
+        "name": "Comprehensive Lead Nurturing & Qualification",
+        "description": "Workflow: Comprehensive Lead Nurturing & Qualification",
+        "integrations": [
+          "gmail",
+          "googleSheets",
+          "slack",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 8
+      },
+      {
+        "name": "Instantly Auto Replier",
+        "description": "# Step-2\n\n## Generate Email Replies to book meetings",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 7
+      },
+      {
+        "name": "Book_Calcom_Meetings_from_ElevenLabs_Voice_Agent_Conversations",
+        "description": "Workflow: Book_Calcom_Meetings_from_ElevenLabs_Voice_Agent_Conversations",
+        "integrations": [
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 5
+      },
+      {
+        "name": "Personalised Mail",
+        "description": "Workflow: Personalised Mail",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatGoogleGemini",
+          "LangChain/outputParserStructured",
+          "googleSheets",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 8
+      },
+      {
+        "name": "Personalize IJSHI",
+        "description": "Part two of the Indeed Job Scraper, Filter and Enrichment workflow, this workflow takes information about the scraped and filtered job listings on Indeed via Apify, which is stored in Google Sheets to generate a customized, five-line email icebreaker to imply that the rest of the icebreaker is perso",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 4
+      },
+      {
+        "name": "LinkedIn Post To Personalized Opener",
+        "description": "**Test with this (Copy & Paste):**",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "formTrigger"
+        ],
+        "trigger_type": "LinkedIn Post Form",
+        "node_count": 4
+      },
+      {
+        "name": "Generate_Personalized_Sales_Emails_with_LinkedIn_Data_Claude_37_via_OpenRouter",
+        "description": "- Apify => Google search for \"{{ First Name }} {{ Last Name }} {{ Company }} site:linkedin.com\"",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatOpenRouter",
+          "LangChain/outputParserStructured",
+          "aggregate",
+          "gmail",
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 19
+      },
+      {
+        "name": "AI-Based Tour Itineraries via Email Using OpenAI & Pinecone Vector Search",
+        "description": "1. Connect to your Email using the Email Trigger (IMAP) - that reads for any incoming emails from customers.",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/embeddingsOpenAi",
+          "LangChain/lmChatOpenAi",
+          "LangChain/lmChatOpenRouter",
+          "LangChain/memoryBufferWindow",
+          "LangChain/textClassifier",
+          "LangChain/toolVectorStore",
+          "LangChain/vectorStorePinecone",
+          "OpenAI",
+          "emailReadImap",
+          "emailSend"
+        ],
+        "trigger_type": "Email",
+        "node_count": 12
+      },
+      {
+        "name": "Appointment Booker [For Sale Version]",
+        "description": "Workflow: Appointment Booker [For Sale Version]",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "gmail",
+          "googleCalendar",
+          "postgres",
+          "respondToWebhook",
+          "twilio",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 18
+      },
+      {
+        "name": "Multi-Channel_Campaign_Messaging_with_GPT-4_and_Salesforce",
+        "description": "Use OpenAI to convert each campaign\u2019s description into tailored messages for every member, selecting the appropriate channel (SMS, Email, WhatsApp, or Telegram).",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "emailSend",
+          "salesforce",
+          "scheduleTrigger",
+          "twilio"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 9
+      },
+      {
+        "name": "PT CLINIC AI EMAIL SEQUENCE GENERATOR",
+        "description": "Workflow: PT CLINIC AI EMAIL SEQUENCE GENERATOR",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "OpenAI",
+          "googleSheets"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 7
+      },
+      {
+        "name": "Hyperpresonalized Outreach",
+        "description": "## Hyper-Personalised Mail Generator \n\n\n## 1. Add twilio for smtp(manages everything for you).\n## 2. Pay for rapid api otherwise the flow will fail after 20-25 scrapes in free tier.\n## 3. Pay for supa",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "aggregate",
+          "manualTrigger",
+          "sendGrid",
+          "supabase"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 33
+      },
+      {
+        "name": "Qualify_Real_Estate_Leads_via_SMS_with_GPT-4o_Twilio_and_Google_Sheets",
+        "description": "Follow these steps to get your workflow fully running:",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryPostgresChat",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "aggregate",
+          "formTrigger",
+          "googleSheets",
+          "postgres",
+          "twilio",
+          "twilioTrigger"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 18
+      },
+      {
+        "name": "Solar Lead Reactivation",
+        "description": "Workflow: Solar Lead Reactivation",
+        "integrations": [
+          "emailSend",
+          "googleSheets",
+          "openAi",
+          "scheduleTrigger",
+          "twilio",
+          "webhook"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 22
+      },
+      {
+        "name": "Website ChatBot",
+        "description": "Workflow: Website ChatBot",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "OpenAI",
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 6
+      },
+      {
+        "name": "Heygen Inbound Agent",
+        "description": "\ud83c\udfa5 AI-Powered Inbound Video Agent \u2013 Auto-Respond to Leads with Personalized Videos",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/openAi",
+          "OpenAI",
+          "formTrigger",
+          "gmail"
+        ],
+        "trigger_type": "On form submission",
+        "node_count": 10
+      },
+      {
+        "name": "Expired Listing Revival Agent",
+        "description": "In the real estate industry, many property listings in CRMs or spreadsheets go inactive after 30 days without any action. These expired listings are often forgotten or neglected, even though the property owner may still be interested in relisting. As a result, real estate professionals lose potentia",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "gmail",
+          "googleSheets",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 5
+      },
+      {
+        "name": "Send Postcards to Contacts Automatically using CentralStationCRM and EchtPost",
+        "description": "* Double-click node",
+        "integrations": [
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 5
+      },
+      {
+        "name": "Smart_Amazon_Shopping_Assistant_with_Gemini_AI_and_Telegram",
+        "description": "**Sticky Note: \"Message Entry Point\"**",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatGoogleGemini",
+          "LangChain/outputParserStructured",
+          "aggregate",
+          "telegram",
+          "telegramTrigger"
+        ],
+        "trigger_type": "Telegram",
+        "node_count": 15
+      },
+      {
+        "name": "VoiceCall Travel Agent",
+        "description": "1. Add the Voice Agent Webhook: Connect to Elevenlabs Voice Agent by copying and configuring the webhook URL in Elevenlabs using the POST method.",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/embeddingsOpenAi",
+          "LangChain/lmChatOpenAi",
+          "LangChain/toolVectorStore",
+          "LangChain/vectorStorePinecone",
+          "OpenAI",
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 8
+      }
+    ],
+    "CRM": [
+      {
+        "name": "Airtable MCP",
+        "description": "\ud83d\ude80 **MCP TRIGGER**",
+        "integrations": [
+          "LangChain/mcpTrigger",
+          "airtableTool"
+        ],
+        "trigger_type": "MCP Server Trigger",
+        "node_count": 5
+      },
+      {
+        "name": "Manage contacts in KlickTipp via MCP server",
+        "description": "**AI-Driven Contact Management with MCP and KlickTipp Integration:**",
+        "integrations": [
+          "LangChain/mcpTrigger",
+          "LangChain/toolCode"
+        ],
+        "trigger_type": "MCP Server Trigger",
+        "node_count": 23
+      },
+      {
+        "name": "33 Analyze Territory Performance",
+        "description": "**\u2728 Purpose:**",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserAutofixing",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "gmail",
+          "googleSheets",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 11
+      },
+      {
+        "name": "Auto-Generate Social Media Briefs for Sales Meetings Using AI & Google Calendar",
+        "description": "\u2192 Triggers the workflow automatically every morning at 5 AM.",
+        "integrations": [
+          "clearbit",
+          "gmail",
+          "googleCalendar",
+          "html",
+          "openAi",
+          "scheduleTrigger",
+          "splitOut",
+          "whatsApp"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 18
+      },
+      {
+        "name": "E-commerce Operations Hub AI System",
+        "description": "Workflow: E-commerce Operations Hub AI System",
+        "integrations": [
+          "gmail",
+          "googleSheets",
+          "scheduleTrigger",
+          "slack",
+          "webhook"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 12
+      },
+      {
+        "name": "Automated Loan Agency CRM Workflow",
+        "description": "Workflow: Automated Loan Agency CRM Workflow",
+        "integrations": [
+          "googleDrive",
+          "googleSheets",
+          "twilio",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 8
+      },
+      {
+        "name": "Sales Pipeline Automation Dashboard",
+        "description": "Sophisticated JavaScript processor that calculates lead scores based on multiple weighted factors.",
+        "integrations": [
+          "googleSheets",
+          "hubspot",
+          "scheduleTrigger",
+          "sendEmail",
+          "slack",
+          "webhook"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 13
+      },
+      {
+        "name": "bykhaisa",
+        "description": "1. **Install GoWhatsApp** on your server",
+        "integrations": [
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 9
+      },
+      {
+        "name": "Complete Travel Call Management System - Call Tracking, Book Trips & Marketing",
+        "description": "Automates handling of incoming calls and provides trip organizer details.",
+        "integrations": [
+          "googleSheets",
+          "googleSheetsTrigger",
+          "postgres",
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "Detect New Lead",
+        "node_count": 12
+      },
+      {
+        "name": "Zoho Inventory to Supabase",
+        "description": "This n8n workflow automates the process of migrating product data from Zoho Inventory to a Supabase table, ensuring seamless, scheduled updates and organized data management. Key features include:",
+        "integrations": [
+          "scheduleTrigger",
+          "splitOut",
+          "supabase"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 5
+      },
+      {
+        "name": "My workflow 12",
+        "description": "Workflow: My workflow 12",
+        "integrations": [
+          "LangChain/openAi",
+          "OpenAI",
+          "html",
+          "salesforce",
+          "salesforceTrigger"
+        ],
+        "trigger_type": "SF: On Account Created",
+        "node_count": 28
+      },
+      {
+        "name": "Automatically_Import_Square_Sales_Summary_Reports_into_Google_Sheets",
+        "description": "This workflow automatically connects to the Square API and generates a daily sales summary report for all your Square locations. The report matches the figures displayed in **Square Dashboard > Reports > Sales Summary**.",
+        "integrations": [
+          "googleSheets",
+          "scheduleTrigger",
+          "splitOut"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 7
+      },
+      {
+        "name": "Automatically_Send_Daily_Sales_Reports_from_Square_via_Gmail",
+        "description": "This workflow automatically connects to the Square API and generates a daily sales summary report for all your Square locations. The report matches the figures displayed in **Square Dashboard > Reports > Sales Summary**.",
+        "integrations": [
+          "convertToFile",
+          "gmail",
+          "scheduleTrigger",
+          "splitOut"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 8
+      },
+      {
+        "name": "Sync Contacts from Notion to Google Contacts with Group Labels",
+        "description": "This workflow syncs contacts from a Notion database to Google Contacts, assigning group labels based on Notion properties. It triggers on new or updated contacts, retrieves details (name, phone, labels), checks/creates Google Contact groups, adds the contact, and updates Notion to mark it as synced.",
+        "integrations": [
+          "googleContacts",
+          "notion",
+          "notionTrigger"
+        ],
+        "trigger_type": "Trigger on New Notion Contact",
+        "node_count": 12
+      },
+      {
+        "name": "Shopify Order Data",
+        "description": "No manual copy-pasting. No missing data. Everything gets updated in real time.",
+        "integrations": [
+          "airtable",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 9
+      },
+      {
+        "name": "Create Shopify Products from Google Sheet",
+        "description": "This workflow creates products in your Shopify store from a google sheet. It also enables inventory tracking and sets the quantity of an inventory item at your store's default location.",
+        "integrations": [
+          "googleSheets",
+          "graphql",
+          "manualTrigger"
+        ],
+        "trigger_type": "Start Workflow",
+        "node_count": 10
+      },
+      {
+        "name": "Call_Center_Analytics_with_Dual-AI_Verification_using_DeepSeek_Models",
+        "description": "Contact me at mediaplus.ma@gmail.com",
+        "integrations": [
+          "LangChain/chainLlm",
+          "LangChain/lmChatDeepSeek",
+          "manualTrigger",
+          "webhook"
+        ],
+        "trigger_type": "When clicking \u2018Test workflow\u2019",
+        "node_count": 8
+      },
+      {
+        "name": "Generate Lead from Webhook",
+        "description": "Workflow: Generate Lead from Webhook",
+        "integrations": [
+          "odoo",
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 4
+      },
+      {
+        "name": "Client_Onboarding_Automation_Tally_Forms_to_Google_Drive_Notion_Slack",
+        "description": "Client Onboarding Workflow \u2013 Setup Guide",
+        "integrations": [
+          "googleDrive",
+          "notion",
+          "slack",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 7
+      },
+      {
+        "name": "Meeting Assets: Summary, Next Steps & Recording",
+        "description": "Workflow: Meeting Assets: Summary, Next Steps & Recording",
+        "integrations": [
+          "gmail",
+          "gmailTrigger"
+        ],
+        "trigger_type": "Gmail Trigger",
+        "node_count": 6
+      },
+      {
+        "name": "Learn Customer Onboarding Automation with n8n",
+        "description": "\ud83c\udfaf **PROFESSIONAL CUSTOMER ONBOARDING AUTOMATION**",
+        "integrations": [
+          "emailSend",
+          "hubspot",
+          "telegram",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 15
+      },
+      {
+        "name": "Daily sales report",
+        "description": "Workflow: Daily sales report",
+        "integrations": [
+          "emailSend",
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 6
+      },
+      {
+        "name": "Weekly Slack Sales Report (Airtable Edition)",
+        "description": "Sends a weekly pipeline summary to Slack with real sales metrics like open deals, top deal, win rate, weighted pipeline, and total revenue closed.",
+        "integrations": [
+          "airtable",
+          "scheduleTrigger",
+          "slack"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 7
+      },
+      {
+        "name": "Spare Parts Quote Generator",
+        "description": "This workflow automatically:",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatGoogleGemini",
+          "LangChain/toolCalculator",
+          "gmail",
+          "googleSheetsTool",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 11
+      },
+      {
+        "name": "Notion - 3rd Brain",
+        "description": "1. Get a .csv file with your contacts (you can download this from any contact manager app)",
+        "integrations": [
+          "extractFromFile",
+          "googleDrive",
+          "manualTrigger",
+          "notion"
+        ],
+        "trigger_type": "When clicking \u2018Execute workflow\u2019",
+        "node_count": 5
+      },
+      {
+        "name": "Manage contacts in KlickTipp via Telegram AI Agent",
+        "description": "Community Node Disclaimer: As this workflow relies on a community node, it is limited to self-hosted environments.",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/lmChatOpenAi",
+          "LangChain/memoryBufferWindow",
+          "LangChain/openAi",
+          "LangChain/toolCode",
+          "OpenAI",
+          "telegram",
+          "telegramTrigger"
+        ],
+        "trigger_type": "Chat",
+        "node_count": 35
+      },
+      {
+        "name": "Access Stripe data in natural language with Kimi K2 via OpenRouter",
+        "description": "- An **Stripe** account and API key credentials enabled. n8n docs: https://docs.n8n.io/integrations/builtin/credentials/stripe/",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/chatTrigger",
+          "LangChain/lmChatOpenRouter",
+          "LangChain/memoryBufferWindow",
+          "stripeTool"
+        ],
+        "trigger_type": "Chat",
+        "node_count": 9
+      },
+      {
+        "name": "22 Monitor Churn Indicators",
+        "description": "---",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/openAi",
+          "LangChain/outputParserAutofixing",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "gmail",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 14
+      },
+      {
+        "name": "Shopify Export Customers to Baserow",
+        "description": "- Update the Endpoint in GraphQL node to reflect your Shopify store.",
+        "integrations": [
+          "baserow",
+          "graphql",
+          "manualTrigger",
+          "splitOut"
+        ],
+        "trigger_type": "Start Workflow",
+        "node_count": 5
+      },
+      {
+        "name": "Pull_Square_Sales_Summary_Reports_for_Automated_Reporting_and_Analysis",
+        "description": "This sub-workflow connects to the Square API and generates a daily sales summary report for all of your Square locations. The report matches the figures displayed in the Square Dashboard > Reports > Sales Summary.",
+        "integrations": [
+          "executeWorkflowTrigger",
+          "splitOut"
+        ],
+        "trigger_type": "When Executed by Another Workflow",
+        "node_count": 6
+      },
+      {
+        "name": "31  Monitor Sales Pipeline Metrics",
+        "description": "This automation workflow is perfect for sales ops, marketers, analysts, or even founders who want to:",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserAutofixing",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "\u26a1 Trigger: Start CRM Scraper",
+        "node_count": 10
+      },
+      {
+        "name": "Zoho Ecom",
+        "description": "Workflow: Zoho Ecom",
+        "integrations": [
+          "emailSend",
+          "respondToWebhook",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 4
+      },
+      {
+        "name": "SHOPIFY ORDER \u2192 SLACK ALERT",
+        "description": "WORKFLOW PURPOSE:",
+        "integrations": [
+          "shopifyTrigger",
+          "slack"
+        ],
+        "trigger_type": "Shopify Trigger",
+        "node_count": 3
+      },
+      {
+        "name": "Subscription_Revenue_Optimizer_with_Stripe_Postgres_Gmail_-_Predictive_Retention",
+        "description": "\ud83d\udcca **Automated campaigns:**",
+        "integrations": [
+          "gmail",
+          "postgres",
+          "scheduleTrigger"
+        ],
+        "trigger_type": "Schedule",
+        "node_count": 13
+      },
+      {
+        "name": "Cal.com\u00a0Meeting Booking Sync to Notion with Contact Management",
+        "description": "1. Connect your Notion workspace (if not already done). Find out how to do that [here](https://developers.notion.com/docs/authorization#internal-integration-auth-flow-set-up).",
+        "integrations": [
+          "calTrigger",
+          "notion"
+        ],
+        "trigger_type": "Cal.com Trigger",
+        "node_count": 10
+      },
+      {
+        "name": "Shopify Customer Append/Update",
+        "description": "No manual copy-pasting. No missing data. Everything gets updated in real time.",
+        "integrations": [
+          "airtable",
+          "webhook"
+        ],
+        "trigger_type": "Manual",
+        "node_count": 15
+      },
+      {
+        "name": "32  Track Sales Rep Performance",
+        "description": "This smart automation lets you scrape performance data about your sales reps from a source (like Bright Data\u2019s MCP), extract meaningful insights (like rankings, completed tasks, coaching suggestions), and save them beautifully into Google Sheets \u2014 no coding required!",
+        "integrations": [
+          "LangChain/agent",
+          "LangChain/lmChatOpenAi",
+          "LangChain/outputParserAutofixing",
+          "LangChain/outputParserStructured",
+          "OpenAI",
+          "googleSheets",
+          "manualTrigger"
+        ],
+        "trigger_type": "\u26a1 Start Scraping (Manual Trigger)",
+        "node_count": 10
+      },
+      {
+        "name": "[Template] Meta Conversion API",
+        "description": "If you want to send a conversion event to Meta Conversion API every time a new lead schedules a demo meeting with you, this workflow is for you! \ud83d\ude09",
+        "integrations": [
+          "crypto",
+          "googleCalendarTrigger"
+        ],
+        "trigger_type": "Google Calendar Trigger",
+        "node_count": 7
+      },
+      {
+        "name": "[eBay] Fulfillment API MCP Server",
+        "description": "Workflow: [eBay] Fulfillment API MCP Server",
+        "integrations": [
+          "LangChain/mcpTrigger",
+          "httpRequestTool"
+        ],
+        "trigger_type": "Fulfillment MCP Server",
+        "node_count": 16
+      },
+      {
+        "name": "[eBay] Advanced Account API MCP Server",
+        "description": "Workflow: [eBay] Advanced Account API MCP Server",
+        "integrations": [
+          "LangChain/mcpTrigger",
+          "httpRequestTool"
+        ],
+        "trigger_type": "Account MCP Server",
+        "node_count": 37
+      }
+    ]
+  }
+}
