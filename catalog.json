@@ -1,0 +1,562 @@
+{
+  "generatedAt": "2025-11-08T10:31:10.328667Z",
+  "totals": {
+    "workflows": 295,
+    "categories": 31
+  },
+  "byCategory": [
+    {
+      "name": "Marketing",
+      "count": 32,
+      "top": [
+        "./Marketing/Automate_VIRAL_Youtube_Titles_Thumbnails_Creation_FLUX1_Apify.json",
+        "./Marketing/Content_Generator_for_WordPress_v3.json",
+        "./Marketing/Indeed_Data_Scraper_Summarization_with_Airtable_Bright_Data_Google_Gemini.json"
+      ]
+    },
+    {
+      "name": "Sales",
+      "count": 29,
+      "top": [
+        "/home/user/n8n-master-workflows/Sales/Create_HubSpot_contacts_from_LinkedIn_post_interactions.json",
+        "/home/user/n8n-master-workflows/Sales/Search_LinkedIn_companies_and_add_them_to_Airtable_CRM.json",
+        "/home/user/n8n-master-workflows/Sales/Search_LinkedIn_companies_Score_with_AI_and_add_them_to_Google_Sheet_CRM.json"
+      ]
+    },
+    {
+      "name": "Building_Blocks",
+      "count": 22,
+      "top": [
+        "/home/user/n8n-master-workflows/Building_Blocks/Upload_Bulk_Records_from_CSV_-_Airtable_Interfaces.json",
+        "./Building_Blocks/Build_Custom_Workflows_Automatically_with_GPT-4o_RAG_and_Web_Search.json",
+        "/home/user/n8n-master-workflows/Building_Blocks/Send_a_random_recipe_once_a_day_to_Telegram.json"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "count": 19,
+      "top": [
+        "/home/user/n8n-master-workflows/Engineering/AI_Agent_to_chat_with_Airtable_and_analyze_data.json",
+        "/home/user/n8n-master-workflows/Engineering/Automate_GPT-4o_Fine-Tuning_with_Google_Sheets_or_Airtable_Data.json",
+        "/home/user/n8n-master-workflows/Engineering/n8n_workflow_backup_management_with_Dropbox_and_Airtable.json"
+      ]
+    },
+    {
+      "name": "IT_Ops",
+      "count": 17,
+      "top": [
+        "/home/user/n8n-master-workflows/./IT_Ops/Airtable_Batch_Update_Insert_rows_send_faster_save_API_call_requests.json",
+        "/home/user/n8n-master-workflows/./IT_Ops/Indeed_Data_Scraper_Summarization_with_Airtable_Bright_Data_Google_Gemini.json",
+        "/home/user/n8n-master-workflows/./IT_Ops/AI_Agent_To_Chat_With_Files_In_Supabase_Storage.json"
+      ]
+    },
+    {
+      "name": "Product",
+      "count": 17,
+      "top": [
+        "./Product/Zoom_AI_Meeting_Assistant_creates_mail_summary_ClickUp_tasks_and_follow-up_call.json",
+        "./Product/AI_Agent_To_Chat_With_Files_In_Supabase_Storage.json",
+        "./Product/Extract_Information_from_a_Logo_Sheet_using_forms_AI_Google_Sheet_and_Airtable.json"
+      ]
+    },
+    {
+      "name": "AI",
+      "count": 15,
+      "top": [
+        "./AI/Automate_GPT-4o_Fine-Tuning_with_Google_Sheets_or_Airtable_Data.json",
+        "./AI/AI_Icebreaker_Builder_Scrape_Sites_with_Dumpling_AI_and_Save_to_Airtable.json",
+        "./AI/Automate_Salon_Appointment_Management_with_WhatsApp_GPT_Google_Calendar.json"
+      ]
+    },
+    {
+      "name": "AI_Summarization",
+      "count": 15,
+      "top": [
+        "./AI_Summarization/AI-powered_News_Monitoring_with_Linkup_Airtable_and_Slack_Notifications.json",
+        "./AI_Summarization/Automated_Invoice_Data_Extraction_with_LlamaParse_Gemini_25_Google_Sheets.json",
+        "./AI_Summarization/Website_Content_Scraper_SEO_Keyword_Extractor_with_GPT-4o-mini_and_Airtable.json"
+      ]
+    },
+    {
+      "name": "Other",
+      "count": 15,
+      "top": [
+        "./Other/Process_YouTube_Transcripts_with_Apify_OpenAI_Pinecone_Database.json",
+        "./Other/Manage_Emails_via_WhatsApp_with_Gmail_GPT_and_Voice_Recognition.json",
+        "./Other/AI-Powered_Language_and_Coding_Tutor_with_GPT-4_and_Timed_Telegram_Messages.json"
+      ]
+    },
+    {
+      "name": "Multimodal AI",
+      "count": 14,
+      "top": [
+        "./Multimodal_AI/Auto_Generate_Post_LinkedIn_Content_for_Amazon_Sellers_with_GPT-4o_Apify.json",
+        "./Multimodal_AI/AI-Powered_Lead_Research_Personalized_Email_Generation_with_Groq_Google_Sheets.json",
+        "./Multimodal_AI/Transform_Images_with_AI-Enhanced_Prompts_using_FLUX1_Kontext_and_Mistral.json"
+      ]
+    },
+    {
+      "name": "Finance",
+      "count": 11,
+      "top": [
+        "/home/user/n8n-master-workflows/./Finance/Generate_Monthly_Financial_Reports_with_Gemini_AI_SQL_and_Outlook.json",
+        "/home/user/n8n-master-workflows/./Finance/Deduplicate_Scraping_AI_Grants_for_Eligibility_using_AI.json",
+        "/home/user/n8n-master-workflows/./Finance/Technical_stock_analysis_with_Telegram_Airtable_and_a_GPT-powered_AI_Agent.json"
+      ]
+    },
+    {
+      "name": "HR",
+      "count": 11,
+      "top": [
+        "/home/user/n8n-master-workflows/./HR/Indeed_Data_Scraper_Summarization_with_Airtable_Bright_Data_Google_Gemini.json",
+        "/home/user/n8n-master-workflows/./HR/AI-Powered_Employee_Database_Management_via_Telegram_using_OpenAI_and_Airtable.json",
+        "/home/user/n8n-master-workflows/./HR/Automate_CV_screening_and_applicant_scoring_from_Gmail_to_Airtable_with_AI.json"
+      ]
+    },
+    {
+      "name": "Market Research",
+      "count": 10,
+      "top": [
+        "./Market_Research/AI-powered_News_Monitoring_with_Linkup_Airtable_and_Slack_Notifications.json",
+        "./Market_Research/Website_Content_Scraper_SEO_Keyword_Extractor_with_GPT-4o-mini_and_Airtable.json",
+        "./Market_Research/Automated_Competitor_Pricing_Monitor_with_Bright_Data_MCP_OpenAI.json"
+      ]
+    },
+    {
+      "name": "Support",
+      "count": 10,
+      "top": [
+        "/home/user/n8n-master-workflows/Support/Automate_Salon_Appointment_Management_with_WhatsApp_GPT_Google_Calendar.json",
+        "/home/user/n8n-master-workflows/Support/AI_Email_Triage_Alert_System_with_GPT-4_and_Telegram_Notifications.json",
+        "/home/user/n8n-master-workflows/Support/Automate_Call_Scheduling_with_Voice_AI_Receptionist_using_Vapi_Google_Calendar_Airtable.json"
+      ]
+    },
+    {
+      "name": "Content_Creation",
+      "count": 8,
+      "top": [
+        "/home/user/n8n-master-workflows/Content_Creation/Transform_Images_with_AI-Enhanced_Prompts_using_FLUX1_Kontext_and_Mistral.json",
+        "/home/user/n8n-master-workflows/Content_Creation/Auto_Generate_Post_LinkedIn_Content_for_Amazon_Sellers_with_GPT-4o_Apify.json",
+        "/home/user/n8n-master-workflows/Content_Creation/Generate_Natural_Voices_with_Google_Text-to-Speech_Drive_Airtable.json"
+      ]
+    },
+    {
+      "name": "Lead_Generation",
+      "count": 8,
+      "top": [
+        "/home/user/n8n-master-workflows/./Lead_Generation/Google_Maps_Lead_Generation_with_Apify_Email_Extraction_for_Airtable.json",
+        "/home/user/n8n-master-workflows/./Lead_Generation/Scrape_Google_Maps_Leads_Email_Phone_Website_using_Apify_GPT_Airtable.json",
+        "/home/user/n8n-master-workflows/./Lead_Generation/The_Workflow_Google_Maps_to_GPT-4_to_Airtable_to_Gmail.json"
+      ]
+    },
+    {
+      "name": "Social_Media",
+      "count": 8,
+      "top": [
+        "/home/user/n8n-master-workflows/Social_Media/From_Google_Drive_to_Instagram_TikTok_YouTube_with_AI_Descriptions_Airtable_Tracking.json",
+        "/home/user/n8n-master-workflows/Social_Media/Multi-Platform_Social_Media_Publisher_with_Airtable_Google_Drive_and_Postiz.json",
+        "/home/user/n8n-master-workflows/Social_Media/YouTube-Airtable_Two-Way_Sync_for_Channel_Management_Video_Analytics.json"
+      ]
+    },
+    {
+      "name": "CRM",
+      "count": 7,
+      "top": [
+        "/home/user/n8n-master-workflows/CRM/Customer_Onboarding_Automation_with_HubSpot_Email_Sequences_and_Team_Alerts.json",
+        "/home/user/n8n-master-workflows/CRM/AI-Powered_Contact_Management_in_Airtable_with_Natural_Language_Commands.json",
+        "/home/user/n8n-master-workflows/CRM/Analyze_Sales_Territory_Performance_with_Bright_Data_MCP_GPT-4o.json"
+      ]
+    },
+    {
+      "name": "AI_Chatbot",
+      "count": 6,
+      "top": [
+        "./AI_Chatbot/AI-Powered_Contact_Management_in_Airtable_with_Natural_Language_Commands.json",
+        "./AI_Chatbot/Advanced_Multi-Agent_AI_Personal_Assistant_with_250_Task_Capabilities_WhatsApp_GPT.json",
+        "./AI_Chatbot/Auto-Generate_WhatsApp_Proposals_from_Voice_or_Text_using_GPT_APITemplate.json"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "count": 3,
+      "top": [
+        "/home/user/n8n-master-workflows/DevOps/AI_Agent_To_Chat_With_Files_In_Supabase_Storage.json",
+        "/home/user/n8n-master-workflows/DevOps/Airtable_Base_Backups_to_S3.json",
+        "/home/user/n8n-master-workflows/DevOps/Streamline_data_from_an_n8n_form_into_Google_Sheet_Airtable_and_Email_Sending.json"
+      ]
+    },
+    {
+      "name": "Support_Chatbot",
+      "count": 3,
+      "top": [
+        "/home/user/n8n-master-workflows/Support_Chatbot/Send_Automated_Patient_Appointment_Reminders_via_Email_SMS_with_Multi-Database_Support.json",
+        "/home/user/n8n-master-workflows/Support_Chatbot/Create_a_Smart_Chatbot_using_OpenAI_GPT_and_Airtable_Knowledge_Base.json",
+        "/home/user/n8n-master-workflows/Support_Chatbot/Medical_Symptom_Checker_Health_Assistant_with_GPT-4-mini.json"
+      ]
+    },
+    {
+      "name": "Design",
+      "count": 2,
+      "top": [
+        "/home/user/n8n-master-workflows/Design/Auto-Generate_Blog_AI_Image_from_YouTube_Videos_with_Dumpling_AI_GPT-4o.json",
+        "/home/user/n8n-master-workflows/Design/Turn_YouTube_RSS_videos_into_social_posts_with_Dumpling_AI_and_Airtable.json"
+      ]
+    },
+    {
+      "name": "Document_Extraction",
+      "count": 2,
+      "top": [
+        "/home/user/n8n-master-workflows/Document_Extraction/Automated_Inventory_Management_with_Airtable_PO_Creation_Supplier_Emails.json",
+        "/home/user/n8n-master-workflows/Document_Extraction/Sync_Zendesk_Knowledge_Base_Articles_to_Airtable_with_Markdown_Conversion.json"
+      ]
+    },
+    {
+      "name": "Invoice_Processing",
+      "count": 2,
+      "top": [
+        "/home/user/n8n-master-workflows/./Invoice_Processing/Automated_Invoice_Data_Extraction_with_LlamaParse_Gemini_25_Google_Sheets.json",
+        "/home/user/n8n-master-workflows/./Invoice_Processing/Client_Billing_Detail_Collection_Invoice_Generation_with_Gmail_and_QuickBooks.json"
+      ]
+    },
+    {
+      "name": "Lead Nurturing",
+      "count": 2,
+      "top": [
+        "./Lead_Nurturing/Automated_AI_Cold_Calling_System_with_VAPIai_Airtable_and_Smart_Follow-ups.json",
+        "./Lead_Nurturing/Auto-Generate_WhatsApp_Proposals_from_Voice_or_Text_using_GPT_APITemplate.json"
+      ]
+    },
+    {
+      "name": "Personal Productivity",
+      "count": 2,
+      "top": [
+        "./Personal_Productivity/Advanced_Multi-Agent_AI_Personal_Assistant_with_250_Task_Capabilities_WhatsApp_GPT.json",
+        "./Personal_Productivity/Multi-Service_Task_Automation_with_GPT-powered_Agent_System_via_WhatsApp.json"
+      ]
+    },
+    {
+      "name": "AI_RAG",
+      "count": 1,
+      "top": [
+        "./AI_RAG/Create_a_Smart_Chatbot_using_OpenAI_GPT_and_Airtable_Knowledge_Base.json"
+      ]
+    },
+    {
+      "name": "Lead_Nurturing",
+      "count": 1,
+      "top": [
+        "/home/user/n8n-master-workflows/./Lead_Nurturing/AI-Powered_Lead_Research_Personalized_Email_Generation_with_Groq_Google_Sheets.json"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "count": 1,
+      "top": [
+        "./Project_Management/Daily_Task_Reminder_System_Airtable_to_Slack_Automated_Notifications.json"
+      ]
+    },
+    {
+      "name": "SecOps",
+      "count": 1,
+      "top": [
+        "/home/user/n8n-master-workflows/SecOps/Handle_GDPR_data_deletion_requests_with_Slack.json"
+      ]
+    },
+    {
+      "name": "Ticket_Management",
+      "count": 1,
+      "top": [
+        "/home/user/n8n-master-workflows/Ticket_Management/Extract_Gmail_Metadata_to_Google_Sheets.json"
+      ]
+    }
+  ],
+  "byPattern": [
+    {
+      "id": "upsert_pattern",
+      "count": 32,
+      "examples": [
+        "./AI/AI_Icebreaker_Builder_Scrape_Sites_with_Dumpling_AI_and_Save_to_Airtable.json",
+        "./AI/Automated_Expense_Approval_System_with_GPT-4_Airtable_Pinecone_Vector_DB.json",
+        "./AI/Automated_YouTube_Channel_Lead_Generation_Email_Outreach_with_Apify_and_ZeroBounce.json"
+      ]
+    },
+    {
+      "id": "pagination_pattern",
+      "count": 48,
+      "examples": [
+        "/home/user/n8n-master-workflows/CRM/Automatically_Transfer_Shopify_Order_Data_to_Structured_Airtable_Records.json",
+        "/home/user/n8n-master-workflows/CRM/Sync_Shopify_Customer_Order_Data_to_Airtable_with_Auto-Updates.json",
+        "/home/user/n8n-master-workflows/Content_Creation/Auto_Generate_Post_LinkedIn_Content_for_Amazon_Sellers_with_GPT-4o_Apify.json"
+      ]
+    },
+    {
+      "id": "event_to_airtable",
+      "count": 12,
+      "examples": [
+        "/home/user/n8n-master-workflows/CRM/Automatically_Transfer_Shopify_Order_Data_to_Structured_Airtable_Records.json",
+        "/home/user/n8n-master-workflows/CRM/Customer_Onboarding_Automation_with_HubSpot_Email_Sequences_and_Team_Alerts.json",
+        "/home/user/n8n-master-workflows/CRM/Sync_Shopify_Customer_Order_Data_to_Airtable_with_Auto-Updates.json"
+      ]
+    }
+  ],
+  "byUseCase": [
+    {
+      "tag": "Airtable",
+      "count": 50,
+      "examples": [
+        "/home/user/n8n-master-workflows/./Finance/AI-Powered_Invoice_Data_Extraction_from_Email_PDFs_to_Airtable_with_GPT-4o.json",
+        "/home/user/n8n-master-workflows/./Finance/AI_Token_Tracker_for_WhatsApp_Telegram_Save_AI_Usage_to_Google_Sheets.json",
+        "/home/user/n8n-master-workflows/./Finance/Automate_Cryptocurrency_Funding_Fee_Tracking_with_Binance_API_and_Airtable.json"
+      ]
+    },
+    {
+      "tag": "AI-Powered",
+      "count": 34,
+      "examples": [
+        "/home/user/n8n-master-workflows/Sales/Automated_Lead_Generation_Contact_Enrichment_with_Hunterio_and_Perplexity_AI.json",
+        "/home/user/n8n-master-workflows/Sales/Connect_Airtable_Contacts_to_telli_for_Automated_AI_Voice_Call_Scheduling.json",
+        "/home/user/n8n-master-workflows/Sales/Create_HubSpot_contacts_from_LinkedIn_post_interactions.json"
+      ]
+    },
+    {
+      "tag": "marketing",
+      "count": 32,
+      "examples": [
+        "./Marketing/AI-Powered_YouTube_Meta_Generator_with_GPT-4o_Gemini_Content_Enrichment.json",
+        "./Marketing/AI_Chat_Agent_Dumpling_AI_GPT-4o_to_Auto-Save_Local_Business_Data_to_Airtable.json",
+        "./Marketing/AI_Icebreaker_Builder_Scrape_Sites_with_Dumpling_AI_and_Save_to_Airtable.json"
+      ]
+    },
+    {
+      "tag": "content",
+      "count": 32,
+      "examples": [
+        "./Marketing/AI-Powered_YouTube_Meta_Generator_with_GPT-4o_Gemini_Content_Enrichment.json",
+        "./Marketing/AI_Chat_Agent_Dumpling_AI_GPT-4o_to_Auto-Save_Local_Business_Data_to_Airtable.json",
+        "./Marketing/AI_Icebreaker_Builder_Scrape_Sites_with_Dumpling_AI_and_Save_to_Airtable.json"
+      ]
+    },
+    {
+      "tag": "ai-powered",
+      "count": 30,
+      "examples": [
+        "./AI/AI_Icebreaker_Builder_Scrape_Sites_with_Dumpling_AI_and_Save_to_Airtable.json",
+        "./AI/Auto-Create_Podcast_from_YouTube_Transcript_using_Dumpling_AI_and_GPT-4o.json",
+        "./AI/Automate_GPT-4o_Fine-Tuning_with_Google_Sheets_or_Airtable_Data.json"
+      ]
+    },
+    {
+      "tag": "Sales",
+      "count": 23,
+      "examples": [
+        "./Sales/AI_Sales_Agent_WhatsApp_FB_IG_OpenAI_Airtable_Supabase_Auto-Booking.json",
+        "/home/user/n8n-master-workflows/Sales/Automated_Lead_Generation_Contact_Enrichment_with_Hunterio_and_Perplexity_AI.json",
+        "/home/user/n8n-master-workflows/Sales/Connect_Airtable_Contacts_to_telli_for_Automated_AI_Voice_Call_Scheduling.json"
+      ]
+    },
+    {
+      "tag": "IT_Ops",
+      "count": 17,
+      "examples": [
+        "/home/user/n8n-master-workflows/./IT_Ops/AI_Agent_To_Chat_With_Files_In_Supabase_Storage.json",
+        "/home/user/n8n-master-workflows/./IT_Ops/AI_Email_Triage_Alert_System_with_GPT-4_and_Telegram_Notifications.json",
+        "/home/user/n8n-master-workflows/./IT_Ops/AI_Token_Tracker_for_WhatsApp_Telegram_Save_AI_Usage_to_Google_Sheets.json"
+      ]
+    },
+    {
+      "tag": "Social Media",
+      "count": 15,
+      "examples": [
+        "./Multimodal_AI/Generate_LinkedIn_Posts_from_Web_Pages_with_GPT-4_and_Human_Review.json",
+        "./Multimodal_AI/Generate_Social_Media_Content_from_Video_Transcripts_with_Gemini_AI_Airtable.json",
+        "/home/user/n8n-master-workflows/Sales/Create_HubSpot_contacts_from_LinkedIn_post_interactions.json"
+      ]
+    },
+    {
+      "tag": "AI/ML",
+      "count": 15,
+      "examples": [
+        "./Multimodal_AI/Generate_Property_Investment_Reports_with_GPT-4_SerpAPI_Google_Docs_Airtable.json",
+        "./Other/Automate_Sports_Betting_Data_with_the_Odds_API.json",
+        "./Other/Get_Daily_Weather_and_Save_It_in_Airtable.json"
+      ]
+    },
+    {
+      "tag": "automation",
+      "count": 13,
+      "examples": [
+        "./AI/Instagram_Reels_Automation_Streamlined_Content_Creation_Publishing.json",
+        "./AI_Chatbot/Automated_AI_Cold_Calling_System_with_VAPIai_Airtable_and_Smart_Follow-ups.json",
+        "./AI_Chatbot/Multi-Service_Task_Automation_with_GPT-powered_Agent_System_via_WhatsApp.json"
+      ]
+    },
+    {
+      "tag": "Finance",
+      "count": 11,
+      "examples": [
+        "/home/user/n8n-master-workflows/./Finance/AI-Powered_Invoice_Data_Extraction_from_Email_PDFs_to_Airtable_with_GPT-4o.json",
+        "/home/user/n8n-master-workflows/./Finance/AI_Token_Tracker_for_WhatsApp_Telegram_Save_AI_Usage_to_Google_Sheets.json",
+        "/home/user/n8n-master-workflows/./Finance/Automate_Cryptocurrency_Funding_Fee_Tracking_with_Binance_API_and_Airtable.json"
+      ]
+    },
+    {
+      "tag": "HR",
+      "count": 11,
+      "examples": [
+        "/home/user/n8n-master-workflows/./HR/AI-Powered_Employee_Database_Management_via_Telegram_using_OpenAI_and_Airtable.json",
+        "/home/user/n8n-master-workflows/./HR/Automate_CV_screening_and_applicant_scoring_from_Gmail_to_Airtable_with_AI.json",
+        "/home/user/n8n-master-workflows/./HR/CV_Screening_with_OpenAI.json"
+      ]
+    },
+    {
+      "tag": "Support",
+      "count": 10,
+      "examples": [
+        "/home/user/n8n-master-workflows/Support/AI_Chatbot_Agent_with_a_Panel_of_Experts_using_InfraNodus_GraphRAG_Knowledge.json",
+        "/home/user/n8n-master-workflows/Support/AI_Email_Triage_Alert_System_with_GPT-4_and_Telegram_Notifications.json",
+        "/home/user/n8n-master-workflows/Support/Airbnb_Telegram_Agent_-_AI-powered_accommodation_search_with_voice_support.json"
+      ]
+    },
+    {
+      "tag": "Email Automation",
+      "count": 9,
+      "examples": [
+        "/home/user/n8n-master-workflows/Sales/Create_HubSpot_contacts_from_LinkedIn_post_interactions.json",
+        "/home/user/n8n-master-workflows/Sales/Find_emails_with_Dropcontact_on_Typeform_submission.json",
+        "/home/user/n8n-master-workflows/Sales/Microsoft_Outlook_AI_Email_Assistant_with_contact_support_from_Monday_and_Airtable.json"
+      ]
+    },
+    {
+      "tag": "Lead_Generation",
+      "count": 8,
+      "examples": [
+        "/home/user/n8n-master-workflows/./Lead_Generation/AI-Powered_Lead_Generation_with_Apollo_GPT-4_and_Telegram_to_Database.json",
+        "/home/user/n8n-master-workflows/./Lead_Generation/Automate_Quote_Request_Processing_with_Tally_Airtable_Slack_and_Gmail.json",
+        "/home/user/n8n-master-workflows/./Lead_Generation/Automate_Tally_Form_Submissions_to_Airtable_with_Gmail_Responses.json"
+      ]
+    },
+    {
+      "tag": "messaging",
+      "count": 6,
+      "examples": [
+        "./AI/Manage_Emails_via_WhatsApp_with_Gmail_GPT_and_Voice_Recognition.json",
+        "./AI_Chatbot/Advanced_Multi-Agent_AI_Personal_Assistant_with_250_Task_Capabilities_WhatsApp_GPT.json",
+        "./AI_Chatbot/Auto-Generate_WhatsApp_Proposals_from_Voice_or_Text_using_GPT_APITemplate.json"
+      ]
+    },
+    {
+      "tag": "ai",
+      "count": 6,
+      "examples": [
+        "./Multimodal_AI/AI-Powered_Lead_Research_Personalized_Email_Generation_with_Groq_Google_Sheets.json",
+        "./Multimodal_AI/Auto_Generate_Post_LinkedIn_Content_for_Amazon_Sellers_with_GPT-4o_Apify.json",
+        "./Multimodal_AI/Automate_Instagram_Posts_with_GPT-4o_Captions_ImgBB_Buffer_Integration.json"
+      ]
+    },
+    {
+      "tag": "Lead Management",
+      "count": 6,
+      "examples": [
+        "/home/user/n8n-master-workflows/Sales/Automated_Lead_Generation_Contact_Enrichment_with_Hunterio_and_Perplexity_AI.json",
+        "/home/user/n8n-master-workflows/Sales/Connect_Airtable_Contacts_to_telli_for_Automated_AI_Voice_Call_Scheduling.json",
+        "/home/user/n8n-master-workflows/Sales/Find_emails_with_Dropcontact_on_Typeform_submission.json"
+      ]
+    },
+    {
+      "tag": "lead-management",
+      "count": 5,
+      "examples": [
+        "./AI/SmartLead_Sheet_Sync_Airtable_Edition.json",
+        "./AI_Summarization/AI-Powered_Lead_Generation_with_Apollo_GPT-4_and_Telegram_to_Database.json",
+        "./AI_Summarization/Qualify_Real_Estate_Leads_Automatically_with_OpenAI_Gmail_Airtable_CRM.json"
+      ]
+    },
+    {
+      "tag": "Automation",
+      "count": 5,
+      "examples": [
+        "./Multimodal_AI/Generate_Property_Investment_Reports_with_GPT-4_SerpAPI_Google_Docs_Airtable.json",
+        "./Multimodal_AI/Generate_and_Schedule_AI_Discussion_Posts_for_Reddit_with_GPT-4_and_Airtable.json",
+        "./Other/Get_Daily_Weather_and_Save_It_in_Airtable.json"
+      ]
+    }
+  ],
+  "exemplars": {
+    "highestReliability": [
+      {
+        "file": "./AI/Automate_GPT-4o_Fine-Tuning_with_Google_Sheets_or_Airtable_Data.json",
+        "score": 85
+      },
+      {
+        "file": "/home/user/n8n-master-workflows/Content_Creation/Transform_Images_with_AI-Enhanced_Prompts_using_FLUX1_Kontext_and_Mistral.json",
+        "score": 80
+      },
+      {
+        "file": "/home/user/n8n-master-workflows/Sales/Create_HubSpot_contacts_from_LinkedIn_post_interactions.json",
+        "score": 80
+      },
+      {
+        "file": "/home/user/n8n-master-workflows/Sales/Search_LinkedIn_companies_and_add_them_to_Airtable_CRM.json",
+        "score": 80
+      },
+      {
+        "file": "/home/user/n8n-master-workflows/Support/Automate_Salon_Appointment_Management_with_WhatsApp_GPT_Google_Calendar.json",
+        "score": 80
+      }
+    ],
+    "bestUpsert": [
+      {
+        "file": "/home/user/n8n-master-workflows/Sales/Extract_Information_from_a_Logo_Sheet_using_forms_AI_Google_Sheet_and_Airtable.json",
+        "score": 100
+      },
+      {
+        "file": "/home/user/n8n-master-workflows/Sales/Generate_Qualified_Finance_Leads_from_LinkedIn_with_Apify_GPT-_4_and_Airtable.json",
+        "score": 100
+      },
+      {
+        "file": "/home/user/n8n-master-workflows/Sales/Microsoft_Outlook_AI_Email_Assistant_with_contact_support_from_Monday_and_Airtable.json",
+        "score": 100
+      },
+      {
+        "file": "/home/user/n8n-master-workflows/Support/Automate_Call_Scheduling_with_Voice_AI_Receptionist_using_Vapi_Google_Calendar_Airtable.json",
+        "score": 100
+      },
+      {
+        "file": "/home/user/n8n-master-workflows/Support/Sentiment_Analysis_Tracking_on_Support_Issues_with_Linear_and_Slack.json",
+        "score": 100
+      }
+    ],
+    "aiEnhanced": [
+      {
+        "file": "./AI/AI_Icebreaker_Builder_Scrape_Sites_with_Dumpling_AI_and_Save_to_Airtable.json"
+      },
+      {
+        "file": "./AI/Auto-Create_Podcast_from_YouTube_Transcript_using_Dumpling_AI_and_GPT-4o.json"
+      },
+      {
+        "file": "./AI/Automate_GPT-4o_Fine-Tuning_with_Google_Sheets_or_Airtable_Data.json"
+      },
+      {
+        "file": "./AI/Automate_Salon_Appointment_Management_with_WhatsApp_GPT_Google_Calendar.json"
+      },
+      {
+        "file": "./AI/Document-Based_Chatbot_with_Memory_using_OpenAI_Pinecone_and_Google_Drive.json"
+      },
+      {
+        "file": "./AI/Generate_Videos_with_AI_ElevenLabsPIAPI_ShotstackCreatomate_Post_to_Youtube.json"
+      },
+      {
+        "file": "./AI/Manage_Emails_via_WhatsApp_with_Gmail_GPT_and_Voice_Recognition.json"
+      },
+      {
+        "file": "./AI/SmartLead_Sheet_Sync_Airtable_Edition.json"
+      },
+      {
+        "file": "./AI_Chatbot/AI-Powered_Contact_Management_in_Airtable_with_Natural_Language_Commands.json"
+      },
+      {
+        "file": "./AI_Chatbot/Advanced_Multi-Agent_AI_Personal_Assistant_with_250_Task_Capabilities_WhatsApp_GPT.json"
+      }
+    ]
+  }
+}
