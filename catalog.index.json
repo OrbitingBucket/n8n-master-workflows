@@ -1,0 +1,2681 @@
+[
+  {
+    "slug": "search-linkedin-companies-and-add-them-to-airtable-crm",
+    "title": "Search LinkedIn companies and add them to Airtable CRM",
+    "category": "sales",
+    "useCaseTags": [
+      "sales",
+      "social_media"
+    ],
+    "overall": 83,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Search_LinkedIn_companies_and_add_them_to_Airtable_CRM.json"
+  },
+  {
+    "slug": "ai-icebreaker-builder-scrape-sites-with-dumpling-ai-and-save-to-ai",
+    "title": "AI Icebreaker Builder: Scrape Sites with Dumpling AI and Save to Ai...",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 78,
+    "filePath": "./AI/AI_Icebreaker_Builder_Scrape_Sites_with_Dumpling_AI_and_Save_to_Airtable.json"
+  },
+  {
+    "slug": "update-data-in-airtable",
+    "title": "Update data in Airtable",
+    "category": "content_creation",
+    "useCaseTags": [],
+    "overall": 78,
+    "filePath": "/home/user/n8n-master-workflows/Content_Creation/Transform_Images_with_AI-Enhanced_Prompts_using_FLUX1_Kontext_and_Mistral.json"
+  },
+  {
+    "slug": "manage-sales-data-in-airtable",
+    "title": "Manage sales data in Airtable",
+    "category": "sales",
+    "useCaseTags": [
+      "sales",
+      "social_media"
+    ],
+    "overall": 77,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Search_LinkedIn_companies_Score_with_AI_and_add_them_to_Google_Sheet_CRM.json"
+  },
+  {
+    "slug": "automated-form-submission-data-storage-in-airtable",
+    "title": "Automated Form Submission Data Storage in Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 75,
+    "filePath": "/home/user/n8n-master-workflows/Building_Blocks/Store_Form_Submission_in_Airtable.json"
+  },
+  {
+    "slug": "upload-bulk-records-from-csv-airtable-interfaces",
+    "title": "Upload Bulk Records from CSV - Airtable Interfaces",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 75,
+    "filePath": "/home/user/n8n-master-workflows/Building_Blocks/Upload_Bulk_Records_from_CSV_-_Airtable_Interfaces.json"
+  },
+  {
+    "slug": "update-data-in-airtable",
+    "title": "Update data in Airtable",
+    "category": "content_creation",
+    "useCaseTags": [],
+    "overall": 75,
+    "filePath": "/home/user/n8n-master-workflows/Content_Creation/Generate_Social_Media_Content_from_Video_Transcripts_with_Gemini_AI_Airtable.json"
+  },
+  {
+    "slug": "ai-agent-to-chat-with-airtable-and-analyze-data",
+    "title": "AI Agent to chat with Airtable and analyze data",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 75,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/AI_Agent_to_chat_with_Airtable_and_analyze_data.json"
+  },
+  {
+    "slug": "store-ai-enriched-data-in-airtable",
+    "title": "Store AI-enriched data in Airtable",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 73,
+    "filePath": "./AI/Auto-Create_Podcast_from_YouTube_Transcript_using_Dumpling_AI_and_GPT-4o.json"
+  },
+  {
+    "slug": "manage-ai-enriched-data-in-airtable",
+    "title": "Manage AI-enriched data in Airtable",
+    "category": "ai_chatbot",
+    "useCaseTags": [],
+    "overall": 73,
+    "filePath": "./AI_Chatbot/Medical_Symptom_Checker_Health_Assistant_with_GPT-4-mini.json"
+  },
+  {
+    "slug": "add-netlify-form-submissions-to-airtable",
+    "title": "Add Netlify Form submissions to Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 73,
+    "filePath": "./Building_Blocks/Add_Netlify_Form_submissions_to_Airtable.json"
+  },
+  {
+    "slug": "add-new-contacts-from-autopilot-to-airtable",
+    "title": "Add new contacts from Autopilot to Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 73,
+    "filePath": "./Building_Blocks/Add_new_contacts_from_Autopilot_to_Airtable.json"
+  },
+  {
+    "slug": "add-new-leads-in-lemlist-from-airtable",
+    "title": "Add new leads in Lemlist from Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 73,
+    "filePath": "./Building_Blocks/Add_new_leads_in_Lemlist_from_Airtable.json"
+  },
+  {
+    "slug": "airtable-markdown-to-html",
+    "title": "Airtable markdown to html",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 73,
+    "filePath": "./Building_Blocks/Convert_Airtable_rich_text_markdown_field_to_HTML.json"
+  },
+  {
+    "slug": "convert-image-urls-to-an-uploaded-attachment-in-airtable",
+    "title": "Convert image URLs to an uploaded attachment in Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 73,
+    "filePath": "./Building_Blocks/Convert_image_URLs_to_an_uploaded_attachment_in_Airtable.json"
+  },
+  {
+    "slug": "airtable-onfleet",
+    "title": "Airtable -> Onfleet",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 73,
+    "filePath": "./Building_Blocks/Create_a_Onfleet_task_for_a_new_added_row_in_Airtable.json"
+  },
+  {
+    "slug": "extract-and-store-text-from-chat-images-using-aws-s3",
+    "title": "Extract and store text from chat images using AWS S3",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 73,
+    "filePath": "./Building_Blocks/Extract_and_store_text_from_chat_images_using_AWS_S3.json"
+  },
+  {
+    "slug": "create-email-campaign-from-linkedin-post-interactions",
+    "title": "Create Email Campaign From LinkedIn Post Interactions",
+    "category": "sales",
+    "useCaseTags": [
+      "email_automation",
+      "sales",
+      "social_media"
+    ],
+    "overall": 73,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Create_HubSpot_contacts_from_LinkedIn_post_interactions.json"
+  },
+  {
+    "slug": "store-sales-data-in-airtable",
+    "title": "Store sales data in Airtable",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 73,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Generate_Amazon_FBA_keywords_using_Amazon_Completion_API.json"
+  },
+  {
+    "slug": "store-linkedin-data-in-airtable",
+    "title": "Store LinkedIn data in Airtable",
+    "category": "social_media",
+    "useCaseTags": [
+      "social_media"
+    ],
+    "overall": 73,
+    "filePath": "/home/user/n8n-master-workflows/Social_Media/Multi-Platform_Social_Media_Publisher_with_Airtable_Google_Drive_and_Postiz.json"
+  },
+  {
+    "slug": "manage-ai-enriched-data-in-airtable",
+    "title": "Manage AI-enriched data in Airtable",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "./AI/Automate_GPT-4o_Fine-Tuning_with_Google_Sheets_or_Airtable_Data.json"
+  },
+  {
+    "slug": "store-workflow-tasks-in-airtable",
+    "title": "Store workflow tasks in Airtable",
+    "category": "ai",
+    "useCaseTags": [
+      "automation"
+    ],
+    "overall": 72,
+    "filePath": "./AI/Instagram_Reels_Automation_Streamlined_Content_Creation_Publishing.json"
+  },
+  {
+    "slug": "sync-data-in-airtable",
+    "title": "Sync data in Airtable",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "./AI/My_workflow_3.json"
+  },
+  {
+    "slug": "ai-powered-news-monitoring-with-linkup-airtable-and-slack-notificat",
+    "title": "AI-powered News Monitoring with Linkup Airtable and Slack Notificat...",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "./AI_Summarization/AI-powered_News_Monitoring_with_Linkup_Airtable_and_Slack_Notifications.json"
+  },
+  {
+    "slug": "automated-invoice-data-extraction-with-llamaparse-gemini-25-google",
+    "title": "Automated Invoice Data Extraction with LlamaParse Gemini 25 Google ...",
+    "category": "ai_summarization",
+    "useCaseTags": [
+      "automation"
+    ],
+    "overall": 72,
+    "filePath": "./AI_Summarization/Automated_Invoice_Data_Extraction_with_LlamaParse_Gemini_25_Google_Sheets.json"
+  },
+  {
+    "slug": "sync-data-from-form-submissions-in-airtable",
+    "title": "Sync data from form submissions in Airtable",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "./AI_Summarization/Website_Content_Scraper_SEO_Keyword_Extractor_with_GPT-4o-mini_and_Airtable.json"
+  },
+  {
+    "slug": "manage-telegram-messages-in-airtable",
+    "title": "Manage Telegram messages in Airtable",
+    "category": "crm",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "/home/user/n8n-master-workflows/CRM/Customer_Onboarding_Automation_with_HubSpot_Email_Sequences_and_Team_Alerts.json"
+  },
+  {
+    "slug": "weekly-slack-sales-report-airtable-edition",
+    "title": "Weekly Slack Sales Report (Airtable Edition)",
+    "category": "crm",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "/home/user/n8n-master-workflows/CRM/Generate_Dynamic_Sales_Pipeline_Metrics_for_Slack_using_Airtable.json"
+  },
+  {
+    "slug": "generate-linkedin-post-from-web-page-text-only",
+    "title": "Generate LinkedIn Post from Web Page - text only",
+    "category": "content_creation",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "/home/user/n8n-master-workflows/Content_Creation/Generate_LinkedIn_Posts_from_Web_Pages_with_GPT-4_and_Human_Review.json"
+  },
+  {
+    "slug": "store-data-from-form-submissions-in-airtable",
+    "title": "Store data from form submissions in Airtable",
+    "category": "content_creation",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "/home/user/n8n-master-workflows/Content_Creation/Generate_Natural_Voices_with_Google_Text-to-Speech_Drive_Airtable.json"
+  },
+  {
+    "slug": "auto-generate-blog-ai-image-from-youtube-videos-with-dumpling-ai",
+    "title": "Auto-Generate Blog & AI Image from YouTube Videos with Dumpling AI ...",
+    "category": "design",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "/home/user/n8n-master-workflows/Design/Auto-Generate_Blog_AI_Image_from_YouTube_Videos_with_Dumpling_AI_GPT-4o.json"
+  },
+  {
+    "slug": "repurpose-youtube-videos-to-social-media-posts-with-rss-dumpling-a",
+    "title": "Repurpose YouTube videos to social media posts with RSS, Dumpling A...",
+    "category": "design",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "/home/user/n8n-master-workflows/Design/Turn_YouTube_RSS_videos_into_social_posts_with_Dumpling_AI_and_Airtable.json"
+  },
+  {
+    "slug": "streamline-data-from-an-n8n-form-into-google-sheet-to-airtable",
+    "title": "Streamline data from an n8n form into Google Sheet to Airtable",
+    "category": "devops",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "/home/user/n8n-master-workflows/DevOps/Streamline_data_from_an_n8n_form_into_Google_Sheet_Airtable_and_Email_Sending.json"
+  },
+  {
+    "slug": "streamline-data-from-an-n8n-form-into-google-sheet-to-airtable",
+    "title": "Streamline data from an n8n form into Google Sheet to Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 72,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Streamline_data_from_an_n8n_form_into_Google_Sheet_Airtable_and_Email_Sending.json"
+  },
+  {
+    "slug": "ai-logo-sheet-extractor-to-airtable",
+    "title": "AI Logo Sheet Extractor to Airtable",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 70,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Extract_Information_from_a_Logo_Sheet_using_forms_AI_Google_Sheet_and_Airtable.json"
+  },
+  {
+    "slug": "microsoft-outlook-ai-email-assistant",
+    "title": "Microsoft Outlook AI Email Assistant",
+    "category": "sales",
+    "useCaseTags": [
+      "email_automation",
+      "sales"
+    ],
+    "overall": 70,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Microsoft_Outlook_AI_Email_Assistant_with_contact_support_from_Monday_and_Airtable.json"
+  },
+  {
+    "slug": "from-google-drive-to-instagram-tiktok-youtube-with-airtable-trac",
+    "title": "From Google Drive to Instagram, TikTok & YouTube with Airtable Trac...",
+    "category": "social_media",
+    "useCaseTags": [
+      "social_media"
+    ],
+    "overall": 70,
+    "filePath": "/home/user/n8n-master-workflows/Social_Media/From_Google_Drive_to_Instagram_TikTok_YouTube_with_AI_Descriptions_Airtable_Tracking.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "./AI/Build_Custom_Workflows_Automatically_with_GPT-4o_RAG_and_Web_Search.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "./Building_Blocks/Build_Custom_Workflows_Automatically_with_GPT-4o_RAG_and_Web_Search.json"
+  },
+  {
+    "slug": "33-analyze-territory-performance",
+    "title": "33 Analyze Territory Performance",
+    "category": "crm",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/CRM/Analyze_Sales_Territory_Performance_with_Bright_Data_MCP_GPT-4o.json"
+  },
+  {
+    "slug": "sync-data-in-airtable",
+    "title": "Sync data in Airtable",
+    "category": "crm",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/CRM/Automatically_Transfer_Shopify_Order_Data_to_Structured_Airtable_Records.json"
+  },
+  {
+    "slug": "sync-data-in-airtable",
+    "title": "Sync data in Airtable",
+    "category": "crm",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/CRM/Sync_Shopify_Customer_Order_Data_to_Airtable_with_Auto-Updates.json"
+  },
+  {
+    "slug": "generate-linekdin-post-from-web-page-v5-revisions",
+    "title": "Generate Linekdin Post from Web Page v5 (revisions)",
+    "category": "content_creation",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/Content_Creation/Generate_LinkedIn_Posts_and_AI_Images_from_Web_Pages_with_Airtop_and_GPT-4.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "devops",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/DevOps/AI_Agent_To_Chat_With_Files_In_Supabase_Storage.json"
+  },
+  {
+    "slug": "airtable-full-backup",
+    "title": "Airtable Full Backup",
+    "category": "devops",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/DevOps/Airtable_Base_Backups_to_S3.json"
+  },
+  {
+    "slug": "automated-inventory-management-with-airtable-po-creation-supplier-e",
+    "title": "Automated Inventory Management with Airtable PO Creation Supplier E...",
+    "category": "document_extraction",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/Document_Extraction/Automated_Inventory_Management_with_Airtable_PO_Creation_Supplier_Emails.json"
+  },
+  {
+    "slug": "sync-zendesk-knowledge-base-articles-to-airtable-with-markdown-conv",
+    "title": "Sync Zendesk Knowledge Base Articles to Airtable with Markdown Conv...",
+    "category": "document_extraction",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/Document_Extraction/Sync_Zendesk_Knowledge_Base_Articles_to_Airtable_with_Markdown_Conversion.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/AI_Agent_To_Chat_With_Files_In_Supabase_Storage.json"
+  },
+  {
+    "slug": "track-telegram-messages-from-telegram-in-airtable",
+    "title": "Track Telegram messages from Telegram in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Access_Control_for_AI_Agents_RBAC_using_Airtable_and_Telegram.json"
+  },
+  {
+    "slug": "airtable-full-backup",
+    "title": "Airtable Full Backup",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Airtable_Base_Backups_to_S3.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Build_an_endpoint_to_perform_CRUD_operations_with_multiple_HTTP_methods.json"
+  },
+  {
+    "slug": "fetch-hierarchical-data-records-from-airtable-with-multi-level-rela",
+    "title": "Fetch Hierarchical Data Records from Airtable with Multi-level Rela...",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Fetch_Hierarchical_Data_Records_from_Airtable_with_Multi-level_Relationships.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 68,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Voiceflow_Demo_Support_Chatbot.json"
+  },
+  {
+    "slug": "manage-telegram-messages-in-airtable",
+    "title": "Manage Telegram messages in Airtable",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI/Auto_n8n_Updater_Docker.json"
+  },
+  {
+    "slug": "update-data-between-airtable-tables-in-airtable",
+    "title": "Update data between Airtable tables in Airtable",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI/Automated_Expense_Approval_System_with_GPT-4_Airtable_Pinecone_Vector_DB.json"
+  },
+  {
+    "slug": "seo-keyword-monitoring",
+    "title": "SEO Keyword Monitoring",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI/Automated_YouTube_Channel_Lead_Generation_Email_Outreach_with_Apify_and_ZeroBounce.json"
+  },
+  {
+    "slug": "track-ai-enriched-data-in-airtable",
+    "title": "Track AI-enriched data in Airtable",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI/Document-Based_Chatbot_with_Memory_using_OpenAI_Pinecone_and_Google_Drive.json"
+  },
+  {
+    "slug": "smartmail-agent-your-ai-email-assistant-powered-by-whatsapp",
+    "title": "SmartMail Agent \u2013 Your AI Email Assistant, Powered by WhatsApp",
+    "category": "ai",
+    "useCaseTags": [
+      "email_automation"
+    ],
+    "overall": 67,
+    "filePath": "./AI/Manage_Emails_via_WhatsApp_with_Gmail_GPT_and_Voice_Recognition.json"
+  },
+  {
+    "slug": "smartlead-sheet-sync-auto-capture-client-inquiries-to-airtable",
+    "title": "SmartLead Sheet Sync: Auto-Capture Client Inquiries to Airtable",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI/SmartLead_Sheet_Sync_Airtable_Edition.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI/Transform_Voice_Transcripts_to_LinkedIn_Posts_with_Claude_AI_and_Email_Automation.json"
+  },
+  {
+    "slug": "airtable-mcp",
+    "title": "Airtable MCP",
+    "category": "ai_chatbot",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Chatbot/AI-Powered_Contact_Management_in_Airtable_with_Natural_Language_Commands.json"
+  },
+  {
+    "slug": "manage-customer-messages-from-whatsapp-in-airtable",
+    "title": "Manage customer messages from WhatsApp in Airtable",
+    "category": "ai_chatbot",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Chatbot/Auto-Generate_WhatsApp_Proposals_from_Voice_or_Text_using_GPT_APITemplate.json"
+  },
+  {
+    "slug": "create-a-smart-chatbot-using-openai-gpt-and-airtable-knowledge-base",
+    "title": "Create a Smart Chatbot using OpenAI GPT and Airtable Knowledge Base",
+    "category": "ai_rag",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_RAG/Create_a_Smart_Chatbot_using_OpenAI_GPT_and_Airtable_Knowledge_Base.json"
+  },
+  {
+    "slug": "ai-powered-lead-generation-with-apollo-gpt-4-and-telegram-to-data",
+    "title": "AI-Powered Lead Generation with Apollo, GPT-4, and Telegram to Data...",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Summarization/AI-Powered_Lead_Generation_with_Apollo_GPT-4_and_Telegram_to_Database.json"
+  },
+  {
+    "slug": "33-analyze-territory-performance",
+    "title": "33 Analyze Territory Performance",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Summarization/Analyze_Sales_Territory_Performance_with_Bright_Data_MCP_GPT-4o.json"
+  },
+  {
+    "slug": "automate-cv-screening-and-applicant-scoring-from-gmail-to-airtable",
+    "title": "Automate CV screening and applicant scoring from Gmail to Airtable ...",
+    "category": "ai_summarization",
+    "useCaseTags": [
+      "automation",
+      "email_automation"
+    ],
+    "overall": 67,
+    "filePath": "./AI_Summarization/Automate_CV_screening_and_applicant_scoring_from_Gmail_to_Airtable_with_AI.json"
+  },
+  {
+    "slug": "4-track-competitor-website-updates",
+    "title": "4 Track Competitor Website Updates",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Summarization/Automated_Competitor_Pricing_Monitor_with_Bright_Data_MCP_OpenAI.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Summarization/Extract_Analyze_Competitor_Backlink_Data_with_Bright_Data_MCP_GPT.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Summarization/Generate_SaaS_Product_Ideas_from_Market_Gaps_with_OpenAI_and_Bright_Data.json"
+  },
+  {
+    "slug": "ai-agent-leads-processor",
+    "title": "AI Agent Leads Processor",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Summarization/Qualify_Real_Estate_Leads_Automatically_with_OpenAI_Gmail_Airtable_CRM.json"
+  },
+  {
+    "slug": "manage-data-from-form-submissions-in-airtable",
+    "title": "Manage data from form submissions in Airtable",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Summarization/Resume_Screening_Evaluation_System_with_Gemini_AI_Google_Sheets_Drive_for_HR.json"
+  },
+  {
+    "slug": "extract-business-contacts-from-google-maps-with-apify-gpt-to-airt",
+    "title": "Extract Business Contacts from Google Maps with Apify, GPT, to Airt...",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Summarization/Scrape_Google_Maps_Leads_Email_Phone_Website_using_Apify_GPT_Airtable.json"
+  },
+  {
+    "slug": "automate-local-lead-generation-with-google-maps-gpt-4-airtable-t",
+    "title": "Automate Local Lead Generation with Google Maps, GPT-4 & Airtable t...",
+    "category": "ai_summarization",
+    "useCaseTags": [
+      "automation",
+      "email_automation"
+    ],
+    "overall": 67,
+    "filePath": "./AI_Summarization/The_Workflow_Google_Maps_to_GPT-4_to_Airtable_to_Gmail.json"
+  },
+  {
+    "slug": "store-ai-enriched-data-in-airtable",
+    "title": "Store AI-enriched data in Airtable",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Summarization/Track_Real_Estate_Market_Pain_Points_with_Apify_GPT-4o_and_Telegram_Alerts.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "ai_summarization",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./AI_Summarization/Weekly_SEO_Keyword_Research_Competitor_Analysis_with_GPT-4_and_Bright_Data.json"
+  },
+  {
+    "slug": "airtable-automate-recurring-tasks",
+    "title": "Airtable - Automate Recurring Tasks",
+    "category": "building_blocks",
+    "useCaseTags": [
+      "automation"
+    ],
+    "overall": 67,
+    "filePath": "./Building_Blocks/Airtable_-_Automate_Recurring_Tasks.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./Building_Blocks/Build_a_self-hosted_URL_shortener_with_a_dashboard.json"
+  },
+  {
+    "slug": "build-an-mcp-server-with-airtable",
+    "title": "Build an MCP server with Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./Building_Blocks/Build_an_MCP_Server_with_Airtable.json"
+  },
+  {
+    "slug": "generate-seo-keyword-search-volume-data-using-google-api",
+    "title": "Generate SEO Keyword Search Volume Data using Google API",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "./Building_Blocks/Generate_SEO_Keyword_Search_Volume_Data_using_Google_API.json"
+  },
+  {
+    "slug": "get-the-logo-icon-and-information-of-a-company-and-store-it-in-ai",
+    "title": "Get the logo, icon, and information of a company and store it in Ai...",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Building_Blocks/Get_company_data_and_store_it_in_Airtable.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Building_Blocks/Get_data_from_Hacker_News_and_send_to_Airtable_or_via_SMS.json"
+  },
+  {
+    "slug": "receive-transfer-updates-from-wise-and-add-to-airtable",
+    "title": "Receive transfer updates from Wise and add to Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Building_Blocks/Receive_transfer_updates_from_Wise_and_add_to_Airtable.json"
+  },
+  {
+    "slug": "store-the-output-of-a-phantom-in-airtable",
+    "title": "Store the output of a phantom in Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Building_Blocks/Store_the_output_of_a_phantom_in_Airtable.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Building_Blocks/Tracking_your_crypto_portfolio_in_Airtable.json"
+  },
+  {
+    "slug": "detect-and-store-the-information-about-a-purchase-using-the-image-o",
+    "title": "Detect and store the information about a purchase using the image o...",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Detect_and_store_the_information_about_a_purchase_using_the_image_of_a_receipt.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Get_data_from_Hacker_News_and_send_to_Airtable_or_via_SMS.json"
+  },
+  {
+    "slug": "store-the-output-of-a-phantom-in-airtable",
+    "title": "Store the output of a phantom in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Store_the_output_of_a_phantom_in_Airtable.json"
+  },
+  {
+    "slug": "get-analytics-of-a-website-and-store-it-airtable",
+    "title": "Get analytics of a website and store it Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Transfer_Google_Analytics_data_to_Airtable_database.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/n8n_workflow_backup_management_with_Dropbox_and_Airtable.json"
+  },
+  {
+    "slug": "connect-airtable-contacts-to-telli-for-automated-ai-voice-call-sche",
+    "title": "Connect Airtable Contacts to telli for Automated AI Voice Call Sche...",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Connect_Airtable_Contacts_to_telli_for_Automated_AI_Voice_Call_Scheduling.json"
+  },
+  {
+    "slug": "template-automated-reddit-discussion-posts",
+    "title": "[TEMPLATE] Automated Reddit Discussion Posts",
+    "category": "social_media",
+    "useCaseTags": [
+      "social_media"
+    ],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Social_Media/Generate_and_Schedule_AI_Discussion_Posts_for_Reddit_with_GPT-4_and_Airtable.json"
+  },
+  {
+    "slug": "store-support-tickets-from-whatsapp-in-airtable",
+    "title": "Store support tickets from WhatsApp in Airtable",
+    "category": "support",
+    "useCaseTags": [
+      "support"
+    ],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Support/Automate_Salon_Appointment_Management_with_WhatsApp_GPT_Google_Calendar.json"
+  },
+  {
+    "slug": "sentiment-analysis-tracking-on-support-issues-with-linear-and-slack",
+    "title": "Sentiment Analysis Tracking on Support Issues with Linear and Slack",
+    "category": "support",
+    "useCaseTags": [
+      "support"
+    ],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Support/Sentiment_Analysis_Tracking_on_Support_Issues_with_Linear_and_Slack.json"
+  },
+  {
+    "slug": "store-support-tickets-in-airtable",
+    "title": "Store support tickets in Airtable",
+    "category": "support",
+    "useCaseTags": [
+      "support"
+    ],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Support/Voiceflow_Demo_Support_Chatbot.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "support_chatbot",
+    "useCaseTags": [
+      "support"
+    ],
+    "overall": 67,
+    "filePath": "/home/user/n8n-master-workflows/Support_Chatbot/Medical_Symptom_Checker_Health_Assistant_with_GPT-4-mini.json"
+  },
+  {
+    "slug": "airtable-mcp",
+    "title": "Airtable MCP",
+    "category": "crm",
+    "useCaseTags": [],
+    "overall": 65,
+    "filePath": "/home/user/n8n-master-workflows/CRM/AI-Powered_Contact_Management_in_Airtable_with_Natural_Language_Commands.json"
+  },
+  {
+    "slug": "remove-image-backgrounds-with-apimage-ai-airtable-to-google-drive",
+    "title": "Remove Image Backgrounds with APImage AI Airtable to Google Drive",
+    "category": "content_creation",
+    "useCaseTags": [],
+    "overall": 65,
+    "filePath": "/home/user/n8n-master-workflows/Content_Creation/Remove_Image_Backgrounds_with_APImage_AI_Airtable_to_Google_Drive.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 65,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Automate_GPT-4o_Fine-Tuning_with_Google_Sheets_or_Airtable_Data.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 63,
+    "filePath": "/home/user/n8n-master-workflows/Building_Blocks/Load_data_into_spreadsheet_or_database.json"
+  },
+  {
+    "slug": "store-telegram-messages-from-telegram-in-airtable",
+    "title": "Store Telegram messages from Telegram in Airtable",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 63,
+    "filePath": "/home/user/n8n-master-workflows/Building_Blocks/Send_a_random_recipe_once_a_day_to_Telegram.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 63,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Build_a_self-hosted_URL_shortener_with_a_dashboard.json"
+  },
+  {
+    "slug": "lead-generation-system-template",
+    "title": "Lead Generation System (Template)",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 63,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Get_Qualified_Leads_in_One_Click_from_Apollo_to_Airtable.json"
+  },
+  {
+    "slug": "automate-call-scheduling-with-voice-ai-receptionist-using-vapi-goog",
+    "title": "Automate Call Scheduling with Voice AI Receptionist using Vapi Goog...",
+    "category": "support",
+    "useCaseTags": [
+      "support"
+    ],
+    "overall": 63,
+    "filePath": "/home/user/n8n-master-workflows/Support/Automate_Call_Scheduling_with_Voice_AI_Receptionist_using_Vapi_Google_Calendar_Airtable.json"
+  },
+  {
+    "slug": "manage-ai-enriched-data-from-whatsapp-in-airtable",
+    "title": "Manage AI-enriched data from WhatsApp in Airtable",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 62,
+    "filePath": "./AI/Automate_Salon_Appointment_Management_with_WhatsApp_GPT_Google_Calendar.json"
+  },
+  {
+    "slug": "generate-videos-with-ai-elevenlabspiapi-shotstackcreatomate-post-to",
+    "title": "Generate Videos with AI ElevenLabsPIAPI ShotstackCreatomate Post to...",
+    "category": "ai",
+    "useCaseTags": [],
+    "overall": 62,
+    "filePath": "./AI/Generate_Videos_with_AI_ElevenLabsPIAPI_ShotstackCreatomate_Post_to_Youtube.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 62,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Build_Production-Ready_User_Authentication_with_Airtable_and_JWT.json"
+  },
+  {
+    "slug": "oauth-token-management-system-with-airtable-storage",
+    "title": "OAuth Token Management System with Airtable Storage",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 62,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/OAuth_Token_Management_System_with_Airtable_Storage.json"
+  },
+  {
+    "slug": "validate-api-requests-with-bearer-token-authentication-to-airtable",
+    "title": "Validate API Requests with Bearer Token Authentication to Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 62,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Validate_API_Requests_with_Bearer_Token_Authentication_and_Airtable.json"
+  },
+  {
+    "slug": "automated-ai-cold-calling-system-with-vapiai-airtable-and-smart-fol",
+    "title": "Automated AI Cold Calling System with VAPIai Airtable and Smart Fol...",
+    "category": "ai_chatbot",
+    "useCaseTags": [
+      "automation"
+    ],
+    "overall": 60,
+    "filePath": "./AI_Chatbot/Automated_AI_Cold_Calling_System_with_VAPIai_Airtable_and_Smart_Follow-ups.json"
+  },
+  {
+    "slug": "batch-airtable-requests-to-send-data-9x-faster",
+    "title": "Batch Airtable requests to send data 9x faster",
+    "category": "building_blocks",
+    "useCaseTags": [],
+    "overall": 60,
+    "filePath": "./Building_Blocks/Batch_Airtable_requests_to_send_data_9x_faster.json"
+  },
+  {
+    "slug": "auto-generate-post-linkedin-content-for-amazon-sellers-with-gpt-4o",
+    "title": "Auto Generate Post LinkedIn Content for Amazon Sellers with GPT-4o ...",
+    "category": "content_creation",
+    "useCaseTags": [],
+    "overall": 60,
+    "filePath": "/home/user/n8n-master-workflows/Content_Creation/Auto_Generate_Post_LinkedIn_Content_for_Amazon_Sellers_with_GPT-4o_Apify.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "engineering",
+    "useCaseTags": [],
+    "overall": 60,
+    "filePath": "/home/user/n8n-master-workflows/Engineering/Use_Redis_to_rate-limit_your_low-code_API.json"
+  },
+  {
+    "slug": "generate-qualified-finance-leads-from-linkedin-with-apify-gpt-4-t",
+    "title": "Generate Qualified Finance Leads from LinkedIn with Apify, GPT-4, t...",
+    "category": "sales",
+    "useCaseTags": [
+      "sales",
+      "social_media"
+    ],
+    "overall": 60,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Generate_Qualified_Finance_Leads_from_LinkedIn_with_Apify_GPT-_4_and_Airtable.json"
+  },
+  {
+    "slug": "store-new-orders-to-airtable-and-summarize-daily-orders-through-email",
+    "title": "Store new orders to Airtable and summarize daily orders through email",
+    "category": "sales",
+    "useCaseTags": [
+      "email_automation",
+      "sales"
+    ],
+    "overall": 60,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Store_new_orders_to_Airtable_and_summarize_daily_orders_through_email.json"
+  },
+  {
+    "slug": "store-slack-messages-in-airtable",
+    "title": "Store Slack messages in Airtable",
+    "category": "secops",
+    "useCaseTags": [],
+    "overall": 60,
+    "filePath": "/home/user/n8n-master-workflows/SecOps/Handle_GDPR_data_deletion_requests_with_Slack.json"
+  },
+  {
+    "slug": "send-weekly-engagement-stats-raffle-updates-via-whatsapp-using-airt",
+    "title": "Send Weekly Engagement Stats Raffle Updates via WhatsApp using Airt...",
+    "category": "social_media",
+    "useCaseTags": [
+      "social_media"
+    ],
+    "overall": 60,
+    "filePath": "/home/user/n8n-master-workflows/Social_Media/Send_Weekly_Engagement_Stats_Raffle_Updates_via_WhatsApp_using_Airtable.json"
+  },
+  {
+    "slug": "whatsapp-group-onboarding-with-automated-welcome-messages-airtable",
+    "title": "WhatsApp Group Onboarding with Automated Welcome Messages Airtable ...",
+    "category": "social_media",
+    "useCaseTags": [
+      "social_media"
+    ],
+    "overall": 60,
+    "filePath": "/home/user/n8n-master-workflows/Social_Media/WhatsApp_Group_Onboarding_with_Automated_Welcome_Messages_Airtable_Point_System.json"
+  },
+  {
+    "slug": "store-retell-transcripts-in-sheets-airtable-or-notion-from-webhook",
+    "title": "Store Retell transcripts in Sheets Airtable or Notion from webhook",
+    "category": "support",
+    "useCaseTags": [
+      "support"
+    ],
+    "overall": 60,
+    "filePath": "/home/user/n8n-master-workflows/Support/Store_Retell_transcripts_in_Sheets_Airtable_or_Notion_from_webhook.json"
+  },
+  {
+    "slug": "manage-data-from-gmail-in-airtable",
+    "title": "Manage data from Gmail in Airtable",
+    "category": "crm",
+    "useCaseTags": [],
+    "overall": 58,
+    "filePath": "/home/user/n8n-master-workflows/CRM/Create_Send_Client_Session_Summaries_from_Zoom_Meetings_via_Gmail_and_Airtable.json"
+  },
+  {
+    "slug": "automated-background-removal-from-images-with-apimage-ai",
+    "title": "Automated Background Removal from Images with APImage AI",
+    "category": "content_creation",
+    "useCaseTags": [],
+    "overall": 58,
+    "filePath": "/home/user/n8n-master-workflows/Content_Creation/Automated_Background_Removal_from_Images_with_APImage_AI.json"
+  },
+  {
+    "slug": "manage-customer-messages-from-whatsapp-in-airtable",
+    "title": "Manage customer messages from WhatsApp in Airtable",
+    "category": "ai_chatbot",
+    "useCaseTags": [],
+    "overall": 57,
+    "filePath": "./AI_Chatbot/Advanced_Multi-Agent_AI_Personal_Assistant_with_250_Task_Capabilities_WhatsApp_GPT.json"
+  },
+  {
+    "slug": "manage-customer-messages-from-whatsapp-in-airtable",
+    "title": "Manage customer messages from WhatsApp in Airtable",
+    "category": "ai_chatbot",
+    "useCaseTags": [
+      "automation"
+    ],
+    "overall": 57,
+    "filePath": "./AI_Chatbot/Multi-Service_Task_Automation_with_GPT-powered_Agent_System_via_WhatsApp.json"
+  },
+  {
+    "slug": "handling-appointment-leads-and-follow-up-with-twilio-calcom-and-ai",
+    "title": "Handling Appointment Leads and Follow-up With Twilio Calcom and AI",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 57,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Handling_Appointment_Leads_and_Follow-up_With_Twilio_Calcom_and_AI.json"
+  },
+  {
+    "slug": "youtube-airtable-two-way-sync-for-channel-management-video-analytics",
+    "title": "YouTube-Airtable Two-Way Sync for Channel Management Video Analytics",
+    "category": "social_media",
+    "useCaseTags": [
+      "social_media"
+    ],
+    "overall": 57,
+    "filePath": "/home/user/n8n-master-workflows/Social_Media/YouTube-Airtable_Two-Way_Sync_for_Channel_Management_Video_Analytics.json"
+  },
+  {
+    "slug": "manage-support-tickets-in-airtable",
+    "title": "Manage support tickets in Airtable",
+    "category": "support",
+    "useCaseTags": [
+      "support"
+    ],
+    "overall": 57,
+    "filePath": "/home/user/n8n-master-workflows/Support/AI_Chatbot_Agent_with_a_Panel_of_Experts_using_InfraNodus_GraphRAG_Knowledge.json"
+  },
+  {
+    "slug": "store-support-tickets-from-form-submissions-in-airtable",
+    "title": "Store support tickets from form submissions in Airtable",
+    "category": "support",
+    "useCaseTags": [
+      "support"
+    ],
+    "overall": 57,
+    "filePath": "/home/user/n8n-master-workflows/Support/Get_product_feedback_and_create_ticket_on_Trello.json"
+  },
+  {
+    "slug": "extract-gmail-meta-data-into-google-sheet",
+    "title": "Extract Gmail Meta data into Google Sheet",
+    "category": "ticket_management",
+    "useCaseTags": [
+      "email_automation"
+    ],
+    "overall": 57,
+    "filePath": "/home/user/n8n-master-workflows/Ticket_Management/Extract_Gmail_Metadata_to_Google_Sheets.json"
+  },
+  {
+    "slug": "extract-linkedin-profile-information",
+    "title": "Extract LinkedIn Profile Information",
+    "category": "sales",
+    "useCaseTags": [
+      "sales",
+      "social_media"
+    ],
+    "overall": 53,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Extract_Structured_LinkedIn_Profile_Data_with_Airtop_AI_Parsing.json"
+  },
+  {
+    "slug": "store-sales-data-in-airtable",
+    "title": "Store sales data in Airtable",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 53,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Gumroad_Clientbell_Auto-Log_Sales_Ping_Telegram_Thank_via_Email.json"
+  },
+  {
+    "slug": "manage-sales-data-in-airtable",
+    "title": "Manage sales data in Airtable",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 53,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Zoom_AI_Meeting_Assistant_creates_mail_summary_ClickUp_tasks_and_follow-up_call.json"
+  },
+  {
+    "slug": "automated-instagram-post-creation-and-upload-using-gpt-4o",
+    "title": "Automated Instagram Post Creation And Upload Using GPT-4o",
+    "category": "social_media",
+    "useCaseTags": [
+      "social_media"
+    ],
+    "overall": 53,
+    "filePath": "/home/user/n8n-master-workflows/Social_Media/Automate_Instagram_Posts_with_GPT-4o_Captions_ImgBB_Buffer_Integration.json"
+  },
+  {
+    "slug": "ai-email-triage-alert-system-with-gpt-4-and-telegram-notifications",
+    "title": "AI Email Triage Alert System with GPT-4 and Telegram Notifications",
+    "category": "support",
+    "useCaseTags": [
+      "email_automation",
+      "support"
+    ],
+    "overall": 53,
+    "filePath": "/home/user/n8n-master-workflows/Support/AI_Email_Triage_Alert_System_with_GPT-4_and_Telegram_Notifications.json"
+  },
+  {
+    "slug": "manage-support-tickets-from-telegram-in-airtable",
+    "title": "Manage support tickets from Telegram in Airtable",
+    "category": "support",
+    "useCaseTags": [
+      "support"
+    ],
+    "overall": 53,
+    "filePath": "/home/user/n8n-master-workflows/Support/Airbnb_Telegram_Agent_-_AI-powered_accommodation_search_with_voice_support.json"
+  },
+  {
+    "slug": "send-automated-patient-appointment-reminders-via-email-sms-with-mul",
+    "title": "Send Automated Patient Appointment Reminders via Email SMS with Mul...",
+    "category": "support_chatbot",
+    "useCaseTags": [
+      "email_automation",
+      "support"
+    ],
+    "overall": 53,
+    "filePath": "/home/user/n8n-master-workflows/Support_Chatbot/Send_Automated_Patient_Appointment_Reminders_via_Email_SMS_with_Multi-Database_Support.json"
+  },
+  {
+    "slug": "leadaigen-basic",
+    "title": "LeadAIgen-basic",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 50,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Automated_Lead_Generation_Contact_Enrichment_with_Hunterio_and_Perplexity_AI.json"
+  },
+  {
+    "slug": "export-new-deals-from-hubspot-to-slack-to-airtable",
+    "title": "Export new deals from HubSpot to Slack to Airtable",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 50,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Export_new_deals_from_HubSpot_to_Slack_and_Airtable.json"
+  },
+  {
+    "slug": "find-emails-with-dropcontact-on-typeform-submission",
+    "title": "Find emails with Dropcontact on Typeform submission",
+    "category": "sales",
+    "useCaseTags": [
+      "email_automation",
+      "sales"
+    ],
+    "overall": 50,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Find_emails_with_Dropcontact_on_Typeform_submission.json"
+  },
+  {
+    "slug": "store-sales-data-from-form-submissions-in-airtable",
+    "title": "Store sales data from form submissions in Airtable",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 50,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Save_Typeform_survey_results_to_Airtable.json"
+  },
+  {
+    "slug": "store-the-output-of-a-phantom-in-airtable",
+    "title": "Store the output of a phantom in Airtable",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 50,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Store_the_output_of_a_phantom_in_Airtable.json"
+  },
+  {
+    "slug": "track-whatsapp-group-message-activity-with-airtable-database",
+    "title": "Track WhatsApp Group Message Activity with Airtable Database",
+    "category": "social_media",
+    "useCaseTags": [
+      "social_media"
+    ],
+    "overall": 50,
+    "filePath": "/home/user/n8n-master-workflows/Social_Media/Track_WhatsApp_Group_Message_Activity_with_Airtable_Database.json"
+  },
+  {
+    "slug": "manage-support-tickets-from-gmail-in-airtable",
+    "title": "Manage support tickets from Gmail in Airtable",
+    "category": "support",
+    "useCaseTags": [
+      "email_automation",
+      "support"
+    ],
+    "overall": 50,
+    "filePath": "/home/user/n8n-master-workflows/Support/Auto-Respond_to_Gmail_Inquiries_using_OpenAI_Google_Sheet_AI_Agent.json"
+  },
+  {
+    "slug": "create-a-smart-chatbot-using-openai-gpt-and-airtable-knowledge-base",
+    "title": "Create a Smart Chatbot using OpenAI GPT and Airtable Knowledge Base",
+    "category": "support_chatbot",
+    "useCaseTags": [
+      "support"
+    ],
+    "overall": 50,
+    "filePath": "/home/user/n8n-master-workflows/Support_Chatbot/Create_a_Smart_Chatbot_using_OpenAI_GPT_and_Airtable_Knowledge_Base.json"
+  },
+  {
+    "slug": "airtable-onfleet",
+    "title": "Airtable -> Onfleet",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 47,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Create_a_Onfleet_task_for_a_new_added_row_in_Airtable.json"
+  },
+  {
+    "slug": "store-responses-from-typeform-into-airtable",
+    "title": "Store responses from Typeform into Airtable",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 43,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Store_responses_from_Typeform_into_Airtable.json"
+  },
+  {
+    "slug": "validate-emails-in-a-table-using-mailcheck",
+    "title": "Validate emails in a table using Mailcheck",
+    "category": "sales",
+    "useCaseTags": [
+      "email_automation",
+      "sales"
+    ],
+    "overall": 43,
+    "filePath": "/home/user/n8n-master-workflows/Sales/Validate_emails_in_a_table_using_Mailcheck.json"
+  },
+  {
+    "slug": "ai-icebreaker-builder-scrape-sites-with-dumpling-ai-and-save-to-ai",
+    "title": "AI Icebreaker Builder: Scrape Sites with Dumpling AI and Save to Ai...",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 9,
+    "filePath": "./Marketing/AI_Icebreaker_Builder_Scrape_Sites_with_Dumpling_AI_and_Save_to_Airtable.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 9,
+    "filePath": "./Product/Zoom_AI_Meeting_Assistant_creates_mail_summary_ClickUp_tasks_and_follow-up_call.json"
+  },
+  {
+    "slug": "indeed-company-data-scraper-summarization-with-airtable-bright-d",
+    "title": "Indeed Company Data Scraper & Summarization with Airtable, Bright D...",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 8,
+    "filePath": "/home/user/n8n-master-workflows/./HR/Indeed_Data_Scraper_Summarization_with_Airtable_Bright_Data_Google_Gemini.json"
+  },
+  {
+    "slug": "indeed-company-data-scraper-summarization-with-airtable-bright-d",
+    "title": "Indeed Company Data Scraper & Summarization with Airtable, Bright D...",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Indeed_Data_Scraper_Summarization_with_Airtable_Bright_Data_Google_Gemini.json"
+  },
+  {
+    "slug": "ai-powered-news-monitoring-with-linkup-airtable-and-slack-notificat",
+    "title": "AI-powered News Monitoring with Linkup Airtable and Slack Notificat...",
+    "category": "market_research",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Market_Research/AI-powered_News_Monitoring_with_Linkup_Airtable_and_Slack_Notifications.json"
+  },
+  {
+    "slug": "auto-scrape-tiktok-user-data-via-dumpling-ai-and-segment-in-airtable",
+    "title": "Auto-Scrape TikTok User Data via Dumpling AI and Segment in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 8,
+    "filePath": "./Marketing/Auto-Scrape_TikTok_User_Data_via_Dumpling_AI_and_Segment_in_Airtable.json"
+  },
+  {
+    "slug": "clone-linkedin-writing-styles-with-ai-analysis-prompt-generation-to",
+    "title": "Clone LinkedIn Writing Styles with AI Analysis Prompt Generation to...",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 8,
+    "filePath": "./Marketing/Clone_LinkedIn_Writing_Styles_with_AI_Analysis_Prompt_Generation_to_Airtable.json"
+  },
+  {
+    "slug": "manage-marketing-campaigns-from-form-submissions-in-airtable",
+    "title": "Manage marketing campaigns from form submissions in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 8,
+    "filePath": "./Marketing/Content_Generator_for_WordPress_v3.json"
+  },
+  {
+    "slug": "indeed-company-data-scraper-summarization-with-airtable-bright-d",
+    "title": "Indeed Company Data Scraper & Summarization with Airtable, Bright D...",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 8,
+    "filePath": "./Marketing/Indeed_Data_Scraper_Summarization_with_Airtable_Bright_Data_Google_Gemini.json"
+  },
+  {
+    "slug": "manage-marketing-campaigns-in-airtable",
+    "title": "Manage marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 8,
+    "filePath": "./Marketing/Search_LinkedIn_companies_Score_with_AI_and_add_them_to_Google_Sheet_CRM.json"
+  },
+  {
+    "slug": "search-linkedin-companies-and-add-them-to-airtable-crm",
+    "title": "Search LinkedIn companies and add them to Airtable CRM",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 8,
+    "filePath": "./Marketing/Search_LinkedIn_companies_and_add_them_to_Airtable_CRM.json"
+  },
+  {
+    "slug": "manage-marketing-campaigns-from-form-submissions-in-airtable",
+    "title": "Manage marketing campaigns from form submissions in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 8,
+    "filePath": "./Marketing/Ultimate_Content_Generator_for_WordPress.json"
+  },
+  {
+    "slug": "store-data-from-form-submissions-in-airtable",
+    "title": "Store data from form submissions in Airtable",
+    "category": "multimodal_ai",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Multimodal_AI/Generate_Natural_Voices_with_Google_Text-to-Speech_Drive_Airtable.json"
+  },
+  {
+    "slug": "update-data-in-airtable",
+    "title": "Update data in Airtable",
+    "category": "multimodal_ai",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Multimodal_AI/Transform_Images_with_AI-Enhanced_Prompts_using_FLUX1_Kontext_and_Mistral.json"
+  },
+  {
+    "slug": "manage-slack-messages-in-airtable",
+    "title": "Manage Slack messages in Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Other/Create_new_Clickup_Tasks_from_Slack_commands.json"
+  },
+  {
+    "slug": "update-data-in-airtable",
+    "title": "Update data in Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Other/Extract_Title_tag_and_Meta_description_from_url_for_SEO_analysis_with_Airtable.json"
+  },
+  {
+    "slug": "automated-daily-weather-data-fetcher-and-storage",
+    "title": "Automated Daily Weather Data Fetcher and Storage",
+    "category": "other",
+    "useCaseTags": [
+      "automation"
+    ],
+    "overall": 8,
+    "filePath": "./Other/Get_Daily_Weather_and_Save_It_in_Airtable.json"
+  },
+  {
+    "slug": "smartmail-agent-your-ai-email-assistant-powered-by-whatsapp",
+    "title": "SmartMail Agent \u2013 Your AI Email Assistant, Powered by WhatsApp",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Other/Manage_Emails_via_WhatsApp_with_Gmail_GPT_and_Voice_Recognition.json"
+  },
+  {
+    "slug": "yt-rag-agent-backend-transcript-format-pineconeupsert",
+    "title": "YT RAG Agent Backend Transcript-format-pineconeUpsert",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Other/Process_YouTube_Transcripts_with_Apify_OpenAI_Pinecone_Database.json"
+  },
+  {
+    "slug": "send-sms-to-numbers-stored-in-airtable-with-twilio",
+    "title": "Send SMS to numbers stored in Airtable with Twilio",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Other/Sending_SMS_to_users.json"
+  },
+  {
+    "slug": "sync-new-files-from-google-drive-with-airtable",
+    "title": "Sync New Files From Google Drive with Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Other/Sync_New_Files_From_Google_Drive_with_Airtable.json"
+  },
+  {
+    "slug": "ai-logo-sheet-extractor-to-airtable",
+    "title": "AI Logo Sheet Extractor to Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Product/Extract_Information_from_a_Logo_Sheet_using_forms_AI_Google_Sheet_and_Airtable.json"
+  },
+  {
+    "slug": "store-form-submissions-from-form-submissions-in-airtable",
+    "title": "Store form submissions from form submissions in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Product/Get_product_feedback_and_create_ticket_on_Trello.json"
+  },
+  {
+    "slug": "store-form-submissions-from-form-submissions-in-airtable",
+    "title": "Store form submissions from form submissions in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Product/Save_Typeform_survey_results_to_Airtable.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Product/Send_Airtable_data_as_tasks_to_Trello.json"
+  },
+  {
+    "slug": "automated-form-submission-data-storage-in-airtable",
+    "title": "Automated Form Submission Data Storage in Airtable",
+    "category": "product",
+    "useCaseTags": [
+      "automation"
+    ],
+    "overall": 8,
+    "filePath": "./Product/Store_Form_Submission_in_Airtable.json"
+  },
+  {
+    "slug": "get-analytics-of-a-website-and-store-it-airtable",
+    "title": "Get analytics of a website and store it Airtable",
+    "category": "product",
+    "useCaseTags": [
+      "reporting"
+    ],
+    "overall": 8,
+    "filePath": "./Product/Transfer_Google_Analytics_data_to_Airtable_database.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Product/Voiceflow_Demo_Support_Chatbot.json"
+  },
+  {
+    "slug": "ai-chat-agent-dumpling-ai-gpt-4o-to-auto-save-local-business-dat",
+    "title": "AI Chat Agent: Dumpling AI + GPT-4o to Auto-Save Local Business Dat...",
+    "category": "sales",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Sales/AI_Chat_Agent_Dumpling_AI_GPT-4o_to_Auto-Save_Local_Business_Data_to_Airtable.json"
+  },
+  {
+    "slug": "store-sales-data-in-airtable",
+    "title": "Store sales data in Airtable",
+    "category": "sales",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Sales/Add_Netlify_Form_submissions_to_Airtable.json"
+  },
+  {
+    "slug": "store-sales-data-in-airtable",
+    "title": "Store sales data in Airtable",
+    "category": "sales",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Sales/Add_new_contacts_from_Autopilot_to_Airtable.json"
+  },
+  {
+    "slug": "manage-sales-data-in-airtable",
+    "title": "Manage sales data in Airtable",
+    "category": "sales",
+    "useCaseTags": [],
+    "overall": 8,
+    "filePath": "./Sales/Add_new_leads_in_Lemlist_from_Airtable.json"
+  },
+  {
+    "slug": "store-financial-records-in-airtable",
+    "title": "Store financial records in Airtable",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/Deduplicate_Scraping_AI_Grants_for_Eligibility_using_AI.json"
+  },
+  {
+    "slug": "generate-monthly-financial-reports-with-gemini-ai-sql-and-outlook",
+    "title": "Generate Monthly Financial Reports with Gemini AI SQL and Outlook",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/Generate_Monthly_Financial_Reports_with_Gemini_AI_SQL_and_Outlook.json"
+  },
+  {
+    "slug": "technical-stock-analysis-with-telegram-airtable-and-a-gpt-powered-a",
+    "title": "Technical stock analysis with Telegram Airtable and a GPT-powered A...",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/Technical_stock_analysis_with_Telegram_Airtable_and_a_GPT-powered_AI_Agent.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/AI_Agent_To_Chat_With_Files_In_Supabase_Storage.json"
+  },
+  {
+    "slug": "airtable-batch-processing",
+    "title": "\u2194\ufe0f Airtable Batch Processing",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Airtable_Batch_Update_Insert_rows_send_faster_save_API_call_requests.json"
+  },
+  {
+    "slug": "bulk-automated-google-drive-files-sharing-and-direct-download-link",
+    "title": "Bulk Automated Google Drive Files Sharing and Direct Download Link ...",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Bulk_Automated_Google_Drive_Files_Sharing_and_Direct_Download_Link_Generation.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Document-Based_Chatbot_with_Memory_using_OpenAI_Pinecone_and_Google_Drive.json"
+  },
+  {
+    "slug": "a-quote-request-tally-sends-it-airtable-logs-it-slack-alerts-gm",
+    "title": "A quote request? Tally sends it, Airtable logs it, Slack alerts, Gm...",
+    "category": "lead_generation",
+    "useCaseTags": [
+      "lead_generation"
+    ],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./Lead_Generation/Automate_Quote_Request_Processing_with_Tally_Airtable_Slack_and_Gmail.json"
+  },
+  {
+    "slug": "automate-a-tally-form",
+    "title": "Automate a Tally Form",
+    "category": "lead_generation",
+    "useCaseTags": [
+      "lead_generation"
+    ],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./Lead_Generation/Automate_Tally_Form_Submissions_to_Airtable_with_Gmail_Responses.json"
+  },
+  {
+    "slug": "automate-a-tally-form-slack",
+    "title": "Automate a Tally Form slack",
+    "category": "lead_generation",
+    "useCaseTags": [
+      "lead_generation"
+    ],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./Lead_Generation/Automate_a_Tally_Form_Store_with_Airtable_Notify_via_Slack.json"
+  },
+  {
+    "slug": "sync-leads-from-form-submissions-in-airtable",
+    "title": "Sync leads from form submissions in Airtable",
+    "category": "lead_generation",
+    "useCaseTags": [
+      "lead_generation"
+    ],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./Lead_Generation/Google_Maps_Lead_Generation_with_Apify_Email_Extraction_for_Airtable.json"
+  },
+  {
+    "slug": "extract-business-contacts-from-google-maps-with-apify-gpt-to-airt",
+    "title": "Extract Business Contacts from Google Maps with Apify, GPT, to Airt...",
+    "category": "lead_generation",
+    "useCaseTags": [
+      "lead_generation"
+    ],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./Lead_Generation/Scrape_Google_Maps_Leads_Email_Phone_Website_using_Apify_GPT_Airtable.json"
+  },
+  {
+    "slug": "automate-local-lead-generation-with-google-maps-gpt-4-airtable-t",
+    "title": "Automate Local Lead Generation with Google Maps, GPT-4 & Airtable t...",
+    "category": "lead_generation",
+    "useCaseTags": [
+      "lead_generation"
+    ],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./Lead_Generation/The_Workflow_Google_Maps_to_GPT-4_to_Airtable_to_Gmail.json"
+  },
+  {
+    "slug": "ai-powered-lead-research-personalized-email-generation-with-groq-go",
+    "title": "AI-Powered Lead Research Personalized Email Generation with Groq Go...",
+    "category": "lead_nurturing",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "/home/user/n8n-master-workflows/./Lead_Nurturing/AI-Powered_Lead_Research_Personalized_Email_Generation_with_Groq_Google_Sheets.json"
+  },
+  {
+    "slug": "track-whatsapp-conversations-from-whatsapp-in-airtable",
+    "title": "Track WhatsApp conversations from WhatsApp in Airtable",
+    "category": "lead_nurturing",
+    "useCaseTags": [
+      "lead_generation",
+      "sales"
+    ],
+    "overall": 7,
+    "filePath": "./Lead_Nurturing/Auto-Generate_WhatsApp_Proposals_from_Voice_or_Text_using_GPT_APITemplate.json"
+  },
+  {
+    "slug": "automated-ai-cold-calling-system-with-vapiai-airtable-and-smart-fol",
+    "title": "Automated AI Cold Calling System with VAPIai Airtable and Smart Fol...",
+    "category": "lead_nurturing",
+    "useCaseTags": [
+      "lead_generation",
+      "sales"
+    ],
+    "overall": 7,
+    "filePath": "./Lead_Nurturing/Automated_AI_Cold_Calling_System_with_VAPIai_Airtable_and_Smart_Follow-ups.json"
+  },
+  {
+    "slug": "automate-daily-keyword-research-with-google-sheets-suggest-api-cust",
+    "title": "Automate Daily Keyword Research with Google Sheets Suggest API Cust...",
+    "category": "market_research",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Market_Research/Automate_Daily_Keyword_Research_with_Google_Sheets_Suggest_API_Custom_Search.json"
+  },
+  {
+    "slug": "4-track-competitor-website-updates",
+    "title": "4 Track Competitor Website Updates",
+    "category": "market_research",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Market_Research/Automated_Competitor_Pricing_Monitor_with_Bright_Data_MCP_OpenAI.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "market_research",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Market_Research/Extract_Analyze_Competitor_Backlink_Data_with_Bright_Data_MCP_GPT.json"
+  },
+  {
+    "slug": "automated-multi-ai-agent-property-investment-analysis-system",
+    "title": "Automated Multi-AI-Agent Property & Investment Analysis System",
+    "category": "market_research",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Market_Research/Generate_Property_Investment_Reports_with_GPT-4_SerpAPI_Google_Docs_Airtable.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "market_research",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Market_Research/Generate_SaaS_Product_Ideas_from_Market_Gaps_with_OpenAI_and_Bright_Data.json"
+  },
+  {
+    "slug": "store-telegram-messages-in-airtable",
+    "title": "Store Telegram messages in Airtable",
+    "category": "market_research",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Market_Research/Track_Real_Estate_Market_Pain_Points_with_Apify_GPT-4o_and_Telegram_Alerts.json"
+  },
+  {
+    "slug": "sync-data-from-form-submissions-in-airtable",
+    "title": "Sync data from form submissions in Airtable",
+    "category": "market_research",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Market_Research/Website_Content_Scraper_SEO_Keyword_Extractor_with_GPT-4o-mini_and_Airtable.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "market_research",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Market_Research/Weekly_SEO_Keyword_Research_Competitor_Analysis_with_GPT-4_and_Bright_Data.json"
+  },
+  {
+    "slug": "ai-chat-agent-dumpling-ai-gpt-4o-to-auto-save-local-business-dat",
+    "title": "AI Chat Agent: Dumpling AI + GPT-4o to Auto-Save Local Business Dat...",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/AI_Chat_Agent_Dumpling_AI_GPT-4o_to_Auto-Save_Local_Business_Data_to_Airtable.json"
+  },
+  {
+    "slug": "store-marketing-campaigns-in-airtable",
+    "title": "Store marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Auto-Create_Podcast_from_YouTube_Transcript_using_Dumpling_AI_and_GPT-4o.json"
+  },
+  {
+    "slug": "auto-generate-blog-ai-image-from-youtube-videos-with-dumpling-ai",
+    "title": "Auto-Generate Blog & AI Image from YouTube Videos with Dumpling AI ...",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Auto-Generate_Blog_AI_Image_from_YouTube_Videos_with_Dumpling_AI_GPT-4o.json"
+  },
+  {
+    "slug": "store-marketing-campaigns-in-airtable",
+    "title": "Store marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Auto-Post_Devto_Articles_to_LinkedIn_with_Airtable_Tracking_Telegram_Alerts.json"
+  },
+  {
+    "slug": "store-marketing-campaigns-in-airtable",
+    "title": "Store marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Auto-Post_Mediumcom_Articles_to_LinkedIn_with_Telegram_Alerts.json"
+  },
+  {
+    "slug": "manage-marketing-campaigns-in-airtable",
+    "title": "Manage marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Automate_VIRAL_Youtube_Titles_Thumbnails_Creation_FLUX1_Apify.json"
+  },
+  {
+    "slug": "seo-keyword-monitoring",
+    "title": "SEO Keyword Monitoring",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Automated_YouTube_Channel_Lead_Generation_Email_Outreach_with_Apify_and_ZeroBounce.json"
+  },
+  {
+    "slug": "manage-marketing-campaigns-in-airtable",
+    "title": "Manage marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Batch_Delete_Posts_and_Featured_Images_in_WordPress.json"
+  },
+  {
+    "slug": "store-marketing-campaigns-in-airtable",
+    "title": "Store marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Copy_Viral_Reels_with_Gemini_AI.json"
+  },
+  {
+    "slug": "extract-linkedin-profile-information",
+    "title": "Extract LinkedIn Profile Information",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Extract_Structured_LinkedIn_Profile_Data_with_Airtop_AI_Parsing.json"
+  },
+  {
+    "slug": "generate-product-ad-copy-ctas-with-gpt-4-for-slack-to-airtable",
+    "title": "Generate Product Ad Copy CTAs with GPT-4 for Slack to Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Generate_Product_Ad_Copy_CTAs_with_GPT-4_for_Slack_and_Airtable.json"
+  },
+  {
+    "slug": "generate-qualified-finance-leads-from-linkedin-with-apify-gpt-4-t",
+    "title": "Generate Qualified Finance Leads from LinkedIn with Apify, GPT-4, t...",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Generate_Qualified_Finance_Leads_from_LinkedIn_with_Apify_GPT-_4_and_Airtable.json"
+  },
+  {
+    "slug": "generate-videos-with-ai-elevenlabspiapi-shotstackcreatomate-post-to",
+    "title": "Generate Videos with AI ElevenLabsPIAPI ShotstackCreatomate Post to...",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Generate_Videos_with_AI_ElevenLabsPIAPI_ShotstackCreatomate_Post_to_Youtube.json"
+  },
+  {
+    "slug": "smartlead-sheet-sync-auto-capture-client-inquiries-to-airtable",
+    "title": "SmartLead Sheet Sync: Auto-Capture Client Inquiries to Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/SmartLead_Sheet_Sync_Auto-Capture_Client_Inquiries_to_Airtable.json"
+  },
+  {
+    "slug": "youtube-to-airtable-anonym",
+    "title": "YouTube to Airtable Anonym",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Summarize_YouTube_Videos_into_Structured_Content_Ideas_with_AI_and_Airtable.json"
+  },
+  {
+    "slug": "builtwith-tracker-to-email",
+    "title": "Builtwith Tracker To Email",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Track_Technology_Changes_with_BuiltWith_and_Log_to_Google_Sheets.json"
+  },
+  {
+    "slug": "manage-marketing-campaigns-in-airtable",
+    "title": "Manage marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Transform_Voice_Transcripts_to_LinkedIn_Posts_with_Claude_AI_and_Email_Automation.json"
+  },
+  {
+    "slug": "repurpose-youtube-videos-to-social-media-posts-with-rss-dumpling-a",
+    "title": "Repurpose YouTube videos to social media posts with RSS, Dumpling A...",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Turn_YouTube_RSS_videos_into_social_posts_with_Dumpling_AI_and_Airtable.json"
+  },
+  {
+    "slug": "linkedin-to-airtable",
+    "title": "Linkedin to Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Turn_your_LinkedIn_insights_into_content_ideas_with_Airtable_and_Real-Time_Linkedin_Scraper.json"
+  },
+  {
+    "slug": "store-marketing-campaigns-in-airtable",
+    "title": "Store marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 7,
+    "filePath": "./Marketing/Twitter_Keyword_Public-Figure_Monitor_with_Automated_Airtable_Archiving.json"
+  },
+  {
+    "slug": "ai-powered-lead-research-personalized-email-generation-with-groq-go",
+    "title": "AI-Powered Lead Research Personalized Email Generation with Groq Go...",
+    "category": "multimodal_ai",
+    "useCaseTags": [
+      "ai_enhanced",
+      "automation"
+    ],
+    "overall": 7,
+    "filePath": "./Multimodal_AI/AI-Powered_Lead_Research_Personalized_Email_Generation_with_Groq_Google_Sheets.json"
+  },
+  {
+    "slug": "auto-generate-post-linkedin-content-for-amazon-sellers-with-gpt-4o",
+    "title": "Auto Generate Post LinkedIn Content for Amazon Sellers with GPT-4o ...",
+    "category": "multimodal_ai",
+    "useCaseTags": [
+      "ai_enhanced",
+      "automation"
+    ],
+    "overall": 7,
+    "filePath": "./Multimodal_AI/Auto_Generate_Post_LinkedIn_Content_for_Amazon_Sellers_with_GPT-4o_Apify.json"
+  },
+  {
+    "slug": "automated-instagram-post-creation-and-upload-using-gpt-4o",
+    "title": "Automated Instagram Post Creation And Upload Using GPT-4o",
+    "category": "multimodal_ai",
+    "useCaseTags": [
+      "ai_enhanced",
+      "automation"
+    ],
+    "overall": 7,
+    "filePath": "./Multimodal_AI/Automate_Instagram_Posts_with_GPT-4o_Captions_ImgBB_Buffer_Integration.json"
+  },
+  {
+    "slug": "automated-background-removal-from-images-with-apimage-ai",
+    "title": "Automated Background Removal from Images with APImage AI",
+    "category": "multimodal_ai",
+    "useCaseTags": [
+      "ai_enhanced",
+      "automation"
+    ],
+    "overall": 7,
+    "filePath": "./Multimodal_AI/Automated_Background_Removal_from_Images_with_APImage_AI.json"
+  },
+  {
+    "slug": "generate-linekdin-post-from-web-page-v5-revisions",
+    "title": "Generate Linekdin Post from Web Page v5 (revisions)",
+    "category": "multimodal_ai",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Multimodal_AI/Generate_LinkedIn_Posts_and_AI_Images_from_Web_Pages_with_Airtop_and_GPT-4.json"
+  },
+  {
+    "slug": "generate-linkedin-post-from-web-page-text-only",
+    "title": "Generate LinkedIn Post from Web Page - text only",
+    "category": "multimodal_ai",
+    "useCaseTags": [
+      "social_media"
+    ],
+    "overall": 7,
+    "filePath": "./Multimodal_AI/Generate_LinkedIn_Posts_from_Web_Pages_with_GPT-4_and_Human_Review.json"
+  },
+  {
+    "slug": "update-data-in-airtable",
+    "title": "Update data in Airtable",
+    "category": "multimodal_ai",
+    "useCaseTags": [
+      "social_media"
+    ],
+    "overall": 7,
+    "filePath": "./Multimodal_AI/Generate_Social_Media_Content_from_Video_Transcripts_with_Gemini_AI_Airtable.json"
+  },
+  {
+    "slug": "template-automated-reddit-discussion-posts",
+    "title": "[TEMPLATE] Automated Reddit Discussion Posts",
+    "category": "multimodal_ai",
+    "useCaseTags": [
+      "automation"
+    ],
+    "overall": 7,
+    "filePath": "./Multimodal_AI/Generate_and_Schedule_AI_Discussion_Posts_for_Reddit_with_GPT-4_and_Airtable.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "multimodal_ai",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Multimodal_AI/Remove_Image_Backgrounds_with_APImage_AI_Airtable_to_Google_Drive.json"
+  },
+  {
+    "slug": "automating-betting-data-retrieval-with-theoddsapi-to-airtable",
+    "title": "Automating Betting Data Retrieval with TheOddsAPI to Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Other/Automate_Sports_Betting_Data_with_the_Odds_API.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Other/Automated_Job_Market_Tracker_Upwork_Scraper_to_Google_Sheets_Workflow.json"
+  },
+  {
+    "slug": "update-data-in-airtable",
+    "title": "Update data in Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Other/Enrich_Property_Inventory_Survey_with_Image_Recognition_and_AI_Agent.json"
+  },
+  {
+    "slug": "store-data-from-form-submissions-in-airtable",
+    "title": "Store data from form submissions in Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Other/Generate_n8n_Forms_from_Airtable_and_BaseRow_Tables.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Other/Query_n8n_Credentials_with_AI_SQL_Agent.json"
+  },
+  {
+    "slug": "sync-telegram-messages-in-airtable",
+    "title": "Sync Telegram messages in Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Other/Remote_Job_Updates_Pipeline_with_RemoteOK_Airtable_and_Telegram.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Other/Upwork_Job_Listings_Auto-Export_to_Google_Sheets_with_Apify.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Product/AI_Agent_To_Chat_With_Files_In_Supabase_Storage.json"
+  },
+  {
+    "slug": "store-emails-in-airtable",
+    "title": "Store emails in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Product/AI_Agent_for_project_management_and_meetings_with_Airtable_and_Fireflies.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Product/Build_an_endpoint_to_perform_CRUD_operations_with_multiple_HTTP_methods.json"
+  },
+  {
+    "slug": "store-slack-messages-in-airtable",
+    "title": "Store Slack messages in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Product/Export_new_deals_from_HubSpot_to_Slack_and_Airtable.json"
+  },
+  {
+    "slug": "manage-slack-messages-in-airtable",
+    "title": "Manage Slack messages in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Product/Report_number_of_weekly_created_records_in_an_app.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Product/Store_Retell_transcripts_in_Sheets_Airtable_or_Notion_from_webhook.json"
+  },
+  {
+    "slug": "streamline-data-from-an-n8n-form-into-google-sheet-to-airtable",
+    "title": "Streamline data from an n8n form into Google Sheet to Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Product/Streamline_data_from_an_n8n_form_into_Google_Sheet_Airtable_and_Email_Sending.json"
+  },
+  {
+    "slug": "sync-emails-in-airtable",
+    "title": "Sync emails in Airtable",
+    "category": "product",
+    "useCaseTags": [
+      "reporting"
+    ],
+    "overall": 7,
+    "filePath": "./Product/UTM_Link_Creator_QR_Code_Generator_with_Scheduled_Google_Analytics_Reports.json"
+  },
+  {
+    "slug": "tired-of-chasing-deadlines-airtable-knows-them-slack-sends-them-t",
+    "title": "Tired of chasing deadlines? Airtable knows them, Slack sends them t...",
+    "category": "project_management",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Project_Management/Daily_Task_Reminder_System_Airtable_to_Slack_Automated_Notifications.json"
+  },
+  {
+    "slug": "manage-sales-data-from-whatsapp-in-airtable",
+    "title": "Manage sales data from WhatsApp in Airtable",
+    "category": "sales",
+    "useCaseTags": [
+      "sales"
+    ],
+    "overall": 7,
+    "filePath": "./Sales/AI_Sales_Agent_WhatsApp_FB_IG_OpenAI_Airtable_Supabase_Auto-Booking.json"
+  },
+  {
+    "slug": "abandoned-cart-recovery-email-automation-workflow",
+    "title": "Abandoned Cart Recovery Email Automation Workflow",
+    "category": "sales",
+    "useCaseTags": [
+      "automation"
+    ],
+    "overall": 7,
+    "filePath": "./Sales/Abandoned_cart_recovery_for_Shopify_via_Gmail_Google_Sheets_Twilio_no-code.json"
+  },
+  {
+    "slug": "store-sales-data-in-airtable",
+    "title": "Store sales data in Airtable",
+    "category": "sales",
+    "useCaseTags": [],
+    "overall": 7,
+    "filePath": "./Sales/Automate_Meeting_Prep_Lead_Enrichment_with_Bright_Data_Calcom_Airtable.json"
+  },
+  {
+    "slug": "ai-powered-invoice-data-extraction-from-email-pdfs-to-airtable-with",
+    "title": "AI-Powered Invoice Data Extraction from Email PDFs to Airtable with...",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/AI-Powered_Invoice_Data_Extraction_from_Email_PDFs_to_Airtable_with_GPT-4o.json"
+  },
+  {
+    "slug": "ai-token-tracker-for-whatsapp-telegram-save-ai-usage-to-googl",
+    "title": "\ud83d\udcca AI Token Tracker for WhatsApp & Telegram \u2013 Save AI Usage to Googl...",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/AI_Token_Tracker_for_WhatsApp_Telegram_Save_AI_Usage_to_Google_Sheets.json"
+  },
+  {
+    "slug": "automate-cryptocurrency-funding-fee-tracking-with-binance-api-to-ai",
+    "title": "Automate Cryptocurrency Funding Fee Tracking with Binance API to Ai...",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/Automate_Cryptocurrency_Funding_Fee_Tracking_with_Binance_API_and_Airtable.json"
+  },
+  {
+    "slug": "detect-and-store-the-information-about-a-purchase-using-the-image-o",
+    "title": "Detect and store the information about a purchase using the image o...",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/Detect_and_store_the_information_about_a_purchase_using_the_image_of_a_receipt.json"
+  },
+  {
+    "slug": "invoice-data-extraction-with-llamaparse-and-openai",
+    "title": "Invoice data extraction with LlamaParse and OpenAI",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/Invoice_data_extraction_with_LlamaParse_and_OpenAI.json"
+  },
+  {
+    "slug": "receive-transfer-updates-from-wise-and-add-to-airtable",
+    "title": "Receive transfer updates from Wise and add to Airtable",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/Receive_transfer_updates_from_Wise_and_add_to_Airtable.json"
+  },
+  {
+    "slug": "store-financial-records-in-airtable",
+    "title": "Store financial records in Airtable",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/Tracking_your_crypto_portfolio_in_Airtable.json"
+  },
+  {
+    "slug": "ai-powered-employee-database-management-via-telegram-using-openai-t",
+    "title": "AI-Powered Employee Database Management via Telegram using OpenAI t...",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./HR/AI-Powered_Employee_Database_Management_via_Telegram_using_OpenAI_and_Airtable.json"
+  },
+  {
+    "slug": "automate-cv-screening-and-applicant-scoring-from-gmail-to-airtable",
+    "title": "Automate CV screening and applicant scoring from Gmail to Airtable ...",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./HR/Automate_CV_screening_and_applicant_scoring_from_Gmail_to_Airtable_with_AI.json"
+  },
+  {
+    "slug": "manage-employee-records-in-airtable",
+    "title": "Manage employee records in Airtable",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./HR/CV_Screening_with_OpenAI.json"
+  },
+  {
+    "slug": "store-employee-records-in-airtable",
+    "title": "Store employee records in Airtable",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./HR/Extract_and_Structure_Hacker_News_Job_Posts_with_Gemini_AI_and_Save_to_Airtable.json"
+  },
+  {
+    "slug": "store-employee-records-from-form-submissions-in-airtable",
+    "title": "Store employee records from form submissions in Airtable",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./HR/HR_Job_Posting_and_Evaluation_with_AI.json"
+  },
+  {
+    "slug": "store-employee-records-in-airtable",
+    "title": "Store employee records in Airtable",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./HR/Hacker_News_Job_Listing_Scraper_and_Parser.json"
+  },
+  {
+    "slug": "handling-job-application-submissions-with-ai-and-n8n-forms",
+    "title": "Handling Job Application Submissions with AI and n8n Forms",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./HR/Handling_Job_Application_Submissions_with_AI_and_n8n_Forms.json"
+  },
+  {
+    "slug": "manage-employee-records-from-form-submissions-in-airtable",
+    "title": "Manage employee records from form submissions in Airtable",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./HR/Resume_Screening_Evaluation_System_with_Gemini_AI_Google_Sheets_Drive_for_HR.json"
+  },
+  {
+    "slug": "screen-and-evaluate-job-candidates-with-gpt-4-airtable-and-google-d",
+    "title": "Screen and Evaluate Job Candidates with GPT-4 Airtable and Google D...",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./HR/Screen_and_Evaluate_Job_Candidates_with_GPT-4_Airtable_and_Google_Drive.json"
+  },
+  {
+    "slug": "track-employee-records-between-airtable-tables-in-airtable",
+    "title": "Track employee records between Airtable tables in Airtable",
+    "category": "hr",
+    "useCaseTags": [
+      "hr"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./HR/Training_Feedback_Automation_with_Usertask_and_Airtable.json"
+  },
+  {
+    "slug": "ai-token-tracker-for-whatsapp-telegram-save-ai-usage-to-googl",
+    "title": "\ud83d\udcca AI Token Tracker for WhatsApp & Telegram \u2013 Save AI Usage to Googl...",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/AI_Token_Tracker_for_WhatsApp_Telegram_Save_AI_Usage_to_Google_Sheets.json"
+  },
+  {
+    "slug": "track-telegram-messages-from-telegram-in-airtable",
+    "title": "Track Telegram messages from Telegram in Airtable",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Access_Control_for_AI_Agents_RBAC_using_Airtable_and_Telegram.json"
+  },
+  {
+    "slug": "automated-airtable-to-postgres-migration-with-n8n",
+    "title": "Automated Airtable to Postgres Migration with n8n",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Automated_Airtable_to_Postgres_Migration_with_n8n.json"
+  },
+  {
+    "slug": "update-data-between-airtable-tables-in-airtable",
+    "title": "Update data between Airtable tables in Airtable",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Automated_Expense_Approval_System_with_GPT-4_Airtable_Pinecone_Vector_DB.json"
+  },
+  {
+    "slug": "build-an-mcp-server-with-airtable",
+    "title": "Build an MCP server with Airtable",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Build_an_MCP_Server_with_Airtable.json"
+  },
+  {
+    "slug": "connect-airtable-contacts-to-telli-for-automated-ai-voice-call-sche",
+    "title": "Connect Airtable Contacts to telli for Automated AI Voice Call Sche...",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Connect_Airtable_Contacts_to_telli_for_Automated_AI_Voice_Call_Scheduling.json"
+  },
+  {
+    "slug": "store-data-in-airtable",
+    "title": "Store data in Airtable",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Handle_GDPR_data_deletion_requests_with_Slack.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Public_Webhook_Relay.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Use_Redis_to_rate-limit_your_low-code_API.json"
+  },
+  {
+    "slug": "track-data-in-airtable",
+    "title": "Track data in Airtable",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/YouTube_Video_to_WordPress_Blog_Automation_with_Gemini_AI_Affiliate_Integration.json"
+  },
+  {
+    "slug": "automated-invoice-data-extraction-with-llamaparse-gemini-25-google",
+    "title": "Automated Invoice Data Extraction with LlamaParse Gemini 25 Google ...",
+    "category": "invoice_processing",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Invoice_Processing/Automated_Invoice_Data_Extraction_with_LlamaParse_Gemini_25_Google_Sheets.json"
+  },
+  {
+    "slug": "manage-emails-from-form-submissions-in-airtable",
+    "title": "Manage emails from form submissions in Airtable",
+    "category": "invoice_processing",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Invoice_Processing/Client_Billing_Detail_Collection_Invoice_Generation_with_Gmail_and_QuickBooks.json"
+  },
+  {
+    "slug": "ai-powered-lead-generation-with-apollo-gpt-4-and-telegram-to-data",
+    "title": "AI-Powered Lead Generation with Apollo, GPT-4, and Telegram to Data...",
+    "category": "lead_generation",
+    "useCaseTags": [
+      "lead_generation"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Lead_Generation/AI-Powered_Lead_Generation_with_Apollo_GPT-4_and_Telegram_to_Database.json"
+  },
+  {
+    "slug": "ai-agent-leads-processor",
+    "title": "AI Agent Leads Processor",
+    "category": "lead_generation",
+    "useCaseTags": [
+      "lead_generation"
+    ],
+    "overall": 6,
+    "filePath": "/home/user/n8n-master-workflows/./Lead_Generation/Qualify_Real_Estate_Leads_Automatically_with_OpenAI_Gmail_Airtable_CRM.json"
+  },
+  {
+    "slug": "automated-content-marketing-intelligence-with-openai-ahrefs-multi-p",
+    "title": "Automated Content Marketing Intelligence with OpenAI Ahrefs Multi-p...",
+    "category": "market_research",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "./Market_Research/Automated_Content_Marketing_Intelligence_with_OpenAI_Ahrefs_Multi-platform_Integration.json"
+  },
+  {
+    "slug": "track-marketing-campaigns-from-form-submissions-in-airtable",
+    "title": "Track marketing campaigns from form submissions in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 6,
+    "filePath": "./Marketing/AI-Powered_YouTube_Meta_Generator_with_GPT-4o_Gemini_Content_Enrichment.json"
+  },
+  {
+    "slug": "leadaigen-basic",
+    "title": "LeadAIgen-basic",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 6,
+    "filePath": "./Marketing/Automated_Lead_Generation_Contact_Enrichment_with_Hunterio_and_Perplexity_AI.json"
+  },
+  {
+    "slug": "update-marketing-campaigns-in-airtable",
+    "title": "Update marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 6,
+    "filePath": "./Marketing/Multi-Platform_Social_Media_Publisher_with_Blotato_GPT-4_Mini_Airtable.json"
+  },
+  {
+    "slug": "track-marketing-campaigns-in-airtable",
+    "title": "Track marketing campaigns in Airtable",
+    "category": "marketing",
+    "useCaseTags": [
+      "content_mgmt",
+      "marketing"
+    ],
+    "overall": 6,
+    "filePath": "./Marketing/YouTube_Video_to_WordPress_Blog_Automation_with_Gemini_AI_Affiliate_Integration.json"
+  },
+  {
+    "slug": "automated-content-marketing-intelligence-with-openai-ahrefs-multi-p",
+    "title": "Automated Content Marketing Intelligence with OpenAI Ahrefs Multi-p...",
+    "category": "multimodal_ai",
+    "useCaseTags": [
+      "ai_enhanced",
+      "automation"
+    ],
+    "overall": 6,
+    "filePath": "./Multimodal_AI/Automated_Content_Marketing_Intelligence_with_OpenAI_Ahrefs_Multi-platform_Integration.json"
+  },
+  {
+    "slug": "from-google-drive-to-instagram-tiktok-youtube-with-airtable-trac",
+    "title": "From Google Drive to Instagram, TikTok & YouTube with Airtable Trac...",
+    "category": "multimodal_ai",
+    "useCaseTags": [
+      "ai_enhanced",
+      "automation"
+    ],
+    "overall": 6,
+    "filePath": "./Multimodal_AI/From_Google_Drive_to_Instagram_TikTok_YouTube_with_AI_Descriptions_Airtable_Tracking.json"
+  },
+  {
+    "slug": "automated-multi-ai-agent-property-investment-analysis-system",
+    "title": "Automated Multi-AI-Agent Property & Investment Analysis System",
+    "category": "multimodal_ai",
+    "useCaseTags": [
+      "automation"
+    ],
+    "overall": 6,
+    "filePath": "./Multimodal_AI/Generate_Property_Investment_Reports_with_GPT-4_SerpAPI_Google_Docs_Airtable.json"
+  },
+  {
+    "slug": "manage-telegram-messages-from-telegram-in-airtable",
+    "title": "Manage Telegram messages from Telegram in Airtable",
+    "category": "other",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "./Other/AI-Powered_Language_and_Coding_Tutor_with_GPT-4_and_Timed_Telegram_Messages.json"
+  },
+  {
+    "slug": "manage-emails-from-whatsapp-in-airtable",
+    "title": "Manage emails from WhatsApp in Airtable",
+    "category": "personal_productivity",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "./Personal_Productivity/Advanced_Multi-Agent_AI_Personal_Assistant_with_250_Task_Capabilities_WhatsApp_GPT.json"
+  },
+  {
+    "slug": "manage-emails-from-whatsapp-in-airtable",
+    "title": "Manage emails from WhatsApp in Airtable",
+    "category": "personal_productivity",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "./Personal_Productivity/Multi-Service_Task_Automation_with_GPT-powered_Agent_System_via_WhatsApp.json"
+  },
+  {
+    "slug": "manage-data-in-airtable",
+    "title": "Manage data in Airtable",
+    "category": "product",
+    "useCaseTags": [],
+    "overall": 6,
+    "filePath": "./Product/Generate_SEO_Seed_Keywords_Using_AI.json"
+  },
+  {
+    "slug": "startup-funding-research-automation-with-claude-perplexity-ai-to-ai",
+    "title": "Startup Funding Research Automation with Claude Perplexity AI to Ai...",
+    "category": "finance",
+    "useCaseTags": [
+      "finance"
+    ],
+    "overall": 5,
+    "filePath": "/home/user/n8n-master-workflows/./Finance/Startup_Funding_Research_Automation_with_Claude_Perplexity_AI_and_Airtable.json"
+  },
+  {
+    "slug": "automate-call-scheduling-with-voice-ai-receptionist-using-vapi-goog",
+    "title": "Automate Call Scheduling with Voice AI Receptionist using Vapi Goog...",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 5,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/Automate_Call_Scheduling_with_Voice_AI_Receptionist_using_Vapi_Google_Calendar_Airtable.json"
+  },
+  {
+    "slug": "ai-email-triage-alert-system-with-gpt-4-and-telegram-notifications",
+    "title": "AI Email Triage Alert System with GPT-4 and Telegram Notifications",
+    "category": "it_ops",
+    "useCaseTags": [],
+    "overall": 4,
+    "filePath": "/home/user/n8n-master-workflows/./IT_Ops/AI_Email_Triage_Alert_System_with_GPT-4_and_Telegram_Notifications.json"
+  }
+]
