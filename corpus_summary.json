@@ -1,0 +1,417 @@
+{
+  "totals": {
+    "workflows": 295,
+    "airtableWorkflows": 210,
+    "nodeTypes": {
+      "airtable": 477,
+      "airtableTrigger": 15,
+      "airtableTool": 76
+    },
+    "integrationsUnique": 145
+  },
+  "distributions": {
+    "byCategory": [
+      {
+        "name": "Marketing",
+        "count": 32
+      },
+      {
+        "name": "Sales",
+        "count": 29
+      },
+      {
+        "name": "Building_Blocks",
+        "count": 22
+      },
+      {
+        "name": "Engineering",
+        "count": 19
+      },
+      {
+        "name": "IT_Ops",
+        "count": 17
+      },
+      {
+        "name": "Product",
+        "count": 17
+      },
+      {
+        "name": "AI",
+        "count": 15
+      },
+      {
+        "name": "AI_Summarization",
+        "count": 15
+      },
+      {
+        "name": "Other",
+        "count": 15
+      },
+      {
+        "name": "Multimodal AI",
+        "count": 14
+      },
+      {
+        "name": "Finance",
+        "count": 11
+      },
+      {
+        "name": "HR",
+        "count": 11
+      },
+      {
+        "name": "Market Research",
+        "count": 10
+      },
+      {
+        "name": "Support",
+        "count": 10
+      },
+      {
+        "name": "Content_Creation",
+        "count": 8
+      },
+      {
+        "name": "Lead_Generation",
+        "count": 8
+      },
+      {
+        "name": "Social_Media",
+        "count": 8
+      },
+      {
+        "name": "CRM",
+        "count": 7
+      },
+      {
+        "name": "AI_Chatbot",
+        "count": 6
+      },
+      {
+        "name": "DevOps",
+        "count": 3
+      },
+      {
+        "name": "Support_Chatbot",
+        "count": 3
+      },
+      {
+        "name": "Design",
+        "count": 2
+      },
+      {
+        "name": "Document_Extraction",
+        "count": 2
+      },
+      {
+        "name": "Invoice_Processing",
+        "count": 2
+      },
+      {
+        "name": "Lead Nurturing",
+        "count": 2
+      },
+      {
+        "name": "Personal Productivity",
+        "count": 2
+      },
+      {
+        "name": "AI_RAG",
+        "count": 1
+      },
+      {
+        "name": "Lead_Nurturing",
+        "count": 1
+      },
+      {
+        "name": "Project Management",
+        "count": 1
+      },
+      {
+        "name": "SecOps",
+        "count": 1
+      },
+      {
+        "name": "Ticket_Management",
+        "count": 1
+      }
+    ],
+    "byOperation": [
+      {
+        "op": "create",
+        "pct": 35.71
+      },
+      {
+        "op": "search",
+        "pct": 31.43
+      },
+      {
+        "op": "append",
+        "pct": 22.38
+      },
+      {
+        "op": "update",
+        "pct": 20.95
+      },
+      {
+        "op": "list",
+        "pct": 13.81
+      },
+      {
+        "op": "upsert",
+        "pct": 9.52
+      },
+      {
+        "op": "read",
+        "pct": 4.29
+      },
+      {
+        "op": "getSchema",
+        "pct": 3.33
+      },
+      {
+        "op": "unknown",
+        "pct": 3.33
+      },
+      {
+        "op": "deleteRecord",
+        "pct": 2.38
+      },
+      {
+        "op": "get",
+        "pct": 1.43
+      },
+      {
+        "op": "database:create",
+        "pct": 0.48
+      }
+    ],
+    "byTrigger": [
+      {
+        "type": "scheduleTrigger",
+        "pct": 26.44
+      },
+      {
+        "type": "manualTrigger",
+        "pct": 25.42
+      },
+      {
+        "type": "formTrigger",
+        "pct": 13.22
+      },
+      {
+        "type": "webhook",
+        "pct": 7.8
+      },
+      {
+        "type": "chatTrigger",
+        "pct": 6.78
+      },
+      {
+        "type": "executeWorkflowTrigger",
+        "pct": 6.1
+      },
+      {
+        "type": "telegramTrigger",
+        "pct": 5.76
+      },
+      {
+        "type": "airtableTrigger",
+        "pct": 5.08
+      },
+      {
+        "type": "whatsAppTrigger",
+        "pct": 3.73
+      },
+      {
+        "type": "gmailTrigger",
+        "pct": 3.73
+      },
+      {
+        "type": "rssFeedReadTrigger",
+        "pct": 2.03
+      },
+      {
+        "type": "googleDriveTrigger",
+        "pct": 2.03
+      },
+      {
+        "type": "typeformTrigger",
+        "pct": 2.03
+      },
+      {
+        "type": "mcpTrigger",
+        "pct": 1.36
+      },
+      {
+        "type": "netlifyTrigger",
+        "pct": 0.68
+      },
+      {
+        "type": "autopilotTrigger",
+        "pct": 0.68
+      },
+      {
+        "type": "wiseTrigger",
+        "pct": 0.68
+      },
+      {
+        "type": "localFileTrigger",
+        "pct": 0.68
+      },
+      {
+        "type": "errorTrigger",
+        "pct": 0.68
+      },
+      {
+        "type": "hubspotTrigger",
+        "pct": 0.68
+      },
+      {
+        "type": "shopifyTrigger",
+        "pct": 0.34
+      },
+      {
+        "type": "gumroadTrigger",
+        "pct": 0.34
+      },
+      {
+        "type": "twilioTrigger",
+        "pct": 0.34
+      }
+    ]
+  },
+  "patterns": [
+    {
+      "id": "event_to_airtable",
+      "label": "Event/Webhook to Airtable Storage",
+      "pct": 5.08
+    },
+    {
+      "id": "airtable_to_external",
+      "label": "Airtable Trigger to External Service",
+      "pct": 2.03
+    },
+    {
+      "id": "bidirectional_sync",
+      "label": "Bidirectional Data Synchronization",
+      "pct": 15.25
+    },
+    {
+      "id": "lookup_enrich_upsert",
+      "label": "Lookup/Enrich/Upsert Pattern",
+      "pct": 10.85
+    }
+  ],
+  "configStats": {
+    "typecastUsedPct": 0.0,
+    "usesMatchingColumnsPct": 16.67,
+    "usesFilterByFormulaPct": 13.33,
+    "usesWaitOrBackoffPct": 16.67,
+    "usesPaginationLoopPct": 15.71,
+    "hardcodedIdsPct": 45.24
+  },
+  "antiPatterns": [
+    {
+      "id": "blind-update",
+      "count": 29
+    },
+    {
+      "id": "no-dedupe-before-create",
+      "count": 68
+    }
+  ],
+  "topIntegrations": [
+    {
+      "name": "Openai",
+      "count": 105
+    },
+    {
+      "name": "Http",
+      "count": 48
+    },
+    {
+      "name": "Stickynote",
+      "count": 44
+    },
+    {
+      "name": "Gmail",
+      "count": 38
+    },
+    {
+      "name": "Set",
+      "count": 32
+    },
+    {
+      "name": "Google",
+      "count": 32
+    },
+    {
+      "name": "Webhook",
+      "count": 30
+    },
+    {
+      "name": "Slack",
+      "count": 29
+    },
+    {
+      "name": "Langchain",
+      "count": 29
+    },
+    {
+      "name": "Telegram",
+      "count": 27
+    },
+    {
+      "name": "Httprequest",
+      "count": 26
+    },
+    {
+      "name": "Agent",
+      "count": 21
+    },
+    {
+      "name": "Code",
+      "count": 19
+    },
+    {
+      "name": "Lmchatopenai",
+      "count": 19
+    },
+    {
+      "name": "Whatsapp",
+      "count": 17
+    }
+  ],
+  "tableArchetypes": [],
+  "exemplars": [
+    {
+      "file": "/home/user/n8n-master-workflows/Sales/Extract_Information_from_a_Logo_Sheet_using_forms_AI_Google_Sheet_and_Airtable.json",
+      "why": "robust upsert pattern, excellent upsert implementation (score: 100)"
+    },
+    {
+      "file": "/home/user/n8n-master-workflows/Sales/Generate_Qualified_Finance_Leads_from_LinkedIn_with_Apify_GPT-_4_and_Airtable.json",
+      "why": "lookup and search pattern"
+    },
+    {
+      "file": "/home/user/n8n-master-workflows/Sales/Microsoft_Outlook_AI_Email_Assistant_with_contact_support_from_Monday_and_Airtable.json",
+      "why": "pagination loop implementation"
+    },
+    {
+      "file": "/home/user/n8n-master-workflows/Support/Sentiment_Analysis_Tracking_on_Support_Issues_with_Linear_and_Slack.json",
+      "why": "high quality implementation (avg score: 76)"
+    },
+    {
+      "file": "/home/user/n8n-master-workflows/Support/Automate_Call_Scheduling_with_Voice_AI_Receptionist_using_Vapi_Google_Calendar_Airtable.json",
+      "why": "clean CREATE with deduplication"
+    },
+    {
+      "file": "/home/user/n8n-master-workflows/Sales/Search_LinkedIn_companies_and_add_them_to_Airtable_CRM.json",
+      "why": "high reliability (score: 80)"
+    },
+    {
+      "file": "/home/user/n8n-master-workflows/Social_Media/Multi-Platform_Social_Media_Publisher_with_Airtable_Google_Drive_and_Postiz.json",
+      "why": "conditional update logic"
+    }
+  ]
+}
