@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-11-09",
+    "nodes_covered": 15,
+    "workflows_analyzed": "100+"
+  },
+  "tier_1_core": {
+    "http_request": {
+      "type": "n8n-nodes-base.httpRequest",
+      "version": 4.2,
+      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH"],
+      "auth_types": ["none", "basicAuth", "headerAuth", "oauth2", "predefined"],
+      "template": {
+        "name": "HTTP Request",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "parameters": {
+          "url": "https://api.example.com/endpoint",
+          "method": "GET",
+          "authentication": "none"
+        }
+      }
+    },
+    "code": {
+      "type": "n8n-nodes-base.code",
+      "version": 2,
+      "modes": ["runOnceForAllItems", "runOnceForEachItem"],
+      "languages": ["javaScript", "python"],
+      "template": {
+        "name": "Code",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "parameters": {
+          "mode": "runOnceForEachItem",
+          "language": "javaScript",
+          "jsCode": "return items;"
+        }
+      },
+      "common_patterns": {
+        "access_current": "$json.fieldName",
+        "access_all": "$input.all()",
+        "access_node": "$('NodeName').item.json",
+        "static_data": "$getWorkflowStaticData('global')['key']"
+      }
+    },
+    "split_in_batches": {
+      "type": "n8n-nodes-base.splitInBatches",
+      "version": 3,
+      "outputs": 2,
+      "template": {
+        "name": "Split In Batches",
+        "type": "n8n-nodes-base.splitInBatches",
+        "typeVersion": 3,
+        "parameters": {
+          "batchSize": 10,
+          "options": {"reset": false}
+        }
+      }
+    },
+    "if": {
+      "type": "n8n-nodes-base.if",
+      "version": 2.2,
+      "outputs": 2,
+      "condition_types": ["string", "number", "boolean", "dateTime"],
+      "combinators": ["and", "or"],
+      "template": {
+        "name": "IF",
+        "type": "n8n-nodes-base.if",
+        "typeVersion": 2.2,
+        "parameters": {
+          "conditions": {
+            "combinator": "and",
+            "conditions": [
+              {
+                "operator": {"type": "string", "operation": "equals"},
+                "leftValue": "={{ $json.field }}",
+                "rightValue": "value"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "schedule_trigger": {
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "version": 1.2,
+      "intervals": ["minutes", "hours", "days", "weeks", "cronExpression"],
+      "template": {
+        "name": "Schedule Trigger",
+        "type": "n8n-nodes-base.scheduleTrigger",
+        "typeVersion": 1.2,
+        "parameters": {
+          "rule": {
+            "interval": [
+              {"field": "hours", "hoursInterval": 1}
+            ]
+          }
+        }
+      },
+      "cron_examples": {
+        "hourly": "0 * * * *",
+        "daily_9am": "0 9 * * *",
+        "monday_9am": "0 9 * * 1",
+        "first_of_month": "0 9 1 * *"
+      }
+    }
+  },
+  "tier_2_high_value": {
+    "compare_datasets": {
+      "type": "n8n-nodes-base.compareDatasets",
+      "version": 2.3,
+      "inputs": 2,
+      "outputs": 4,
+      "output_meanings": [
+        "Only in Input 1",
+        "Same in Both",
+        "Different in Both",
+        "Only in Input 2"
+      ],
+      "template": {
+        "name": "Compare Datasets",
+        "type": "n8n-nodes-base.compareDatasets",
+        "typeVersion": 2.3,
+        "parameters": {
+          "mergeByFields": {
+            "values": [
+              {"field1": "email", "field2": "email"}
+            ]
+          }
+        }
+      }
+    },
+    "remove_duplicates": {
+      "type": "n8n-nodes-base.removeDuplicates",
+      "version": 1.1,
+      "compare_modes": ["allFields", "selectedFields"],
+      "template": {
+        "name": "Remove Duplicates",
+        "type": "n8n-nodes-base.removeDuplicates",
+        "typeVersion": 1.1,
+        "parameters": {
+          "compare": "selectedFields",
+          "fieldsToCompare": "email"
+        }
+      }
+    },
+    "merge": {
+      "type": "n8n-nodes-base.merge",
+      "version": 3.2,
+      "modes": ["append", "combine", "mergeByKey"],
+      "template": {
+        "name": "Merge",
+        "type": "n8n-nodes-base.merge",
+        "typeVersion": 3.2,
+        "parameters": {
+          "mode": "append"
+        }
+      }
+    },
+    "error_trigger": {
+      "type": "n8n-nodes-base.errorTrigger",
+      "version": 1,
+      "template": {
+        "name": "Error Trigger",
+        "type": "n8n-nodes-base.errorTrigger",
+        "typeVersion": 1,
+        "parameters": {}
+      },
+      "error_fields": {
+        "workflow_name": "$('Error Trigger').first().json.workflow.name",
+        "execution_url": "$('Error Trigger').first().json.execution.url",
+        "last_node": "$('Error Trigger').first().json.execution.lastNodeExecuted",
+        "error_message": "$('Error Trigger').first().json.execution.error.message"
+      }
+    },
+    "set": {
+      "type": "n8n-nodes-base.set",
+      "version": 3.4,
+      "assignment_types": ["string", "number", "boolean", "array", "object", "dateTime"],
+      "template": {
+        "name": "Set",
+        "type": "n8n-nodes-base.set",
+        "typeVersion": 3.4,
+        "parameters": {
+          "assignments": {
+            "assignments": [
+              {
+                "id": "unique-id",
+                "name": "fieldName",
+                "type": "string",
+                "value": "fieldValue"
+              }
+            ]
+          },
+          "includeOtherFields": true
+        }
+      }
+    }
+  },
+  "tier_3_advanced": {
+    "aggregate": {
+      "type": "n8n-nodes-base.aggregate",
+      "version": 1,
+      "template": {
+        "name": "Aggregate",
+        "type": "n8n-nodes-base.aggregate",
+        "typeVersion": 1,
+        "parameters": {
+          "fieldsToAggregate": {
+            "fieldToAggregate": [
+              {"fieldToAggregate": "email"}
+            ]
+          }
+        }
+      }
+    },
+    "execute_workflow": {
+      "type": "n8n-nodes-base.executeWorkflow",
+      "version": 1.1,
+      "modes": ["once", "each"],
+      "template": {
+        "name": "Execute Workflow",
+        "type": "n8n-nodes-base.executeWorkflow",
+        "typeVersion": 1.1,
+        "parameters": {
+          "workflowId": {
+            "__rl": true,
+            "mode": "list",
+            "value": "workflow-id"
+          }
+        }
+      }
+    },
+    "limit": {
+      "type": "n8n-nodes-base.limit",
+      "version": 1,
+      "keep_options": ["firstItems", "lastItems"],
+      "template": {
+        "name": "Limit",
+        "type": "n8n-nodes-base.limit",
+        "typeVersion": 1,
+        "parameters": {
+          "maxItems": 10,
+          "keep": "firstItems"
+        }
+      }
+    },
+    "filter": {
+      "type": "n8n-nodes-base.filter",
+      "version": 2.2,
+      "operations": {
+        "string": ["equals", "notEquals", "contains", "notContains", "startsWith", "endsWith", "regex", "notRegex", "isEmpty", "isNotEmpty"],
+        "number": ["equal", "notEqual", "gt", "lt", "gte", "lte"],
+        "boolean": ["true", "false"],
+        "array": ["empty", "notEmpty"]
+      },
+      "template": {
+        "name": "Filter",
+        "type": "n8n-nodes-base.filter",
+        "typeVersion": 2.2,
+        "parameters": {
+          "conditions": {
+            "combinator": "and",
+            "conditions": [
+              {
+                "operator": {"type": "string", "operation": "contains"},
+                "leftValue": "={{ $json.field }}",
+                "rightValue": "value"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "datetime": {
+      "type": "n8n-nodes-base.dateTime",
+      "version": 2,
+      "actions": ["format", "calculate"],
+      "time_units": ["seconds", "minutes", "hours", "days", "weeks", "months", "years"],
+      "template": {
+        "name": "Date & Time",
+        "type": "n8n-nodes-base.dateTime",
+        "typeVersion": 2,
+        "parameters": {
+          "value": "={{ $now }}",
+          "toFormat": "yyyy-MM-dd"
+        }
+      },
+      "format_examples": {
+        "date_only": "yyyy-MM-dd",
+        "datetime": "yyyy-MM-dd HH:mm:ss",
+        "readable": "MMMM DD YYYY",
+        "time_only": "HH:mm:ss"
+      }
+    }
+  },
+  "common_patterns": {
+    "api_integration": ["Schedule", "Code", "HTTP Request", "Filter", "Set", "Database"],
+    "batch_processing": ["Database", "Split In Batches", "HTTP Request", "Wait", "Loop"],
+    "data_sync": ["System A", "System B", "Compare Datasets", "Create/Update/Delete"],
+    "error_handling": ["Any Workflow", "Error Trigger", "Format", "Notification"],
+    "etl": ["Extract", "Filter", "Remove Duplicates", "Set", "Aggregate", "Load"]
+  },
+  "expression_reference": {
+    "current_item": "{{ $json.fieldName }}",
+    "previous_node": "{{ $('NodeName').item.json.field }}",
+    "current_time": "{{ $now }}",
+    "today": "{{ $today }}",
+    "add_time": "{{ $now.plus({days: 7}) }}",
+    "subtract_time": "{{ $now.minus({hours: 1}) }}",
+    "format_date": "{{ $now.toFormat('yyyy-MM-dd') }}",
+    "is_weekend": "{{ $now.isWeekend() }}",
+    "workflow_id": "{{ $workflow.id }}",
+    "execution_id": "{{ $execution.id }}"
+  }
+}
