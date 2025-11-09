@@ -1,0 +1,619 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-11-09",
+    "workflows_analyzed": 100,
+    "purpose": "Machine-readable reference for AI agents building n8n Airtable workflows"
+  },
+  "node_types": {
+    "airtable": {
+      "identifier": "n8n-nodes-base.airtable",
+      "current_version": 2.1,
+      "legacy_version": 1,
+      "description": "Main Airtable CRUD operations node"
+    },
+    "airtable_trigger": {
+      "identifier": "n8n-nodes-base.airtableTrigger",
+      "current_version": 1,
+      "description": "Polls Airtable for changes"
+    }
+  },
+  "authentication": {
+    "modern": {
+      "type": "airtableTokenApi",
+      "structure": {
+        "credentials": {
+          "airtableTokenApi": {
+            "id": "string",
+            "name": "string"
+          }
+        }
+      },
+      "required_scopes": [
+        "data.records:read",
+        "data.records:write",
+        "schema.bases:read"
+      ],
+      "recommended": true
+    },
+    "legacy": {
+      "type": "airtableApi",
+      "structure": {
+        "credentials": {
+          "airtableApi": "string"
+        }
+      },
+      "recommended": false
+    }
+  },
+  "operations": {
+    "create": {
+      "description": "Create new record",
+      "parameters": {
+        "operation": "create",
+        "base": "ResourceLocator",
+        "table": "ResourceLocator",
+        "columns": {
+          "value": "object",
+          "schema": "array",
+          "mappingMode": "enum:autoMapInputData|defineBelow",
+          "matchingColumns": "array"
+        },
+        "options": {
+          "typecast": "boolean"
+        }
+      },
+      "example": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "mode": "list",
+          "value": "appXXXXXXXXXXXXXX"
+        },
+        "table": {
+          "__rl": true,
+          "mode": "list",
+          "value": "tblYYYYYYYYYYYYYY"
+        },
+        "columns": {
+          "value": {
+            "Name": "={{ $json.name }}",
+            "Email": "={{ $json.email }}"
+          },
+          "mappingMode": "defineBelow"
+        },
+        "options": {
+          "typecast": true
+        }
+      }
+    },
+    "update": {
+      "description": "Update existing record",
+      "parameters": {
+        "operation": "update",
+        "base": "ResourceLocator",
+        "table": "ResourceLocator",
+        "columns": {
+          "value": "object",
+          "schema": "array",
+          "mappingMode": "enum:autoMapInputData|defineBelow",
+          "matchingColumns": "array:required"
+        }
+      },
+      "example": {
+        "operation": "update",
+        "columns": {
+          "value": {
+            "Status": "Updated",
+            "Last Modified": "={{ $now }}"
+          },
+          "matchingColumns": ["Email"]
+        }
+      },
+      "critical": "matchingColumns must be specified"
+    },
+    "upsert": {
+      "description": "Update if exists, create if not",
+      "parameters": {
+        "operation": "upsert",
+        "columns": {
+          "matchingColumns": "array:required"
+        }
+      },
+      "example": {
+        "operation": "upsert",
+        "columns": {
+          "value": {
+            "email": "={{ $json.email }}",
+            "name": "={{ $json.name }}"
+          },
+          "matchingColumns": ["email"]
+        }
+      },
+      "use_case": "Prevent duplicates when record existence is uncertain"
+    },
+    "search": {
+      "description": "Query records using Airtable formula",
+      "parameters": {
+        "operation": "search",
+        "filterByFormula": "string:airtable_formula",
+        "limit": "number",
+        "returnAll": "boolean"
+      },
+      "examples": {
+        "simple": {
+          "operation": "search",
+          "filterByFormula": "={Email} = '{{ $json.email }}'"
+        },
+        "and_condition": {
+          "operation": "search",
+          "filterByFormula": "=AND({Status} = 'Active', {Score} > 10)"
+        },
+        "date_range": {
+          "operation": "search",
+          "filterByFormula": "=AND(time < \"{{ $json.now }}\", time > \"{{ $json.yesterday }}\")"
+        },
+        "numeric": {
+          "operation": "search",
+          "filterByFormula": "={Total Score} > 15"
+        }
+      },
+      "best_practice": "Use alwaysOutputData: true"
+    },
+    "list": {
+      "description": "Get all records",
+      "parameters": {
+        "operation": "list",
+        "returnAll": "boolean",
+        "limit": "number",
+        "options": {
+          "fields": "array:field_names",
+          "filterByFormula": "string:optional"
+        }
+      },
+      "example": {
+        "operation": "list",
+        "options": {
+          "fields": ["Name", "Email", "Status"]
+        },
+        "returnAll": true
+      }
+    },
+    "getSchema": {
+      "description": "Get base/table schema metadata",
+      "parameters": {
+        "resource": "base",
+        "operation": "getSchema",
+        "base": "ResourceLocator"
+      }
+    }
+  },
+  "resource_locator": {
+    "description": "Object for referencing bases and tables in TypeVersion 2.1",
+    "modes": {
+      "list": {
+        "description": "Select from dropdown",
+        "structure": {
+          "__rl": true,
+          "mode": "list",
+          "value": "string:id",
+          "cachedResultUrl": "string:url",
+          "cachedResultName": "string:name"
+        },
+        "use_case": "Static selections"
+      },
+      "id": {
+        "description": "Specify by ID (supports expressions)",
+        "structure": {
+          "__rl": true,
+          "mode": "id",
+          "value": "string|expression"
+        },
+        "use_case": "Dynamic/expression-based references"
+      },
+      "url": {
+        "description": "Specify by Airtable URL",
+        "structure": {
+          "__rl": true,
+          "mode": "url",
+          "value": "string:url"
+        },
+        "use_case": "URL-based references"
+      }
+    }
+  },
+  "field_types": {
+    "string": {
+      "type": "string",
+      "schema_definition": {
+        "id": "FieldName",
+        "type": "string",
+        "canBeUsedToMatch": true
+      },
+      "example_value": "={{ $json.name }}"
+    },
+    "number": {
+      "type": "number",
+      "schema_definition": {
+        "id": "FieldName",
+        "type": "number"
+      },
+      "example_value": "={{ $json.count }}"
+    },
+    "boolean": {
+      "type": "boolean",
+      "schema_definition": {
+        "id": "FieldName",
+        "type": "boolean"
+      },
+      "example_value": "={{ $json.isActive }}"
+    },
+    "dateTime": {
+      "type": "dateTime",
+      "schema_definition": {
+        "id": "FieldName",
+        "type": "dateTime"
+      },
+      "example_values": [
+        "={{ $now }}",
+        "={{ $now.format('yyyy.MM.dd') }}",
+        "={{ new Date().toISOString() }}"
+      ]
+    },
+    "options": {
+      "type": "options",
+      "description": "Single select field",
+      "schema_definition": {
+        "id": "Status",
+        "type": "options",
+        "options": [
+          {"name": "Active", "value": "Active"},
+          {"name": "Inactive", "value": "Inactive"}
+        ]
+      },
+      "example_value": "={{ $json.status }}"
+    },
+    "array": {
+      "type": "array",
+      "description": "Multiple select or linked records",
+      "schema_definition": {
+        "id": "Tags",
+        "type": "array"
+      },
+      "example_values": {
+        "multi_select": "={{ $json.tags }}",
+        "linked_record_single": "={{ [$json.recordId] }}",
+        "linked_record_multiple": "={{ $json.recordIds }}"
+      },
+      "critical": "Wrap single linked record IDs in array brackets"
+    }
+  },
+  "expression_patterns": {
+    "current_item": {
+      "syntax": "={{ $json.fieldName }}",
+      "examples": [
+        "={{ $json.name }}",
+        "={{ $json.body.messages[0].from }}",
+        "={{ $json['Field with Spaces'] }}"
+      ]
+    },
+    "previous_node": {
+      "syntax": "={{ $('NodeName').item.json.fieldName }}",
+      "examples": [
+        "={{ $('Webhook').item.json.email }}",
+        "={{ $node['Set'].json['deal_name'] }}"
+      ]
+    },
+    "date_time": {
+      "functions": [
+        "{{ $now }}",
+        "{{ $now.format('yyyy.MM.dd') }}",
+        "{{ new Date().toISOString() }}"
+      ]
+    },
+    "transformations": {
+      "examples": [
+        "{{ $json.name.toLowerCase() }}",
+        "{{ $json.name.toUpperCase() }}",
+        "{{ $json.value.trim() }}",
+        "{{ $json.id.toNumber() }}",
+        "{{ JSON.stringify($json.data) }}"
+      ]
+    },
+    "conditionals": {
+      "syntax": "={{ condition ? trueValue : falseValue }}",
+      "examples": [
+        "={{ $json.status === 'active' ? 'Active' : 'Inactive' }}",
+        "={{ $json.count > 10 ? 'High' : 'Low' }}"
+      ]
+    },
+    "optional_chaining": {
+      "syntax": "={{ $json.field?.subfield }}",
+      "examples": [
+        "={{ $json.user?.email }}",
+        "={{ $json.data?.optional?.field }}"
+      ]
+    }
+  },
+  "workflow_patterns": {
+    "form_to_airtable": {
+      "description": "Store form submissions in Airtable",
+      "structure": "Webhook → Transform → Airtable (create) → Notification",
+      "airtable_operation": "create",
+      "common_preceding_nodes": ["Webhook", "Typeform", "n8n Form"],
+      "common_following_nodes": ["Slack", "Email", "Gmail"]
+    },
+    "airtable_trigger_action": {
+      "description": "React to Airtable changes",
+      "structure": "Airtable Trigger → Filter → Action",
+      "trigger_config": {
+        "pollTimes": {
+          "item": [
+            {"mode": "everyX", "unit": "minutes", "value": 10}
+          ]
+        },
+        "triggerField": "FieldName"
+      }
+    },
+    "etl_pipeline": {
+      "description": "Import data from external sources",
+      "structure": "Schedule → API → Transform → Dedupe → Airtable (upsert)",
+      "airtable_operation": "upsert",
+      "key_nodes": ["Remove Duplicates", "Filter", "Code"]
+    },
+    "conditional_create_update": {
+      "description": "Check existence before creating",
+      "structure": "Data → Airtable (search) → If → Create/Update",
+      "pattern": {
+        "search_step": "alwaysOutputData: true",
+        "if_condition": "={{ $json.length > 0 }}",
+        "true_path": "update",
+        "false_path": "create"
+      }
+    },
+    "scheduled_report": {
+      "description": "Generate periodic reports from Airtable",
+      "structure": "Schedule → Code (dates) → Airtable (search) → HTML → Email",
+      "airtable_operation": "search",
+      "filter_pattern": "Date range formula"
+    },
+    "ai_with_storage": {
+      "description": "AI processes data and stores in Airtable",
+      "structure": "Trigger → AI Agent → Extract Data → Airtable (create)",
+      "connection_type": "ai_tool or main"
+    },
+    "batch_processing": {
+      "description": "Process Airtable records in batches",
+      "structure": "Airtable (list) → Split in Batches → Process → Update → Loop",
+      "config": {
+        "batchSize": 5,
+        "loop": true
+      }
+    }
+  },
+  "connection_structures": {
+    "basic": {
+      "SourceNode": {
+        "main": [[{"node": "TargetNode", "type": "main", "index": 0}]]
+      }
+    },
+    "multiple_outputs": {
+      "description": "Switch/If node with multiple paths",
+      "Switch": {
+        "main": [
+          [{"node": "Path1", "type": "main", "index": 0}],
+          [{"node": "Path2", "type": "main", "index": 0}],
+          [{"node": "Path3", "type": "main", "index": 0}]
+        ]
+      }
+    },
+    "parallel": {
+      "description": "One source to multiple targets",
+      "SourceNode": {
+        "main": [
+          [
+            {"node": "Target1", "type": "main", "index": 0},
+            {"node": "Target2", "type": "main", "index": 0}
+          ]
+        ]
+      }
+    },
+    "ai_agent": {
+      "AI Agent": {
+        "ai_tool": [
+          [{"node": "Tool1", "type": "ai_tool", "index": 0}]
+        ],
+        "ai_languageModel": [
+          [{"node": "OpenAI", "type": "ai_languageModel", "index": 0}]
+        ]
+      }
+    }
+  },
+  "common_options": {
+    "typecast": {
+      "type": "boolean",
+      "default": false,
+      "recommended": true,
+      "description": "Automatically convert field types"
+    },
+    "bulkSize": {
+      "type": "number",
+      "default": 10,
+      "description": "Number of records to process in batch"
+    },
+    "ignoreErrors": {
+      "type": "boolean",
+      "default": false,
+      "description": "Continue processing on errors"
+    },
+    "fields": {
+      "type": "array",
+      "description": "Specific fields to return (reduces data)"
+    },
+    "filterByFormula": {
+      "type": "string",
+      "description": "Airtable formula for filtering"
+    },
+    "limit": {
+      "type": "number",
+      "description": "Maximum records to return"
+    },
+    "returnAll": {
+      "type": "boolean",
+      "description": "Return all records (ignores limit)"
+    }
+  },
+  "node_properties": {
+    "alwaysOutputData": {
+      "type": "boolean",
+      "use_case": "Continue workflow even if node returns no data",
+      "recommended_for": ["search operations"]
+    },
+    "executeOnce": {
+      "type": "boolean",
+      "use_case": "Execute only once when multiple items present"
+    },
+    "position": {
+      "type": "array",
+      "format": "[x, y]",
+      "description": "Node position in workflow canvas"
+    }
+  },
+  "complete_node_template": {
+    "id": "unique-node-id",
+    "name": "Descriptive Name",
+    "type": "n8n-nodes-base.airtable",
+    "typeVersion": 2.1,
+    "position": [900, 300],
+    "parameters": {
+      "base": {
+        "__rl": true,
+        "mode": "list",
+        "value": "appXXXXXXXXXXXXXX",
+        "cachedResultName": "Base Name"
+      },
+      "table": {
+        "__rl": true,
+        "mode": "list",
+        "value": "tblYYYYYYYYYYYYYY",
+        "cachedResultName": "Table Name"
+      },
+      "operation": "create",
+      "columns": {
+        "value": {
+          "Field1": "={{ $json.field1 }}",
+          "Field2": "={{ $json.field2 }}"
+        },
+        "schema": [
+          {
+            "id": "Field1",
+            "type": "string",
+            "display": true,
+            "canBeUsedToMatch": true
+          }
+        ],
+        "mappingMode": "defineBelow",
+        "matchingColumns": [],
+        "attemptToConvertTypes": false,
+        "convertFieldsToString": false
+      },
+      "options": {
+        "typecast": true
+      }
+    },
+    "credentials": {
+      "airtableTokenApi": {
+        "id": "credential-id",
+        "name": "Airtable Personal Access Token"
+      }
+    },
+    "alwaysOutputData": false,
+    "executeOnce": false
+  },
+  "best_practices": {
+    "do": [
+      "Use TypeVersion 2.1 with Personal Access Tokens",
+      "Enable typecast option for automatic type conversion",
+      "Use upsert operation to prevent duplicates",
+      "Define schema for complex field types",
+      "Use alwaysOutputData for search operations",
+      "Wrap linked record IDs in arrays",
+      "Format dates as ISO strings",
+      "Use Resource Locator mode appropriately",
+      "Handle errors with If nodes and conditional routing"
+    ],
+    "dont": [
+      "Don't use TypeVersion 1 for new workflows",
+      "Don't forget matchingColumns for update/upsert",
+      "Don't hardcode base/table IDs without resource locator",
+      "Don't ignore error handling",
+      "Don't mix node versions in same workflow",
+      "Don't forget bracket notation for fields with special characters"
+    ]
+  },
+  "troubleshooting": {
+    "record_not_found": {
+      "issue": "Update fails with 'record not found'",
+      "solution": "Use alwaysOutputData on search, add If node to check results"
+    },
+    "linked_records_fail": {
+      "issue": "Linked records not saving",
+      "solution": "Wrap record IDs in array brackets: ={{ [$json.recordId] }}"
+    },
+    "date_format_error": {
+      "issue": "Date field errors",
+      "solution": "Use ISO format: ={{ new Date().toISOString() }} or ={{ $now }}"
+    },
+    "select_field_mismatch": {
+      "issue": "Select field value not matching",
+      "solution": "Ensure option values exactly match Airtable options"
+    },
+    "credential_error": {
+      "issue": "Authentication fails",
+      "solution": "Verify PAT has required scopes: data.records:read, data.records:write, schema.bases:read"
+    }
+  },
+  "formula_examples": {
+    "simple_match": "={FieldName} = 'value'",
+    "numeric_comparison": "={Score} > 15",
+    "and_condition": "=AND({Status} = 'Active', {Score} > 10)",
+    "or_condition": "=OR({Type} = 'A', {Type} = 'B')",
+    "date_range": "=AND({Date} < '2025-12-31', {Date} > '2025-01-01')",
+    "not_empty": "={Field} != ''",
+    "expression_with_variable": "={Email} = '{{ $json.email }}'"
+  },
+  "use_case_templates": {
+    "form_submission": {
+      "operation": "create",
+      "mappingMode": "defineBelow",
+      "typecast": true,
+      "typical_fields": ["Name", "Email", "Message", "Submitted At"]
+    },
+    "user_tracking": {
+      "operation": "update",
+      "matchingColumns": ["User_ID"],
+      "typical_fields": ["Count", "Last Interaction", "Status"]
+    },
+    "crm_leads": {
+      "operation": "upsert",
+      "matchingColumns": ["email"],
+      "typical_fields": ["email", "first_name", "last_name", "company", "status"]
+    },
+    "data_logging": {
+      "operation": "create",
+      "typecast": true,
+      "typical_fields": ["Date", "Value", "Source", "Metadata"]
+    },
+    "file_tracking": {
+      "operation": "create",
+      "typical_fields": ["File ID", "File Name", "Created Time", "Modified Time", "Size"]
+    }
+  },
+  "performance_tips": {
+    "batch_operations": "Use bulkSize option to process records in batches",
+    "return_specific_fields": "Use options.fields array to return only needed fields",
+    "filter_data": "Use filterByFormula to reduce data volume",
+    "limit_records": "Set limit parameter to cap record count",
+    "pagination": "Use returnAll: false with limit for pagination"
+  }
+}
